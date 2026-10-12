@@ -1,0 +1,95 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-10-13",
+  "prev_as_of_date": "2026-10-12",
+  "compared_at": "2026-10-12T19:01:55+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 0,
+    "decrease": 3,
+    "full_exit": 3
+  },
+  "first_buy": [
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 0,
+      "curr_shares": 9000,
+      "shares_delta": 9000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.8,
+      "streak_days": 1
+    }
+  ],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "1560",
+      "stock_name": "中砂",
+      "prev_shares": 15000,
+      "curr_shares": 2000,
+      "shares_delta": -13000,
+      "prev_weight_pct": 0.31,
+      "curr_weight_pct": 0.04,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3131",
+      "stock_name": "弘塑科技",
+      "prev_shares": 9000,
+      "curr_shares": 4000,
+      "shares_delta": -5000,
+      "prev_weight_pct": 0.45,
+      "curr_weight_pct": 0.2,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8210",
+      "stock_name": "勤誠興業",
+      "prev_shares": 3000,
+      "curr_shares": 1000,
+      "shares_delta": -2000,
+      "prev_weight_pct": 0.05,
+      "curr_weight_pct": 0.02,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2486",
+      "stock_name": "一詮精密",
+      "prev_shares": 10000,
+      "curr_shares": 0,
+      "shares_delta": -10000,
+      "prev_weight_pct": 0.05,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6438",
+      "stock_name": "迅得機械",
+      "prev_shares": 3000,
+      "curr_shares": 0,
+      "shares_delta": -3000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3211",
+      "stock_name": "順達",
+      "prev_shares": 1000,
+      "curr_shares": 0,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

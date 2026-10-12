@@ -1,0 +1,65 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-10-12",
+  "prev_as_of_date": "2026-10-08",
+  "compared_at": "2026-10-12T19:01:47+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2313",
+      "stock_name": "華通",
+      "prev_shares": 0,
+      "curr_shares": 800000,
+      "shares_delta": 800000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.14,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 200000,
+      "curr_shares": 243000,
+      "shares_delta": 43000,
+      "prev_weight_pct": 0.93,
+      "curr_weight_pct": 1.24,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 350000,
+      "curr_shares": 170000,
+      "shares_delta": -180000,
+      "prev_weight_pct": 0.58,
+      "curr_weight_pct": 0.27,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6488",
+      "stock_name": "環球晶",
+      "prev_shares": 800000,
+      "curr_shares": 700000,
+      "shares_delta": -100000,
+      "prev_weight_pct": 0.63,
+      "curr_weight_pct": 0.54,
+      "streak_days": 3
+    }
+  ],
+  "full_exit": []
+}

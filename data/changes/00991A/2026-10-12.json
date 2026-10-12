@@ -1,0 +1,55 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-10-12",
+  "prev_as_of_date": "2026-10-08",
+  "compared_at": "2026-10-12T19:01:46+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光電",
+      "prev_shares": 0,
+      "curr_shares": 86000,
+      "shares_delta": 86000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.812,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "6505",
+      "stock_name": "台塑石化",
+      "prev_shares": 8500000,
+      "curr_shares": 10000000,
+      "shares_delta": 1500000,
+      "prev_weight_pct": 1.204,
+      "curr_weight_pct": 1.399,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電子",
+      "prev_shares": 650000,
+      "curr_shares": 200000,
+      "shares_delta": -450000,
+      "prev_weight_pct": 1.638,
+      "curr_weight_pct": 0.49,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

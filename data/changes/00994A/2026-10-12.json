@@ -1,0 +1,96 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-10-12",
+  "prev_as_of_date": "2026-10-08",
+  "compared_at": "2026-10-12T19:01:55+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 4,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 0,
+      "curr_shares": 4000,
+      "shares_delta": 4000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.3,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 16000,
+      "curr_shares": 25000,
+      "shares_delta": 9000,
+      "prev_weight_pct": 0.53,
+      "curr_weight_pct": 0.92,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "8046",
+      "stock_name": "南電",
+      "prev_shares": 125000,
+      "curr_shares": 95000,
+      "shares_delta": -30000,
+      "prev_weight_pct": 3.99,
+      "curr_weight_pct": 3.01,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 22050,
+      "curr_shares": 16050,
+      "shares_delta": -6000,
+      "prev_weight_pct": 3.98,
+      "curr_weight_pct": 2.86,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 29000,
+      "curr_shares": 23000,
+      "shares_delta": -6000,
+      "prev_weight_pct": 1.48,
+      "curr_weight_pct": 1.19,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 56101,
+      "curr_shares": 51101,
+      "shares_delta": -5000,
+      "prev_weight_pct": 5.69,
+      "curr_weight_pct": 5.2,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "3491",
+      "stock_name": "昇達科",
+      "prev_shares": 30000,
+      "curr_shares": 0,
+      "shares_delta": -30000,
+      "prev_weight_pct": 1.09,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

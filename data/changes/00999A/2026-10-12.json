@@ -1,0 +1,53 @@
+{
+  "etf_ticker": "00999A",
+  "as_of_date": "2026-10-12",
+  "prev_as_of_date": "2026-10-08",
+  "compared_at": "2026-10-12T19:01:51+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 3,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "4746",
+      "stock_name": "台耀化學",
+      "prev_shares": 1366000,
+      "curr_shares": 1120000,
+      "shares_delta": -246000,
+      "prev_weight_pct": 0.58,
+      "curr_weight_pct": 0.46,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5534",
+      "stock_name": "長虹建設",
+      "prev_shares": 1061000,
+      "curr_shares": 870000,
+      "shares_delta": -191000,
+      "prev_weight_pct": 0.66,
+      "curr_weight_pct": 0.53,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "9941",
+      "stock_name": "裕融企業",
+      "prev_shares": 866480,
+      "curr_shares": 710480,
+      "shares_delta": -156000,
+      "prev_weight_pct": 0.58,
+      "curr_weight_pct": 0.47,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

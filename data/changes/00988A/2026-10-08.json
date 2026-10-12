@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-08",
+  "prev_as_of_date": "2026-10-07",
+  "compared_at": "2026-10-12T19:01:45+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 3
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6787 JP",
+      "stock_name": "MEIKO ELECTRONICS CO LTD",
+      "prev_shares": 79000,
+      "curr_shares": 130000,
+      "shares_delta": 51000,
+      "prev_weight_pct": 0.8,
+      "curr_weight_pct": 1.31,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "NVDA US",
+      "stock_name": "NVIDIA CORP(輝達公司)",
+      "prev_shares": 250000,
+      "curr_shares": 290000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 3.53,
+      "curr_weight_pct": 4.1,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞",
+      "prev_shares": 75000,
+      "curr_shares": 0,
+      "shares_delta": -75000,
+      "prev_weight_pct": 0.44,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "TER US",
+      "stock_name": "TERADYNE INC",
+      "prev_shares": 35000,
+      "curr_shares": 0,
+      "shares_delta": -35000,
+      "prev_weight_pct": 0.86,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "000660 KS",
+      "stock_name": "SK HYNIX INC",
+      "prev_shares": 14742,
+      "curr_shares": 0,
+      "shares_delta": -14742,
+      "prev_weight_pct": 1.13,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
