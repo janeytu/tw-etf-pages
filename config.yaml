@@ -187,6 +187,12 @@ etfs:
     fund_code: "00940"
     source_page: "https://www.yuantaetfs.com/product/detail/00940/ratio"
 
+  - ticker: "009816"
+    name: "凱基台灣TOP50"
+    issuer: kgi
+    fund_code: "J023"
+    source_page: "https://www.kgifund.com.tw/Fund/Detail?fundID=J023"
+
 
 fetch:
   timeout_sec: 60

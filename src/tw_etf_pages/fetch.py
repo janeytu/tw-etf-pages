@@ -34,6 +34,10 @@ UOBAM_BASE = "https://www.uobam.com.tw"
 UOBAM_PCF_API = UOBAM_BASE + "/json/reply/WebSitePcfRequest"
 UOBAM_BROWSER_UA = CATHAY_BROWSER_UA
 
+KGI_BASE = "https://www.kgifund.com.tw"
+KGI_FUND_DETAIL = KGI_BASE + "/Fund/Detail?fundID={fund_code}"
+KGI_BROWSER_UA = CATHAY_BROWSER_UA
+
 CAPITAL_BASE = "https://www.capitalfund.com.tw"
 CAPITAL_BUYBACK = CAPITAL_BASE + "/CFWeb/api/etf/buyback"
 
@@ -647,6 +651,117 @@ def fetch_capital_buyback(cfg: AppConfig, etf: EtfConfig, dest: Path) -> Path:
     return dest
 
 
+
+
+class _NonStrictX509Adapter(requests.adapters.HTTPAdapter):
+    """HTTPS adapter that keeps full certificate verification but clears
+    VERIFY_X509_STRICT (default on Python 3.13+).
+
+    kgifund.com.tw serves a CA chain whose intermediate lacks a Subject Key
+    Identifier, which strict mode rejects ("Missing Subject Key Identifier")
+    although the chain is otherwise valid (curl / browsers accept it).
+    """
+
+    def init_poolmanager(self, *args: Any, **kwargs: Any) -> None:
+        import ssl
+
+        ctx = ssl.create_default_context()
+        strict = getattr(ssl, "VERIFY_X509_STRICT", 0)
+        if strict:
+            ctx.verify_flags &= ~strict
+        kwargs["ssl_context"] = ctx
+        super().init_poolmanager(*args, **kwargs)
+
+
+def fetch_kgi_holdings(cfg: AppConfig, etf: EtfConfig, dest: Path) -> Path:
+    """Download KGI (凱基投信) official Fund/Detail page and extract stock holdings.
+
+    zdsetf does not track passive 009816 (404). The official fund detail page
+    (server-rendered HTML, ``/Fund/Detail?fundID=J023``) carries the 持股比重
+    section with a dated stock table (股票代號／股票名稱／股數／權重(%)), i.e.
+    real share counts and weights. Futures / cash rows are not part of the
+    stock table and are ignored.
+    """
+    import html as _html
+    import json
+    import re
+
+    timeout = float(cfg.fetch.get("timeout_sec", 60))
+    retries = int(cfg.fetch.get("retries", 3))
+    backoff = float(cfg.fetch.get("retry_backoff_sec", 2))
+    session = _session(cfg)
+    session.mount(KGI_BASE, _NonStrictX509Adapter())
+    session.headers["User-Agent"] = KGI_BROWSER_UA
+    session.headers["Accept"] = "text/html,application/xhtml+xml,*/*;q=0.8"
+    fund_code = (etf.fund_code or "").strip()
+    if not fund_code:
+        raise FetchError(f"KGI fund detail requires fund_code for {etf.ticker}")
+    url = KGI_FUND_DETAIL.format(fund_code=fund_code)
+    logger.info("KGI fund detail %s", url)
+    resp = _retry_get(session, url, retries=retries, backoff=backoff, timeout=timeout)
+    if resp.status_code != 200:
+        raise FetchError(f"KGI fund detail HTTP {resp.status_code}: {url}")
+    resp.encoding = resp.encoding or "utf-8"
+    text = resp.text
+
+    def _cell(raw: str) -> str:
+        return _html.unescape(re.sub(r"<[^>]+>", "", raw)).strip()
+
+    # Date shown under the 持股比重 title, e.g. <p class="fund-asset__date">(2026/10/12)</p>
+    sec = text.find('id="FundDetail-06"')
+    m_date = re.search(r'fund-asset__date">\s*\((\d{4}/\d{1,2}/\d{1,2})\)', text[sec:] if sec >= 0 else text)
+    if not m_date:
+        raise FetchError(f"KGI fund detail missing holdings date for {etf.ticker}")
+    y, mo, d = (int(x) for x in m_date.group(1).split("/"))
+    ds = f"{y:04d}-{mo:02d}-{d:02d}"
+
+    holdings: list[dict[str, Any]] = []
+    for body in re.findall(r"<table[^>]*>(.*?)</table>", text, re.S):
+        heads = [_cell(h) for h in re.findall(r"<th[^>]*>(.*?)</th>", body, re.S)]
+        if not heads or heads[0] != "股票代號":
+            continue
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", body, re.S):
+            cells = [_cell(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+            if len(cells) < 4:
+                continue
+            code_s = cells[0].strip().upper()
+            if not code_s or not any(ch.isdigit() for ch in code_s):
+                continue
+            try:
+                shares = int(round(float(cells[2].replace(",", "") or 0)))
+            except ValueError:
+                shares = 0
+            try:
+                w = float(cells[3].replace(",", "").replace("%", "") or 0)
+            except ValueError:
+                w = 0.0
+            holdings.append(
+                {
+                    "stock_code": code_s,
+                    "stock_name": cells[1],
+                    "shares": shares,
+                    "weight_pct": w,
+                }
+            )
+        if holdings:
+            break  # first stock table only (avoid duplicate desktop/mobile copies)
+    if not holdings:
+        raise FetchError(f"KGI fund detail parsed 0 stock holdings for {etf.ticker}")
+
+    out = {
+        "source_url": etf.source_page or url,
+        "api_url": url,
+        "ticker": etf.ticker,
+        "fund_code": fund_code,
+        "fund_name": etf.name,
+        "snapshot_date": ds,
+        "holdings": holdings,
+    }
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return dest
+
+
 def fetch_etf_holdings(
     cfg: AppConfig,
     etf: EtfConfig,
@@ -655,7 +770,7 @@ def fetch_etf_holdings(
 ) -> tuple[Path, str]:
     """
     Fetch primary issuer Excel; on failure optionally fallback to zdsetf JSON.
-    Returns (path, kind) where kind is 'uni_excel' | 'fh_excel' | 'zdsetf' | 'yuanta' | 'cathay' | 'uobam' | 'capital'.
+    Returns (path, kind) where kind is 'uni_excel' | 'fh_excel' | 'zdsetf' | 'yuanta' | 'cathay' | 'uobam' | 'kgi' | 'capital'.
 
     Capital Fund (群益投信), Fubon (富邦投信), CTBC (中國信託投信),
     Nomura (野村投信), Allianz (安聯投信), Cathay (國泰投信),
@@ -682,6 +797,13 @@ def fetch_etf_holdings(
         path = raw_dir / f"{etf.ticker}_{stamp}_uobam.json"
         fetch_uobam_pcf(cfg, etf, path)
         return path, "uobam"
+
+    # Primary path for KGI / 凱基投信 passive ETFs: official Fund/Detail HTML 持股比重.
+    # zdsetf does not track 009816 (404).
+    if etf.issuer == "kgi":
+        path = raw_dir / f"{etf.ticker}_{stamp}_kgi.json"
+        fetch_kgi_holdings(cfg, etf, path)
+        return path, "kgi"
 
     # Primary path for Yuanta (元大投信) passive ETFs: official ratio SSR → JSON.
     if etf.issuer == "yuanta":

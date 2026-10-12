@@ -468,6 +468,59 @@ def parse_capital_buyback(
     )
 
 
+def parse_kgi_holdings(
+    path: Path,
+    ticker: str,
+    policy: PlaceholderPolicy,
+) -> dict[str, Any]:
+    """Parse normalized KGI (凱基投信) Fund/Detail holdings JSON.
+
+    Expected keys: snapshot_date, holdings[{stock_code,stock_name,shares,weight_pct}],
+    optional source_url / api_url / fund_code / fund_name.
+    Official page discloses real share counts and weights for equity stocks
+    (futures / cash are outside the stock table and dropped at fetch time).
+    """
+    data = read_json(path)
+    raw_date = data.get("snapshot_date") or data.get("as_of_date") or data.get("date")
+    if raw_date is None:
+        raise ValueError(f"{path}: missing snapshot_date")
+    ds = str(raw_date).strip().replace("/", "-")
+    if len(ds) == 8 and ds.isdigit():
+        ds = f"{ds[0:4]}-{ds[4:6]}-{ds[6:8]}"
+    as_of = parse_iso_or_slash_date(ds)
+    rows = data.get("holdings") or []
+    if not isinstance(rows, list):
+        rows = []
+    holdings = []
+    for h in rows:
+        if not isinstance(h, dict):
+            continue
+        code = h.get("stock_code") or h.get("code")
+        if code is None or str(code).strip() == "":
+            continue
+        code_s = str(code).strip().upper()
+        if not any(ch.isdigit() for ch in code_s):
+            continue
+        name = h.get("stock_name") or h.get("name") or ""
+        weight = parse_weight_pct(h.get("weight_pct", h.get("weight", 0)))
+        shares = parse_int(h.get("shares", 0))
+        holdings.append(_holding(code_s, name, shares, weight, policy))
+    meta = {
+        "source_url": data.get("source_url") or data.get("url"),
+        "api_url": data.get("api_url"),
+        "fund_code": data.get("fund_code"),
+        "fund_name": data.get("fund_name"),
+    }
+    return _snapshot(
+        ticker=ticker,
+        as_of_date=as_of,
+        holdings=holdings,
+        source="kgi",
+        raw_path=path,
+        meta=meta,
+    )
+
+
 def parse_zdsetf_snapshot(
     path: Path,
     ticker: str,

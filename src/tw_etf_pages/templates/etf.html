@@ -140,6 +140,8 @@
     第一金投信無穩定公開 Excel／CSV 下載可供自動化；本站以 zdsetf 鏡像第一金官網投組頁歸檔，歷史天數會隨每日 Actions 累積（異動資料日選單仍最多 10 日）。
     {% elif issuer == "mega" %}
     兆豐投信無穩定公開 Excel／CSV 下載可供自動化；本站以 zdsetf 鏡像兆豐官網投組頁歸檔，歷史天數會隨每日 Actions 累積（異動資料日選單仍最多 10 日）。
+    {% elif issuer == "kgi" %}
+    凱基投信無公開 Excel／CSV 下載；本站以官網基金頁「持股比重」股票表（真實股數＋權重）歸檔，歷史天數會隨每日 Actions 累積（異動資料日選單仍最多 10 日）。
     {% else %}
     請等待後續交易日歸檔，或確認發行人歷史 Excel 是否可下載。
     {% endif %}
@@ -149,7 +151,7 @@
   {% if not trend.enough_for_intermittent %}
   <div class="empty-box trend-hint">
     目前僅有 {{ trend.day_count }} 日資料：可看股數折線，但「間歇加碼」（買→持平／減→再買）需至少 3 個交易日才能標示。
-    {% if issuer == "uni" %}統一投信無歷史 API，回補不可行；資料會隨每日歸檔成長。{% elif issuer == "capital" %}群益（capital）經 zdsetf 或官網 buyback，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "fubon" %}富邦（fubon）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "ctbc" %}中信（ctbc）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "nomura" %}野村（nomura）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "allianz" %}安聯（allianz）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "cathay" %}國泰（cathay）經 zdsetf 或官網 cwapi 權重，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "jpm" %}摩根（jpm）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "taishin" %}台新（taishin）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "fsitc" %}第一金（fsitc）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "mega" %}兆豐（mega）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% endif %}
+    {% if issuer == "uni" %}統一投信無歷史 API，回補不可行；資料會隨每日歸檔成長。{% elif issuer == "capital" %}群益（capital）經 zdsetf 或官網 buyback，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "fubon" %}富邦（fubon）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "ctbc" %}中信（ctbc）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "nomura" %}野村（nomura）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "allianz" %}安聯（allianz）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "cathay" %}國泰（cathay）經 zdsetf 或官網 cwapi 權重，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "jpm" %}摩根（jpm）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "taishin" %}台新（taishin）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "fsitc" %}第一金（fsitc）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "mega" %}兆豐（mega）經 zdsetf→官網鏡像，無一次回補；資料會隨每日歸檔成長。{% elif issuer == "kgi" %}凱基（kgi）經官網基金頁持股比重，無一次回補；資料會隨每日歸檔成長。{% endif %}
   </div>
   {% endif %}
 
@@ -245,6 +247,8 @@
   <p class="muted">資料說明：第一金投信（FSITC）無穩定公開 Excel／CSV 下載；本站以 <a href="https://zdsetf.com" rel="noopener">zdsetf.com</a> 鏡像第一金官網投組頁歸檔（source_url 指向 fsitc.com.tw）。歷史稀疏至 Actions 累積為止；異動資料日選單最多 10 日。目前趨勢可用 {{ trend.day_count }} 日。</p>
   {% elif issuer == "mega" %}
   <p class="muted">資料說明：兆豐投信（Mega Funds）無穩定公開 Excel／CSV 下載；本站以 <a href="https://zdsetf.com" rel="noopener">zdsetf.com</a> 鏡像兆豐官網投組頁歸檔（source_url 指向 megafunds.com.tw）。歷史稀疏至 Actions 累積為止；異動資料日選單最多 10 日。目前趨勢可用 {{ trend.day_count }} 日。</p>
+  {% elif issuer == "kgi" %}
+  <p class="muted">資料說明：凱基投信（KGI）無公開 Excel／CSV 下載；本站以官網基金頁 <code>Fund/Detail?fundID=J023</code>「持股比重」股票表歸檔（真實股數＋權重；source_url 指向 kgifund.com.tw；期貨／現金不列入）。歷史稀疏至 Actions 累積為止；異動資料日選單最多 10 日。目前趨勢可用 {{ trend.day_count }} 日。</p>
   {% endif %}
   {% else %}
   <div class="empty-box">尚無快照。</div>

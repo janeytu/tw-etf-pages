@@ -109,3 +109,9 @@
 - 無穩定公開 Excel／CSV 下載 URL；zdsetf **404**（不收錄被動 `00918`）。
 - 本站以官網 ServiceStack `GET /json/reply/WebSitePcfRequest?fundID=88329556` 為主來源（真實股數 qty＋weight；略過 kind≠stock 的 Cash／Margin）。部分 CA 缺中華電信中繼時 SSL verify 失敗會改 `verify=False`。僅最新一日，**無法一次回補**。
 
+## 凱基（009816／KGI／kgi）
+
+- 官網基金頁：`https://www.kgifund.com.tw/Fund/Detail?fundID=J023`（凱基台灣 TOP 50 ETF；PCF：`https://www.kgifund.com.tw/Fund/RedemptionList`）。
+- 無穩定公開 Excel／CSV 下載 URL；zdsetf **404**（不收錄被動 `009816`）。
+- 本站以官網基金頁伺服器端渲染 HTML 的「持股比重」區塊為主來源（日期標於標題下方；股票表含股票代號／名稱／股數／權重；期貨 TX 與現金不列入）。僅最新一日，**無法一次回補**。
+- **Caveat**：被動指數型（特選臺灣 TOP 50 指數，每年 2／5／8／11 月調整）日常調倉少，日對日異動常為空。
