@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-10-13",
+  "prev_as_of_date": "2026-10-12",
+  "compared_at": "2026-10-13T20:49:32+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 11824000,
+      "curr_shares": 12188000,
+      "shares_delta": 364000,
+      "prev_weight_pct": 10.3,
+      "curr_weight_pct": 10.79,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8996",
+      "stock_name": "高力",
+      "prev_shares": 476000,
+      "curr_shares": 576000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 0.28,
+      "curr_weight_pct": 0.35,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 6062000,
+      "curr_shares": 6147000,
+      "shares_delta": 85000,
+      "prev_weight_pct": 7.04,
+      "curr_weight_pct": 7.17,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 6771000,
+      "curr_shares": 6847000,
+      "shares_delta": 76000,
+      "prev_weight_pct": 4.03,
+      "curr_weight_pct": 4.03,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電",
+      "prev_shares": 4650000,
+      "curr_shares": 4328000,
+      "shares_delta": -322000,
+      "prev_weight_pct": 9.81,
+      "curr_weight_pct": 8.53,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

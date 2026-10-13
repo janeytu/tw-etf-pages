@@ -1,0 +1,64 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-10-13",
+  "prev_as_of_date": "2026-10-12",
+  "compared_at": "2026-10-13T20:49:34+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 1
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞塑膠",
+      "prev_shares": 8500000,
+      "curr_shares": 8700000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 3.32,
+      "curr_weight_pct": 3.724,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興電子",
+      "prev_shares": 5280000,
+      "curr_shares": 5350000,
+      "shares_delta": 70000,
+      "prev_weight_pct": 8.542,
+      "curr_weight_pct": 8.47,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光電",
+      "prev_shares": 86000,
+      "curr_shares": 110000,
+      "shares_delta": 24000,
+      "prev_weight_pct": 0.812,
+      "curr_weight_pct": 1.074,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電子",
+      "prev_shares": 200000,
+      "curr_shares": 0,
+      "shares_delta": -200000,
+      "prev_weight_pct": 0.49,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
