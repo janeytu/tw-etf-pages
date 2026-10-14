@@ -1,0 +1,125 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-10-14",
+  "prev_as_of_date": "2026-10-13",
+  "compared_at": "2026-10-14T19:50:00+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 7,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "6526",
+      "stock_name": "達發",
+      "prev_shares": 0,
+      "curr_shares": 16000,
+      "shares_delta": 16000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.3,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 43000,
+      "curr_shares": 60000,
+      "shares_delta": 17000,
+      "prev_weight_pct": 1.16,
+      "curr_weight_pct": 1.75,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3026",
+      "stock_name": "禾伸堂",
+      "prev_shares": 17000,
+      "curr_shares": 34000,
+      "shares_delta": 17000,
+      "prev_weight_pct": 0.32,
+      "curr_weight_pct": 0.67,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2880",
+      "stock_name": "華南金控",
+      "prev_shares": 200000,
+      "curr_shares": 210000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 0.23,
+      "curr_weight_pct": 0.24,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 254999,
+      "curr_shares": 260999,
+      "shares_delta": 6000,
+      "prev_weight_pct": 14.65,
+      "curr_weight_pct": 15.04,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞",
+      "prev_shares": 30000,
+      "curr_shares": 34000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 1.88,
+      "curr_weight_pct": 2.27,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策",
+      "prev_shares": 24000,
+      "curr_shares": 27000,
+      "shares_delta": 3000,
+      "prev_weight_pct": 3.87,
+      "curr_weight_pct": 4.42,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 138001,
+      "curr_shares": 138002,
+      "shares_delta": 1,
+      "prev_weight_pct": 5.26,
+      "curr_weight_pct": 5.54,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 56500,
+      "curr_shares": 50500,
+      "shares_delta": -6000,
+      "prev_weight_pct": 2.31,
+      "curr_weight_pct": 2.09,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 23000,
+      "curr_shares": 18000,
+      "shares_delta": -5000,
+      "prev_weight_pct": 1.2,
+      "curr_weight_pct": 0.93,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

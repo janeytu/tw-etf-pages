@@ -1,0 +1,105 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-10-14",
+  "prev_as_of_date": "2026-10-13",
+  "compared_at": "2026-10-14T19:49:49+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 5,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓",
+      "prev_shares": 0,
+      "curr_shares": 1257000,
+      "shares_delta": 1257000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.12,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4979",
+      "stock_name": "華星光",
+      "prev_shares": 0,
+      "curr_shares": 957000,
+      "shares_delta": 957000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.2,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 3741000,
+      "curr_shares": 5423000,
+      "shares_delta": 1682000,
+      "prev_weight_pct": 1.56,
+      "curr_weight_pct": 2.42,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8996",
+      "stock_name": "高力",
+      "prev_shares": 576000,
+      "curr_shares": 696000,
+      "shares_delta": 120000,
+      "prev_weight_pct": 0.35,
+      "curr_weight_pct": 0.41,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 684000,
+      "curr_shares": 751000,
+      "shares_delta": 67000,
+      "prev_weight_pct": 1.97,
+      "curr_weight_pct": 2.19,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 420000,
+      "curr_shares": 470000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 0.49,
+      "curr_weight_pct": 0.54,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5274",
+      "stock_name": "信驊",
+      "prev_shares": 157900,
+      "curr_shares": 186900,
+      "shares_delta": 29000,
+      "prev_weight_pct": 0.97,
+      "curr_weight_pct": 1.16,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎",
+      "prev_shares": 4315561,
+      "curr_shares": 3281561,
+      "shares_delta": -1034000,
+      "prev_weight_pct": 3.37,
+      "curr_weight_pct": 2.45,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
