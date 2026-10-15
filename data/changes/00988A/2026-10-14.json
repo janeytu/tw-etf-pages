@@ -1,0 +1,75 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-14",
+  "prev_as_of_date": "2026-10-13",
+  "compared_at": "2026-10-15T18:53:45+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 2,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "ZS US",
+      "stock_name": "ZSCALER INC",
+      "prev_shares": 0,
+      "curr_shares": 50000,
+      "shares_delta": 50000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.73,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "6787 JP",
+      "stock_name": "MEIKO ELECTRONICS CO LTD",
+      "prev_shares": 130000,
+      "curr_shares": 165000,
+      "shares_delta": 35000,
+      "prev_weight_pct": 1.31,
+      "curr_weight_pct": 1.74,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽",
+      "prev_shares": 50000,
+      "curr_shares": 80000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 0.59,
+      "curr_weight_pct": 0.96,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6981 JP",
+      "stock_name": "MURATA MANUFACTURING CO LTD",
+      "prev_shares": 1350000,
+      "curr_shares": 1000000,
+      "shares_delta": -350000,
+      "prev_weight_pct": 4.11,
+      "curr_weight_pct": 3.12,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 270000,
+      "curr_shares": 220000,
+      "shares_delta": -50000,
+      "prev_weight_pct": 2.41,
+      "curr_weight_pct": 2.02,
+      "streak_days": 3
+    }
+  ],
+  "full_exit": []
+}

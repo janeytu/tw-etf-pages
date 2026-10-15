@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-10-15",
+  "prev_as_of_date": "2026-10-14",
+  "compared_at": "2026-10-15T18:53:48+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 3645000,
+      "curr_shares": 5245000,
+      "shares_delta": 1600000,
+      "prev_weight_pct": 2.7132,
+      "curr_weight_pct": 3.6089,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6213",
+      "stock_name": "聯茂",
+      "prev_shares": 479000,
+      "curr_shares": 1079000,
+      "shares_delta": 600000,
+      "prev_weight_pct": 0.8745,
+      "curr_weight_pct": 1.8861,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 359000,
+      "curr_shares": 759000,
+      "shares_delta": 400000,
+      "prev_weight_pct": 0.9647,
+      "curr_weight_pct": 1.976,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 183000,
+      "curr_shares": 533000,
+      "shares_delta": 350000,
+      "prev_weight_pct": 0.6772,
+      "curr_weight_pct": 1.8949,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 7245000,
+      "curr_shares": 7185000,
+      "shares_delta": -60000,
+      "prev_weight_pct": 2.8896,
+      "curr_weight_pct": 2.7666,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

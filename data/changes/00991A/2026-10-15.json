@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-10-15",
+  "prev_as_of_date": "2026-10-14",
+  "compared_at": "2026-10-15T18:53:46+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 0,
+    "full_exit": 1
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6505",
+      "stock_name": "台塑石化",
+      "prev_shares": 10000000,
+      "curr_shares": 15000000,
+      "shares_delta": 5000000,
+      "prev_weight_pct": 1.594,
+      "curr_weight_pct": 2.384,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞塑膠",
+      "prev_shares": 8700000,
+      "curr_shares": 9600000,
+      "shares_delta": 900000,
+      "prev_weight_pct": 4.049,
+      "curr_weight_pct": 4.304,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策精密",
+      "prev_shares": 290000,
+      "curr_shares": 320000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 2.734,
+      "curr_weight_pct": 3.086,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光電",
+      "prev_shares": 130000,
+      "curr_shares": 150000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 1.193,
+      "curr_weight_pct": 1.412,
+      "streak_days": 3
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技",
+      "prev_shares": 1150020,
+      "curr_shares": 0,
+      "shares_delta": -1150020,
+      "prev_weight_pct": 3.244,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-10-15",
+  "prev_as_of_date": "2026-10-14",
+  "compared_at": "2026-10-15T18:53:48+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 2180000,
+      "curr_shares": 2300000,
+      "shares_delta": 120000,
+      "prev_weight_pct": 2.71,
+      "curr_weight_pct": 2.85,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 1950000,
+      "curr_shares": 1700000,
+      "shares_delta": -250000,
+      "prev_weight_pct": 6.26,
+      "curr_weight_pct": 5.4,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

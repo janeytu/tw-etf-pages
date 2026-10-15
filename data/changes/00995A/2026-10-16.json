@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-10-16",
+  "prev_as_of_date": "2026-10-15",
+  "compared_at": "2026-10-15T18:53:55+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 5,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 4000,
+      "curr_shares": 6000,
+      "shares_delta": 2000,
+      "prev_weight_pct": 0.58,
+      "curr_weight_pct": 0.89,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2467",
+      "stock_name": "志聖",
+      "prev_shares": 27000,
+      "curr_shares": 20000,
+      "shares_delta": -7000,
+      "prev_weight_pct": 0.31,
+      "curr_weight_pct": 0.23,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 17000,
+      "curr_shares": 11000,
+      "shares_delta": -6000,
+      "prev_weight_pct": 2.06,
+      "curr_weight_pct": 1.29,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 20000,
+      "curr_shares": 15000,
+      "shares_delta": -5000,
+      "prev_weight_pct": 0.64,
+      "curr_weight_pct": 0.47,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6488",
+      "stock_name": "環球晶",
+      "prev_shares": 50000,
+      "curr_shares": 47000,
+      "shares_delta": -3000,
+      "prev_weight_pct": 1.07,
+      "curr_weight_pct": 0.97,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴科技",
+      "prev_shares": 5000,
+      "curr_shares": 3000,
+      "shares_delta": -2000,
+      "prev_weight_pct": 0.59,
+      "curr_weight_pct": 0.34,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
