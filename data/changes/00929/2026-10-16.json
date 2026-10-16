@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-10-16",
+  "prev_as_of_date": "2026-10-15",
+  "compared_at": "2026-10-16T18:52:48+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電信",
+      "prev_shares": 28521000,
+      "curr_shares": 29659000,
+      "shares_delta": 1138000,
+      "prev_weight_pct": 2.703,
+      "curr_weight_pct": 2.789,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 38683000,
+      "curr_shares": 39706000,
+      "shares_delta": 1023000,
+      "prev_weight_pct": 3.149,
+      "curr_weight_pct": 3.185,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 37323000,
+      "curr_shares": 38213000,
+      "shares_delta": 890000,
+      "prev_weight_pct": 2.621,
+      "curr_weight_pct": 2.666,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 9959000,
+      "curr_shares": 10305000,
+      "shares_delta": 346000,
+      "prev_weight_pct": 1.659,
+      "curr_weight_pct": 1.638,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6257",
+      "stock_name": "矽格股份",
+      "prev_shares": 11068000,
+      "curr_shares": 11175000,
+      "shares_delta": 107000,
+      "prev_weight_pct": 1.775,
+      "curr_weight_pct": 1.731,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

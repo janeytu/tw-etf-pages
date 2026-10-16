@@ -1,0 +1,63 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-10-16",
+  "prev_as_of_date": "2026-10-15",
+  "compared_at": "2026-10-16T18:52:05+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞塑膠",
+      "prev_shares": 9600000,
+      "curr_shares": 10000000,
+      "shares_delta": 400000,
+      "prev_weight_pct": 4.304,
+      "curr_weight_pct": 4.33,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3026",
+      "stock_name": "禾伸堂企",
+      "prev_shares": 2600000,
+      "curr_shares": 2800000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 3.006,
+      "curr_weight_pct": 3.183,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投",
+      "prev_shares": 1700000,
+      "curr_shares": 1900000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 1.631,
+      "curr_weight_pct": 1.798,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策精密",
+      "prev_shares": 320000,
+      "curr_shares": 340000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 3.086,
+      "curr_weight_pct": 3.227,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

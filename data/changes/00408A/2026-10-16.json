@@ -1,0 +1,105 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-10-16",
+  "prev_as_of_date": "2026-10-15",
+  "compared_at": "2026-10-16T18:52:16+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 5,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2891",
+      "stock_name": "中國信託金融控股",
+      "prev_shares": 0,
+      "curr_shares": 60000,
+      "shares_delta": 60000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.31,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 30000,
+      "curr_shares": 70000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 0.54,
+      "curr_weight_pct": 1.31,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3189",
+      "stock_name": "景碩科技",
+      "prev_shares": 41000,
+      "curr_shares": 49000,
+      "shares_delta": 8000,
+      "prev_weight_pct": 2.83,
+      "curr_weight_pct": 3.45,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 59000,
+      "curr_shares": 63000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 4.95,
+      "curr_weight_pct": 5.52,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 9000,
+      "curr_shares": 12000,
+      "shares_delta": 3000,
+      "prev_weight_pct": 1.34,
+      "curr_weight_pct": 1.9,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 11999,
+      "curr_shares": 13999,
+      "shares_delta": 2000,
+      "prev_weight_pct": 3.53,
+      "curr_weight_pct": 4.18,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技服務",
+      "prev_shares": 26767,
+      "curr_shares": 14767,
+      "shares_delta": -12000,
+      "prev_weight_pct": 3.6,
+      "curr_weight_pct": 1.92,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 3000,
+      "curr_shares": 2000,
+      "shares_delta": -1000,
+      "prev_weight_pct": 1.4,
+      "curr_weight_pct": 0.9,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00918",
+  "as_of_date": "2026-10-16",
+  "prev_as_of_date": "2026-10-15",
+  "compared_at": "2026-10-16T18:52:45+08:00",
+  "source": "uobam",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 5,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 297789380,
+      "curr_shares": 294879380,
+      "shares_delta": -2910000,
+      "prev_weight_pct": 7.65,
+      "curr_weight_pct": 7.65,
+      "streak_days": 5
+    },
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 133627000,
+      "curr_shares": 131749000,
+      "shares_delta": -1878000,
+      "prev_weight_pct": 6.01,
+      "curr_weight_pct": 5.93,
+      "streak_days": 5
+    },
+    {
+      "stock_code": "2884",
+      "stock_name": "玉山金",
+      "prev_shares": 212591000,
+      "curr_shares": 210900000,
+      "shares_delta": -1691000,
+      "prev_weight_pct": 6.41,
+      "curr_weight_pct": 6.34,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 42394000,
+      "curr_shares": 42182000,
+      "shares_delta": -212000,
+      "prev_weight_pct": 6.73,
+      "curr_weight_pct": 6.85,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 12316000,
+      "curr_shares": 12110000,
+      "shares_delta": -206000,
+      "prev_weight_pct": 7.41,
+      "curr_weight_pct": 7.36,
+      "streak_days": 5
+    }
+  ],
+  "full_exit": []
+}

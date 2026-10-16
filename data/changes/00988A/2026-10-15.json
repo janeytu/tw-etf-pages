@@ -1,0 +1,146 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-15",
+  "prev_as_of_date": "2026-10-14",
+  "compared_at": "2026-10-16T18:52:04+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 2,
+    "decrease": 6,
+    "full_exit": 2
+  },
+  "first_buy": [
+    {
+      "stock_code": "MSFT US",
+      "stock_name": "MICROSOFT CORP(微軟公司)",
+      "prev_shares": 0,
+      "curr_shares": 60000,
+      "shares_delta": 60000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 2.23,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 0,
+      "curr_shares": 30000,
+      "shares_delta": 30000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.49,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 200000,
+      "curr_shares": 320000,
+      "shares_delta": 120000,
+      "prev_weight_pct": 1.02,
+      "curr_weight_pct": 1.65,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AAPL US",
+      "stock_name": "APPLE INC(蘋果公司)",
+      "prev_shares": 45000,
+      "curr_shares": 90000,
+      "shares_delta": 45000,
+      "prev_weight_pct": 1.02,
+      "curr_weight_pct": 2.12,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "992 HK",
+      "stock_name": "LENOVO GROUP LTD",
+      "prev_shares": 6000000,
+      "curr_shares": 3656000,
+      "shares_delta": -2344000,
+      "prev_weight_pct": 1.53,
+      "curr_weight_pct": 0.83,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6981 JP",
+      "stock_name": "MURATA MANUFACTURING CO LTD",
+      "prev_shares": 1000000,
+      "curr_shares": 650000,
+      "shares_delta": -350000,
+      "prev_weight_pct": 3.12,
+      "curr_weight_pct": 1.91,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "300757 CH",
+      "stock_name": "ROBOTECHNIK INTELLIGENT TE-A",
+      "prev_shares": 334997,
+      "curr_shares": 170000,
+      "shares_delta": -164997,
+      "prev_weight_pct": 1.6,
+      "curr_weight_pct": 0.8,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 220000,
+      "curr_shares": 165000,
+      "shares_delta": -55000,
+      "prev_weight_pct": 2.02,
+      "curr_weight_pct": 1.46,
+      "streak_days": 4
+    },
+    {
+      "stock_code": "LITE US",
+      "stock_name": "LUMENTUM HOLDINGS INC",
+      "prev_shares": 117000,
+      "curr_shares": 92000,
+      "shares_delta": -25000,
+      "prev_weight_pct": 6.9,
+      "curr_weight_pct": 5.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "009150 KS",
+      "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+      "prev_shares": 70000,
+      "curr_shares": 53000,
+      "shares_delta": -17000,
+      "prev_weight_pct": 4.74,
+      "curr_weight_pct": 3.16,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 3600000,
+      "curr_shares": 0,
+      "shares_delta": -3600000,
+      "prev_weight_pct": 1.05,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "IREN US",
+      "stock_name": "IREN LTD",
+      "prev_shares": 325000,
+      "curr_shares": 0,
+      "shares_delta": -325000,
+      "prev_weight_pct": 0.65,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
