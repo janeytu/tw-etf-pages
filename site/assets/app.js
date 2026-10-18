@@ -414,3 +414,52 @@
     boot();
   }
 })();
+
+/* ---- 加權指數 KD 走勢圖 ---- */
+(function () {
+  function drawKd(tries) {
+    var canvas = document.getElementById('kd-chart');
+    var dataEl = document.getElementById('kd-chart-data');
+    if (!canvas || !dataEl) return;
+    if (typeof Chart === 'undefined') {
+      if ((tries || 0) < 40) setTimeout(function () { drawKd((tries || 0) + 1); }, 150);
+      return;
+    }
+    var rows = JSON.parse(dataEl.textContent || '[]');
+    var band = {
+      id: 'kdBand',
+      beforeDraw: function (c) {
+        var y = c.scales.y, a = c.chartArea, ctx = c.ctx;
+        if (!y || !a) return;
+        ctx.save();
+        ctx.fillStyle = 'rgba(239,68,68,0.10)';
+        ctx.fillRect(a.left, y.getPixelForValue(100), a.right - a.left, y.getPixelForValue(80) - y.getPixelForValue(100));
+        ctx.fillStyle = 'rgba(34,197,94,0.12)';
+        ctx.fillRect(a.left, y.getPixelForValue(20), a.right - a.left, y.getPixelForValue(0) - y.getPixelForValue(20));
+        ctx.restore();
+      }
+    };
+    new Chart(canvas.getContext('2d'), {
+      type: 'line',
+      data: {
+        labels: rows.map(function (r) { return r.date.slice(5); }),
+        datasets: [
+          { label: 'K', data: rows.map(function (r) { return r.k; }), borderColor: '#2563eb', backgroundColor: '#2563eb', pointRadius: 1.5, tension: 0.2, yAxisID: 'y' },
+          { label: 'D', data: rows.map(function (r) { return r.d; }), borderColor: '#f59e0b', backgroundColor: '#f59e0b', pointRadius: 1.5, tension: 0.2, yAxisID: 'y' },
+          { label: '收盤', data: rows.map(function (r) { return r.close; }), borderColor: 'rgba(100,116,139,0.6)', backgroundColor: 'rgba(100,116,139,0.6)', borderDash: [4, 3], pointRadius: 0, tension: 0.2, yAxisID: 'y2' }
+        ]
+      },
+      options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          y: { min: 0, max: 100, ticks: { stepSize: 20 }, title: { display: true, text: 'K / D' } },
+          y2: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: '加權指數' } }
+        }
+      },
+      plugins: [band]
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { drawKd(0); });
+  else drawKd(0);
+})();

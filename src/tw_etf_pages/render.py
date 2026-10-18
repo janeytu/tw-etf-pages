@@ -13,6 +13,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .compare import list_snapshot_dates, load_snapshot
 from .config import AppConfig
 from .trend import build_holdings_trend
+from .taiex_kd import build_kd_view
 from .utils import now_taipei_iso, read_json, write_json
 
 logger = logging.getLogger(__name__)
@@ -524,7 +525,28 @@ def render_site(cfg: AppConfig) -> Path:
         "full_exit": sum(b["summary"]["full_exit"] for b in etf_blocks),
     }
 
+    kd = None
+    try:
+        kd = build_kd_view(cfg.root)
+    except Exception:  # noqa: BLE001 — never break the site for KD
+        logger.exception("TAIEX KD view failed")
+    if kd:
+        import json as _json
+
+        kd["chart_json"] = _json.dumps(
+            [{"date": r["date"], "close": r["close"], "k": r["k"], "d": r["d"]} for r in kd["chart"]],
+            ensure_ascii=False,
+        ).replace("</", "<\\/")
+        (site / "taiex-kd.html").write_text(
+            env.get_template("taiex_kd.html").render(
+                kd=kd, generated_at=generated_at, assets_prefix="assets"
+            ),
+            encoding="utf-8",
+        )
+        logger.info("Wrote %s", site / "taiex-kd.html")
+
     index_html = env.get_template("index.html").render(
+        kd=kd,
         etfs=index_rows,
         etf_blocks=etf_blocks,
         cross_adds=adds,

@@ -1,0 +1,67 @@
+{% macro lamp(zone) -%}
+{%- if zone == 'oversold' -%}<span class="kd-lamp oversold" title="低於 20：超賣">● 超賣</span>
+{%- elif zone == 'overbought' -%}<span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span>
+{%- else -%}<span class="kd-lamp neutral">中性</span>{%- endif -%}
+{%- endmacro %}
+
+{% macro kd_val(v, zone) -%}
+<span class="kd-val {{ zone }}">{{ "%.2f"|format(v) }}</span>
+{%- endmacro %}
+
+{% macro kd_table(rows) %}
+<div class="table-wrap">
+  <table class="report kd-table">
+    <thead>
+      <tr><th>日期</th><th>收盤</th><th>漲跌</th><th>K(9)</th><th>D(9)</th><th>訊號</th></tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr class="kd-row {{ r.signal }}">
+        <td>{{ r.date }}</td>
+        <td class="num">{{ "{:,.2f}".format(r.close) }}</td>
+        <td class="num {% if r.change is not none and r.change > 0 %}delta-up{% elif r.change is not none and r.change < 0 %}delta-down{% endif %}">
+          {% if r.change is not none %}{{ "{:+,.2f}".format(r.change) }}<br /><small>{{ "%+.2f"|format(r.change_pct) }}%</small>{% else %}—{% endif %}
+        </td>
+        <td class="num">{{ kd_val(r.k, r.k_zone) }}</td>
+        <td class="num">{{ kd_val(r.d, r.d_zone) }}</td>
+        <td>{{ lamp(r.signal) }}{% if r.cross %} <span class="kd-cross {% if r.cross == '黃金交叉' %}gold{% else %}death{% endif %}">{{ r.cross }}</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro kd_card(kd, link_more=True) %}
+{% set L = kd.latest %}
+<div class="kd-card {{ L.signal }}">
+  <div class="kd-card-head">
+    <div>
+      <div class="kd-title">加權指數 KD 指標（9 日）</div>
+      <div class="muted">資料日 <strong>{{ L.date }}</strong>／收盤 <strong>{{ "{:,.2f}".format(L.close) }}</strong>
+        {% if L.change is not none %}<span class="{% if L.change > 0 %}delta-up{% else %}delta-down{% endif %}">（{{ "{:+,.2f}".format(L.change) }}，{{ "%+.2f"|format(L.change_pct) }}%）</span>{% endif %}
+      </div>
+    </div>
+    <div class="kd-big-lamp {{ L.signal }}">
+      {% if L.signal == 'oversold' %}🟢 超賣<small>K 或 D &lt; {{ kd.oversold|int }}</small>
+      {% elif L.signal == 'overbought' %}🔴 超漲<small>K 或 D &gt; {{ kd.overbought|int }}</small>
+      {% else %}⚪ 中性<small>{{ kd.oversold|int }} ≤ K、D ≤ {{ kd.overbought|int }}</small>{% endif %}
+    </div>
+  </div>
+  <div class="kd-metrics">
+    <div class="kd-metric {{ L.k_zone }}"><span>K 值</span><strong>{{ "%.2f"|format(L.k) }}</strong>{{ lamp(L.k_zone) }}</div>
+    <div class="kd-metric {{ L.d_zone }}"><span>D 值</span><strong>{{ "%.2f"|format(L.d) }}</strong>{{ lamp(L.d_zone) }}</div>
+    <div class="kd-metric"><span>RSV</span><strong>{{ "%.2f"|format(L.rsv) }}</strong>{% if L.cross %}<span class="kd-cross {% if L.cross == '黃金交叉' %}gold{% else %}death{% endif %}">{{ L.cross }}</span>{% endif %}</div>
+  </div>
+  {% if link_more %}<p class="kd-more"><a href="taiex-kd.html">查看近 60 日 KD 走勢圖與完整歷史 →</a></p>{% endif %}
+</div>
+{% endmacro %}
+
+{% macro kd_note(kd) %}
+<p class="muted kd-note">
+  公式（台灣常用 9 日 KD）：RSV = (今日收盤 − 近 9 日最低) ÷ (近 9 日最高 − 近 9 日最低) × 100；
+  K = ⅔ × 前日 K + ⅓ × RSV；D = ⅔ × 前日 D + ⅓ × K（初始 K = D = 50，以數月歷史暖機）。
+  K 或 D 低於 {{ kd.oversold|int }} 亮綠燈「超賣」，高於 {{ kd.overbought|int }} 亮紅燈「超漲」（可能超漲）。
+  資料來源：<a href="{{ kd.source_page }}" target="_blank" rel="noopener">臺灣證券交易所 發行量加權股價指數歷史資料</a>，每個交易日收盤後更新。僅供參考，不構成投資建議。
+</p>
+{% endmacro %}

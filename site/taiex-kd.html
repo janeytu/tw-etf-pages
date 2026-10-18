@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>台股加權指數 KD 指標</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  
+<div class="layout single">
+  <div class="main">
+    <header class="page-header">
+      <h1>台股加權指數 每日 KD 指標</h1>
+      <p class="muted">發行量加權股價指數（TAIEX）9 日 KD；K 或 D &lt; 20 亮燈「超賣」，&gt; 80 亮燈「超漲」。</p>
+      <nav class="nav-inline"><a href="index.html">← 回 ETF 持股異動日報</a></nav>
+    </header>
+    
+    
+
+<div class="kd-card neutral">
+  <div class="kd-card-head">
+    <div>
+      <div class="kd-title">加權指數 KD 指標（9 日）</div>
+      <div class="muted">資料日 <strong>2026-10-16</strong>／收盤 <strong>47,111.26</strong>
+        <span class="delta-up">（+141.39，+0.30%）</span>
+      </div>
+    </div>
+    <div class="kd-big-lamp neutral">
+      ⚪ 中性<small>20 ≤ K、D ≤ 80</small>
+    </div>
+  </div>
+  <div class="kd-metrics">
+    <div class="kd-metric neutral"><span>K 值</span><strong>28.33</strong><span class="kd-lamp neutral">中性</span></div>
+    <div class="kd-metric neutral"><span>D 值</span><strong>48.62</strong><span class="kd-lamp neutral">中性</span></div>
+    <div class="kd-metric"><span>RSV</span><strong>9.95</strong></div>
+  </div>
+  
+</div>
+
+    <section>
+      <h3 class="section-title">近 60 個交易日 KD 走勢</h3>
+      <div class="kd-chart-wrap"><canvas id="kd-chart" height="280"></canvas></div>
+      <script type="application/json" id="kd-chart-data">[{"date": "2026-07-22", "close": 44825.78, "k": 43.36, "d": 35.85}, {"date": "2026-07-23", "close": 44850.81, "k": 50.93, "d": 40.88}, {"date": "2026-07-24", "close": 43654.84, "k": 48.32, "d": 43.36}, {"date": "2026-07-27", "close": 43634.19, "k": 46.41, "d": 44.37}, {"date": "2026-07-28", "close": 41603.36, "k": 31.24, "d": 39.99}, {"date": "2026-07-29", "close": 40039.18, "k": 24.5, "d": 34.83}, {"date": "2026-07-30", "close": 39933.3, "k": 19.41, "d": 29.69}, {"date": "2026-07-31", "close": 43119.75, "k": 33.9, "d": 31.09}, {"date": "2026-08-03", "close": 43386.41, "k": 45.06, "d": 35.75}, {"date": "2026-08-04", "close": 43360.66, "k": 53.27, "d": 41.59}, {"date": "2026-08-05", "close": 44611.6, "k": 66.65, "d": 49.94}, {"date": "2026-08-06", "close": 44396.7, "k": 74.29, "d": 58.06}, {"date": "2026-08-07", "close": 44225.91, "k": 78.37, "d": 64.83}, {"date": "2026-08-10", "close": 44928.76, "k": 83.92, "d": 71.19}, {"date": "2026-08-11", "close": 45120.72, "k": 88.71, "d": 77.03}, {"date": "2026-08-12", "close": 45518.07, "k": 92.38, "d": 82.15}, {"date": "2026-08-13", "close": 46021.48, "k": 93.03, "d": 85.77}, {"date": "2026-08-14", "close": 45811.01, "k": 89.73, "d": 87.09}, {"date": "2026-08-17", "close": 45857.27, "k": 86.14, "d": 86.78}, {"date": "2026-08-18", "close": 45308.68, "k": 75.94, "d": 83.16}, {"date": "2026-08-19", "close": 44719.35, "k": 61.16, "d": 75.83}, {"date": "2026-08-20", "close": 44933.74, "k": 50.73, "d": 67.46}, {"date": "2026-08-21", "close": 45224.29, "k": 48.39, "d": 61.11}, {"date": "2026-08-24", "close": 44762.32, "k": 39.48, "d": 53.9}, {"date": "2026-08-25", "close": 45169.46, "k": 40.91, "d": 49.57}, {"date": "2026-08-26", "close": 45832.62, "k": 51.94, "d": 50.36}, {"date": "2026-08-27", "close": 45975.22, "k": 61.47, "d": 54.06}, {"date": "2026-08-28", "close": 46331.45, "k": 70.89, "d": 59.67}, {"date": "2026-08-31", "close": 46128.47, "k": 74.3, "d": 64.55}, {"date": "2026-09-01", "close": 46948.72, "k": 82.87, "d": 70.65}, {"date": "2026-09-02", "close": 46164.72, "k": 79.04, "d": 73.45}, {"date": "2026-09-03", "close": 45857.66, "k": 72.74, "d": 73.21}, {"date": "2026-09-04", "close": 46551.13, "k": 76.99, "d": 74.47}, {"date": "2026-09-07", "close": 47326.27, "k": 83.28, "d": 77.41}, {"date": "2026-09-08", "close": 47105.78, "k": 81.46, "d": 78.76}, {"date": "2026-09-09", "close": 47183.36, "k": 81.45, "d": 79.66}, {"date": "2026-09-10", "close": 46940.49, "k": 77.64, "d": 78.99}, {"date": "2026-09-11", "close": 46184.85, "k": 58.39, "d": 72.12}, {"date": "2026-09-14", "close": 45862.52, "k": 46.02, "d": 63.42}, {"date": "2026-09-15", "close": 45511.49, "k": 32.41, "d": 53.08}, {"date": "2026-09-16", "close": 45848.9, "k": 28.49, "d": 44.89}, {"date": "2026-09-17", "close": 46288.0, "k": 32.6, "d": 40.79}, {"date": "2026-09-18", "close": 47180.75, "k": 48.99, "d": 43.52}, {"date": "2026-09-21", "close": 47718.84, "k": 65.54, "d": 50.86}, {"date": "2026-09-22", "close": 47800.17, "k": 68.69, "d": 56.8}, {"date": "2026-09-23", "close": 48157.29, "k": 74.5, "d": 62.7}, {"date": "2026-09-24", "close": 48024.6, "k": 77.0, "d": 67.47}, {"date": "2026-09-29", "close": 47631.96, "k": 74.27, "d": 69.73}, {"date": "2026-09-30", "close": 47940.13, "k": 75.63, "d": 71.7}, {"date": "2026-10-01", "close": 48353.49, "k": 80.65, "d": 74.68}, {"date": "2026-10-02", "close": 48475.74, "k": 85.15, "d": 78.17}, {"date": "2026-10-05", "close": 49712.04, "k": 89.34, "d": 81.9}, {"date": "2026-10-06", "close": 49822.55, "k": 90.86, "d": 84.88}, {"date": "2026-10-07", "close": 49806.37, "k": 91.64, "d": 87.14}, {"date": "2026-10-08", "close": 49313.44, "k": 85.31, "d": 86.53}, {"date": "2026-10-12", "close": 49301.96, "k": 80.93, "d": 84.66}, {"date": "2026-10-13", "close": 48341.31, "k": 62.64, "d": 77.32}, {"date": "2026-10-14", "close": 48625.83, "k": 53.52, "d": 69.39}, {"date": "2026-10-15", "close": 46969.87, "k": 37.51, "d": 58.76}, {"date": "2026-10-16", "close": 47111.26, "k": 28.33, "d": 48.62}]</script>
+    </section>
+    <section>
+      <h3 class="section-title">歷史紀錄（新到舊）</h3>
+      
+<div class="table-wrap">
+  <table class="report kd-table">
+    <thead>
+      <tr><th>日期</th><th>收盤</th><th>漲跌</th><th>K(9)</th><th>D(9)</th><th>訊號</th></tr>
+    </thead>
+    <tbody>
+      
+      <tr class="kd-row neutral">
+        <td>2026-10-16</td>
+        <td class="num">47,111.26</td>
+        <td class="num delta-up">
+          +141.39<br /><small>+0.30%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">28.33</span></td>
+        <td class="num"><span class="kd-val neutral">48.62</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-10-15</td>
+        <td class="num">46,969.87</td>
+        <td class="num delta-down">
+          -1,655.96<br /><small>-3.41%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">37.51</span></td>
+        <td class="num"><span class="kd-val neutral">58.76</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-10-14</td>
+        <td class="num">48,625.83</td>
+        <td class="num delta-up">
+          +284.52<br /><small>+0.59%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">53.52</span></td>
+        <td class="num"><span class="kd-val neutral">69.39</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-10-13</td>
+        <td class="num">48,341.31</td>
+        <td class="num delta-down">
+          -960.65<br /><small>-1.95%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">62.64</span></td>
+        <td class="num"><span class="kd-val neutral">77.32</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-12</td>
+        <td class="num">49,301.96</td>
+        <td class="num delta-down">
+          -11.48<br /><small>-0.02%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">80.93</span></td>
+        <td class="num"><span class="kd-val overbought">84.66</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-08</td>
+        <td class="num">49,313.44</td>
+        <td class="num delta-down">
+          -492.93<br /><small>-0.99%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">85.31</span></td>
+        <td class="num"><span class="kd-val overbought">86.53</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span> <span class="kd-cross death">死亡交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-07</td>
+        <td class="num">49,806.37</td>
+        <td class="num delta-down">
+          -16.18<br /><small>-0.03%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">91.64</span></td>
+        <td class="num"><span class="kd-val overbought">87.14</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-06</td>
+        <td class="num">49,822.55</td>
+        <td class="num delta-up">
+          +110.51<br /><small>+0.22%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">90.86</span></td>
+        <td class="num"><span class="kd-val overbought">84.88</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-05</td>
+        <td class="num">49,712.04</td>
+        <td class="num delta-up">
+          +1,236.30<br /><small>+2.55%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">89.34</span></td>
+        <td class="num"><span class="kd-val overbought">81.90</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-02</td>
+        <td class="num">48,475.74</td>
+        <td class="num delta-up">
+          +122.25<br /><small>+0.25%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">85.15</span></td>
+        <td class="num"><span class="kd-val neutral">78.17</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-10-01</td>
+        <td class="num">48,353.49</td>
+        <td class="num delta-up">
+          +413.36<br /><small>+0.86%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">80.65</span></td>
+        <td class="num"><span class="kd-val neutral">74.68</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-30</td>
+        <td class="num">47,940.13</td>
+        <td class="num delta-up">
+          +308.17<br /><small>+0.65%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">75.63</span></td>
+        <td class="num"><span class="kd-val neutral">71.70</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-29</td>
+        <td class="num">47,631.96</td>
+        <td class="num delta-down">
+          -392.64<br /><small>-0.82%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">74.27</span></td>
+        <td class="num"><span class="kd-val neutral">69.73</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-24</td>
+        <td class="num">48,024.60</td>
+        <td class="num delta-down">
+          -132.69<br /><small>-0.28%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">77.00</span></td>
+        <td class="num"><span class="kd-val neutral">67.47</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-23</td>
+        <td class="num">48,157.29</td>
+        <td class="num delta-up">
+          +357.12<br /><small>+0.75%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">74.50</span></td>
+        <td class="num"><span class="kd-val neutral">62.70</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-22</td>
+        <td class="num">47,800.17</td>
+        <td class="num delta-up">
+          +81.33<br /><small>+0.17%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">68.69</span></td>
+        <td class="num"><span class="kd-val neutral">56.80</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-21</td>
+        <td class="num">47,718.84</td>
+        <td class="num delta-up">
+          +538.09<br /><small>+1.14%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">65.54</span></td>
+        <td class="num"><span class="kd-val neutral">50.86</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-18</td>
+        <td class="num">47,180.75</td>
+        <td class="num delta-up">
+          +892.75<br /><small>+1.93%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">48.99</span></td>
+        <td class="num"><span class="kd-val neutral">43.52</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross gold">黃金交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-17</td>
+        <td class="num">46,288.00</td>
+        <td class="num delta-up">
+          +439.10<br /><small>+0.96%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">32.60</span></td>
+        <td class="num"><span class="kd-val neutral">40.79</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-16</td>
+        <td class="num">45,848.90</td>
+        <td class="num delta-up">
+          +337.41<br /><small>+0.74%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">28.49</span></td>
+        <td class="num"><span class="kd-val neutral">44.89</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-15</td>
+        <td class="num">45,511.49</td>
+        <td class="num delta-down">
+          -351.03<br /><small>-0.77%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">32.41</span></td>
+        <td class="num"><span class="kd-val neutral">53.08</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-14</td>
+        <td class="num">45,862.52</td>
+        <td class="num delta-down">
+          -322.33<br /><small>-0.70%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">46.02</span></td>
+        <td class="num"><span class="kd-val neutral">63.42</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-11</td>
+        <td class="num">46,184.85</td>
+        <td class="num delta-down">
+          -755.64<br /><small>-1.61%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">58.39</span></td>
+        <td class="num"><span class="kd-val neutral">72.12</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-10</td>
+        <td class="num">46,940.49</td>
+        <td class="num delta-down">
+          -242.87<br /><small>-0.51%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">77.64</span></td>
+        <td class="num"><span class="kd-val neutral">78.99</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross death">死亡交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-09-09</td>
+        <td class="num">47,183.36</td>
+        <td class="num delta-up">
+          +77.58<br /><small>+0.16%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">81.45</span></td>
+        <td class="num"><span class="kd-val neutral">79.66</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-09-08</td>
+        <td class="num">47,105.78</td>
+        <td class="num delta-down">
+          -220.49<br /><small>-0.47%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">81.46</span></td>
+        <td class="num"><span class="kd-val neutral">78.76</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-09-07</td>
+        <td class="num">47,326.27</td>
+        <td class="num delta-up">
+          +775.14<br /><small>+1.67%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">83.28</span></td>
+        <td class="num"><span class="kd-val neutral">77.41</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-04</td>
+        <td class="num">46,551.13</td>
+        <td class="num delta-up">
+          +693.47<br /><small>+1.51%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">76.99</span></td>
+        <td class="num"><span class="kd-val neutral">74.47</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross gold">黃金交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-03</td>
+        <td class="num">45,857.66</td>
+        <td class="num delta-down">
+          -307.06<br /><small>-0.67%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">72.74</span></td>
+        <td class="num"><span class="kd-val neutral">73.21</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross death">死亡交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-09-02</td>
+        <td class="num">46,164.72</td>
+        <td class="num delta-down">
+          -784.00<br /><small>-1.67%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">79.04</span></td>
+        <td class="num"><span class="kd-val neutral">73.45</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-09-01</td>
+        <td class="num">46,948.72</td>
+        <td class="num delta-up">
+          +820.25<br /><small>+1.78%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">82.87</span></td>
+        <td class="num"><span class="kd-val neutral">70.65</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-31</td>
+        <td class="num">46,128.47</td>
+        <td class="num delta-down">
+          -202.98<br /><small>-0.44%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">74.30</span></td>
+        <td class="num"><span class="kd-val neutral">64.55</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-28</td>
+        <td class="num">46,331.45</td>
+        <td class="num delta-up">
+          +356.23<br /><small>+0.77%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">70.89</span></td>
+        <td class="num"><span class="kd-val neutral">59.67</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-27</td>
+        <td class="num">45,975.22</td>
+        <td class="num delta-up">
+          +142.60<br /><small>+0.31%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">61.47</span></td>
+        <td class="num"><span class="kd-val neutral">54.06</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-26</td>
+        <td class="num">45,832.62</td>
+        <td class="num delta-up">
+          +663.16<br /><small>+1.47%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">51.94</span></td>
+        <td class="num"><span class="kd-val neutral">50.36</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross gold">黃金交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-25</td>
+        <td class="num">45,169.46</td>
+        <td class="num delta-up">
+          +407.14<br /><small>+0.91%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">40.91</span></td>
+        <td class="num"><span class="kd-val neutral">49.57</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-24</td>
+        <td class="num">44,762.32</td>
+        <td class="num delta-down">
+          -461.97<br /><small>-1.02%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">39.48</span></td>
+        <td class="num"><span class="kd-val neutral">53.90</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-21</td>
+        <td class="num">45,224.29</td>
+        <td class="num delta-up">
+          +290.55<br /><small>+0.65%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">48.39</span></td>
+        <td class="num"><span class="kd-val neutral">61.11</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-20</td>
+        <td class="num">44,933.74</td>
+        <td class="num delta-up">
+          +214.39<br /><small>+0.48%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">50.73</span></td>
+        <td class="num"><span class="kd-val neutral">67.46</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-19</td>
+        <td class="num">44,719.35</td>
+        <td class="num delta-down">
+          -589.33<br /><small>-1.30%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">61.16</span></td>
+        <td class="num"><span class="kd-val neutral">75.83</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-18</td>
+        <td class="num">45,308.68</td>
+        <td class="num delta-down">
+          -548.59<br /><small>-1.20%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">75.94</span></td>
+        <td class="num"><span class="kd-val overbought">83.16</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-17</td>
+        <td class="num">45,857.27</td>
+        <td class="num delta-up">
+          +46.26<br /><small>+0.10%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">86.14</span></td>
+        <td class="num"><span class="kd-val overbought">86.78</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span> <span class="kd-cross death">死亡交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-14</td>
+        <td class="num">45,811.01</td>
+        <td class="num delta-down">
+          -210.47<br /><small>-0.46%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">89.73</span></td>
+        <td class="num"><span class="kd-val overbought">87.09</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-13</td>
+        <td class="num">46,021.48</td>
+        <td class="num delta-up">
+          +503.41<br /><small>+1.11%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">93.03</span></td>
+        <td class="num"><span class="kd-val overbought">85.77</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-12</td>
+        <td class="num">45,518.07</td>
+        <td class="num delta-up">
+          +397.35<br /><small>+0.88%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">92.38</span></td>
+        <td class="num"><span class="kd-val overbought">82.15</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-11</td>
+        <td class="num">45,120.72</td>
+        <td class="num delta-up">
+          +191.96<br /><small>+0.43%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">88.71</span></td>
+        <td class="num"><span class="kd-val neutral">77.03</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row overbought">
+        <td>2026-08-10</td>
+        <td class="num">44,928.76</td>
+        <td class="num delta-up">
+          +702.85<br /><small>+1.59%</small>
+        </td>
+        <td class="num"><span class="kd-val overbought">83.92</span></td>
+        <td class="num"><span class="kd-val neutral">71.19</span></td>
+        <td><span class="kd-lamp overbought" title="高於 80：可能超漲">● 超漲</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-07</td>
+        <td class="num">44,225.91</td>
+        <td class="num delta-down">
+          -170.79<br /><small>-0.38%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">78.37</span></td>
+        <td class="num"><span class="kd-val neutral">64.83</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-06</td>
+        <td class="num">44,396.70</td>
+        <td class="num delta-down">
+          -214.90<br /><small>-0.48%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">74.29</span></td>
+        <td class="num"><span class="kd-val neutral">58.06</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-05</td>
+        <td class="num">44,611.60</td>
+        <td class="num delta-up">
+          +1,250.94<br /><small>+2.88%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">66.65</span></td>
+        <td class="num"><span class="kd-val neutral">49.94</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-04</td>
+        <td class="num">43,360.66</td>
+        <td class="num delta-down">
+          -25.75<br /><small>-0.06%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">53.27</span></td>
+        <td class="num"><span class="kd-val neutral">41.59</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-08-03</td>
+        <td class="num">43,386.41</td>
+        <td class="num delta-up">
+          +266.66<br /><small>+0.62%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">45.06</span></td>
+        <td class="num"><span class="kd-val neutral">35.75</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-31</td>
+        <td class="num">43,119.75</td>
+        <td class="num delta-up">
+          +3,186.45<br /><small>+7.98%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">33.90</span></td>
+        <td class="num"><span class="kd-val neutral">31.09</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross gold">黃金交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row oversold">
+        <td>2026-07-30</td>
+        <td class="num">39,933.30</td>
+        <td class="num delta-down">
+          -105.88<br /><small>-0.26%</small>
+        </td>
+        <td class="num"><span class="kd-val oversold">19.41</span></td>
+        <td class="num"><span class="kd-val neutral">29.69</span></td>
+        <td><span class="kd-lamp oversold" title="低於 20：超賣">● 超賣</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-29</td>
+        <td class="num">40,039.18</td>
+        <td class="num delta-down">
+          -1,564.18<br /><small>-3.76%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">24.50</span></td>
+        <td class="num"><span class="kd-val neutral">34.83</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-28</td>
+        <td class="num">41,603.36</td>
+        <td class="num delta-down">
+          -2,030.83<br /><small>-4.65%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">31.24</span></td>
+        <td class="num"><span class="kd-val neutral">39.99</span></td>
+        <td><span class="kd-lamp neutral">中性</span> <span class="kd-cross death">死亡交叉</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-27</td>
+        <td class="num">43,634.19</td>
+        <td class="num delta-down">
+          -20.65<br /><small>-0.05%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">46.41</span></td>
+        <td class="num"><span class="kd-val neutral">44.37</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-24</td>
+        <td class="num">43,654.84</td>
+        <td class="num delta-down">
+          -1,195.97<br /><small>-2.67%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">48.32</span></td>
+        <td class="num"><span class="kd-val neutral">43.36</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-23</td>
+        <td class="num">44,850.81</td>
+        <td class="num delta-up">
+          +25.03<br /><small>+0.06%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">50.93</span></td>
+        <td class="num"><span class="kd-val neutral">40.88</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+      <tr class="kd-row neutral">
+        <td>2026-07-22</td>
+        <td class="num">44,825.78</td>
+        <td class="num delta-up">
+          +592.91<br /><small>+1.34%</small>
+        </td>
+        <td class="num"><span class="kd-val neutral">43.36</span></td>
+        <td class="num"><span class="kd-val neutral">35.85</span></td>
+        <td><span class="kd-lamp neutral">中性</span></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+    </section>
+    
+<p class="muted kd-note">
+  公式（台灣常用 9 日 KD）：RSV = (今日收盤 − 近 9 日最低) ÷ (近 9 日最高 − 近 9 日最低) × 100；
+  K = ⅔ × 前日 K + ⅓ × RSV；D = ⅔ × 前日 D + ⅓ × K（初始 K = D = 50，以數月歷史暖機）。
+  K 或 D 低於 20 亮綠燈「超賣」，高於 80 亮紅燈「超漲」（可能超漲）。
+  資料來源：<a href="https://www.twse.com.tw/zh/indices/taiex/mi-5min-hist.html" target="_blank" rel="noopener">臺灣證券交易所 發行量加權股價指數歷史資料</a>，每個交易日收盤後更新。僅供參考，不構成投資建議。
+</p>
+
+    
+    <footer class="site-footer">
+      <p>時區：Asia/Taipei。最後產生時間：2026-10-18T19:11:25+08:00。</p>
+    </footer>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

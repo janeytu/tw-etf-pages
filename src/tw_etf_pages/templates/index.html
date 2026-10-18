@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_kd_macros.html" import kd_card, kd_table, kd_note %}
 {% block title %}台灣主動式 ETF 持股異動日報{% endblock %}
 {% block heading %}台灣主動式 ETF 持股異動日報{% endblock %}
 {% block subtitle %}
@@ -11,6 +12,9 @@
 <nav class="toc" id="toc" aria-label="頁面目錄">
   <h2>目錄</h2>
   <ol>
+    {% if kd %}<li><a href="#part_kd">📈 加權指數 KD 指標</a>
+      <div class="toc-sub"><ol><li><a href="taiex-kd.html">KD 走勢圖／完整歷史</a></li></ol></div>
+    </li>{% endif %}
     <li><a href="#part1">第一部分：整體 ETF 新增／剔除</a>
       <div class="toc-sub"><ol>
         <li><a href="#part1_add">🆕 整體 ETF 新增標的</a></li>
@@ -47,6 +51,16 @@
 </div>
 {% endblock %}
 {% block content %}
+
+{% if kd %}
+<section>
+  <h2 class="banner" id="part_kd">📈 台股加權指數 KD 指標</h2>
+  {{ kd_card(kd) }}
+  <h3 class="section-title">近 {{ kd.recent|length }} 個交易日</h3>
+  {{ kd_table(kd.recent) }}
+  {{ kd_note(kd) }}
+</section>
+{% endif %}
 
 <section>
   <h2 class="banner" id="part1">第一部分：整體 ETF 持股 新增／剔除</h2>

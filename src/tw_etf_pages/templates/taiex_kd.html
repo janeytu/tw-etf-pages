@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% from "_kd_macros.html" import kd_card, kd_table, kd_note %}
+{% block title %}台股加權指數 KD 指標{% endblock %}
+{% block heading %}台股加權指數 每日 KD 指標{% endblock %}
+{% block subtitle %}發行量加權股價指數（TAIEX）9 日 KD；K 或 D &lt; 20 亮燈「超賣」，&gt; 80 亮燈「超漲」。{% endblock %}
+{% block body %}
+<div class="layout single">
+  <div class="main">
+    <header class="page-header">
+      <h1>台股加權指數 每日 KD 指標</h1>
+      <p class="muted">發行量加權股價指數（TAIEX）9 日 KD；K 或 D &lt; 20 亮燈「超賣」，&gt; 80 亮燈「超漲」。</p>
+      <nav class="nav-inline"><a href="index.html">← 回 ETF 持股異動日報</a></nav>
+    </header>
+    {% if kd %}
+    {{ kd_card(kd, link_more=False) }}
+    <section>
+      <h3 class="section-title">近 {{ kd.chart|length }} 個交易日 KD 走勢</h3>
+      <div class="kd-chart-wrap"><canvas id="kd-chart" height="280"></canvas></div>
+      <script type="application/json" id="kd-chart-data">{{ kd.chart_json|safe }}</script>
+    </section>
+    <section>
+      <h3 class="section-title">歷史紀錄（新到舊）</h3>
+      {{ kd_table(kd.full) }}
+    </section>
+    {{ kd_note(kd) }}
+    {% else %}
+    <div class="empty-box">尚無 KD 資料。</div>
+    {% endif %}
+    <footer class="site-footer">
+      <p>時區：Asia/Taipei。最後產生時間：{{ generated_at }}。</p>
+    </footer>
+  </div>
+</div>
+{% endblock %}

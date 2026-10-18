@@ -429,3 +429,51 @@ table.report tr.unchanged.hidden { display: none; }
   .trend-label { grid-column: 1 / -1; }
   .trend-select { grid-row: span 2; }
 }
+
+/* ---- 加權指數 KD 指標 ---- */
+.layout.single { grid-template-columns: minmax(0, 1fr); max-width: 1080px; }
+.kd-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 6px solid #94a3b8;
+  border-radius: 12px;
+  padding: 1rem 1.15rem;
+  margin: 0.75rem 0 1rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+.kd-card.oversold { border-left-color: #16a34a; box-shadow: 0 0 0 2px rgba(22,163,74,.25), 0 0 22px rgba(34,197,94,.35); }
+.kd-card.overbought { border-left-color: #dc2626; box-shadow: 0 0 0 2px rgba(220,38,38,.25), 0 0 22px rgba(239,68,68,.35); }
+.kd-card-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.kd-title { font-size: 1.2rem; font-weight: 700; color: var(--banner); }
+.kd-big-lamp {
+  display: flex; flex-direction: column; align-items: center;
+  font-size: 1.5rem; font-weight: 800; padding: 0.5rem 1.1rem; border-radius: 12px;
+  background: #f1f5f9; color: #475569; min-width: 8.5rem; text-align: center;
+}
+.kd-big-lamp small { font-size: 0.75rem; font-weight: 500; opacity: 0.9; }
+.kd-big-lamp.oversold { background: #16a34a; color: #fff; animation: kd-glow-g 1.6s ease-in-out infinite; }
+.kd-big-lamp.overbought { background: #dc2626; color: #fff; animation: kd-glow-r 1.6s ease-in-out infinite; }
+@keyframes kd-glow-g { 0%,100% { box-shadow: 0 0 6px rgba(34,197,94,.6); } 50% { box-shadow: 0 0 26px rgba(34,197,94,1); } }
+@keyframes kd-glow-r { 0%,100% { box-shadow: 0 0 6px rgba(239,68,68,.6); } 50% { box-shadow: 0 0 26px rgba(239,68,68,1); } }
+.kd-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin-top: 0.9rem; }
+.kd-metric { background: #f8fafc; border: 1px solid var(--border); border-radius: 10px; padding: 0.6rem 0.8rem; display: flex; flex-direction: column; gap: 0.2rem; }
+.kd-metric span:first-child { color: var(--muted); font-size: 0.85rem; }
+.kd-metric strong { font-size: 1.7rem; line-height: 1.1; }
+.kd-metric.oversold { background: #dcfce7; border-color: #22c55e; }
+.kd-metric.oversold strong { color: #15803d; }
+.kd-metric.overbought { background: #fee2e2; border-color: #ef4444; }
+.kd-metric.overbought strong { color: #b91c1c; }
+.kd-lamp { display: inline-block; font-weight: 700; font-size: 0.82rem; padding: 0.1rem 0.55rem; border-radius: 999px; width: fit-content; }
+.kd-lamp.neutral { background: var(--chip); color: var(--muted); font-weight: 500; }
+.kd-lamp.oversold { background: #16a34a; color: #fff; box-shadow: 0 0 10px rgba(34,197,94,.8); }
+.kd-lamp.overbought { background: #dc2626; color: #fff; box-shadow: 0 0 10px rgba(239,68,68,.8); }
+.kd-val.oversold { color: #15803d; font-weight: 800; }
+.kd-val.overbought { color: #b91c1c; font-weight: 800; }
+table.report tr.kd-row.oversold { background: #ecfdf5; }
+table.report tr.kd-row.overbought { background: #fef2f2; }
+.kd-cross { display: inline-block; font-size: 0.78rem; padding: 0.05rem 0.45rem; border-radius: 6px; margin-left: 0.2rem; }
+.kd-cross.gold { background: #fef3c7; color: #b45309; }
+.kd-cross.death { background: #e2e8f0; color: #334155; }
+.kd-more { margin: 0.8rem 0 0; font-weight: 600; }
+.kd-note { font-size: 0.85rem; margin-top: 0.6rem; }
+.kd-chart-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 0.75rem; }

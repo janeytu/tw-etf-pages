@@ -242,6 +242,12 @@ def run_live(cfg: AppConfig | None = None, *, allow_fallback: bool = True) -> Pa
         except Exception as exc:  # noqa: BLE001 — collect per-etf failures
             logger.exception("Failed processing %s", etf.ticker)
             errors.append(f"{etf.ticker}: {exc}")
+    try:
+        from .taiex_kd import update_kd
+
+        update_kd(cfg.root)
+    except Exception:  # noqa: BLE001 — KD must never fail the run
+        logger.exception("TAIEX KD update failed")
     site = render_site(cfg)
     from .utils import now_taipei_iso
 
