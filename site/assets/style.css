@@ -495,3 +495,17 @@ table.report tr.kd-row.overbought { background: #fef2f2; }
 .mg-up { color: #dc2626; font-weight: 700; }
 table.report tr.mg-row-down { background: #ecfdf5; }
 table.report tr.mg-row-up { background: #fff5f5; }
+
+/* ---- 斷頭線距離 ---- */
+.mg-callline { margin-top: 0.85rem; padding: 0.6rem 0.9rem; border-radius: 10px; font-size: 1.05rem; background: #f8fafc; border: 1px solid var(--border); color: var(--text); }
+.mg-callline strong { font-size: 1.2rem; }
+.mg-callline.warn { background: #fff7ed; border-color: #f97316; color: #9a3412; }
+.mg-callline.danger { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
+.mg-callline.breach { background: #dc2626; border-color: #991b1b; color: #fff; font-weight: 700; animation: kd-glow-r 1s ease-in-out infinite; }
+.mg-lvl { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 0.05rem 0.5rem; border-radius: 999px; margin-left: 0.3rem; color: #fff; }
+.mg-lvl.warn { background: #f97316; }
+.mg-lvl.danger { background: #dc2626; }
+.mg-lvl.breach { background: #dc2626; animation: mg-blink 0.9s step-start infinite; }
+@keyframes mg-blink { 50% { opacity: 0.25; } }
+.mg-dist.warn { color: #c2410c; font-weight: 700; }
+.mg-dist.danger, .mg-dist.breach { color: #b91c1c; font-weight: 800; }

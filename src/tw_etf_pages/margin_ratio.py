@@ -28,6 +28,7 @@ INDEX_URL = "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX"
 SOURCE_PAGE = "https://www.twse.com.tw/zh/trading/margin/mi-margn.html"
 UA = "Mozilla/5.0 (compatible; tw-etf-pages/1.0; +https://solymx.github.io/tw-etf-pages/)"
 MAX_DAYS_PER_RUN = 6
+CALL_LINE = 130.0  # 個人帳戶整戶維持率低於 130% 追繳
 
 
 class NoData(Exception):
@@ -198,7 +199,17 @@ def build_margin_view(root: Path, recent: int = 10, full: int = 60) -> dict[str,
     rows = read_json(path).get("rows") or []
     if not rows:
         return None
+    for r in rows:
+        ratio = r["ratio"]
+        r["dist_pp"] = round(ratio - CALL_LINE, 2)
+        r["drop_pct"] = round((1 - CALL_LINE / ratio) * 100, 1) if ratio > 0 else None
+        r["level"] = (
+            "breach" if ratio < CALL_LINE else
+            "danger" if ratio < 140 else
+            "warn" if ratio < 150 else "ok"
+        )
     return {
+        "call_line": CALL_LINE,
         "latest": rows[-1],
         "recent": list(reversed(rows[-recent:])),
         "full": list(reversed(rows[-full:])),

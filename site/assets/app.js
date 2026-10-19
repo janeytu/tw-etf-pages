@@ -483,6 +483,7 @@
           { label: '融資維持率 (%)', data: rows.map(function (r) { return r.ratio; }), borderColor: '#7c3aed', backgroundColor: '#7c3aed', pointRadius: 2,
             pointBackgroundColor: rows.map(function (r, i) { return i === 0 ? '#7c3aed' : (r.ratio < rows[i - 1].ratio ? '#16a34a' : '#dc2626'); }),
             tension: 0.2, yAxisID: 'y' },
+          { label: '斷頭線 130%', data: rows.map(function () { return 130; }), borderColor: '#dc2626', backgroundColor: '#dc2626', borderDash: [6, 4], borderWidth: 1.5, pointRadius: 0, yAxisID: 'y' },
           { label: '加權指數', data: rows.map(function (r) { return r.taiex; }), borderColor: 'rgba(100,116,139,0.6)', backgroundColor: 'rgba(100,116,139,0.6)', borderDash: [4, 3], pointRadius: 0, tension: 0.2, yAxisID: 'y2' }
         ]
       },
@@ -490,7 +491,7 @@
         responsive: true,
         interaction: { mode: 'index', intersect: false },
         scales: {
-          y: { title: { display: true, text: '維持率 %' } },
+          y: { suggestedMin: 125, title: { display: true, text: '維持率 %' } },
           y2: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: '加權指數' } }
         }
       }
