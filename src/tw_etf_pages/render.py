@@ -14,6 +14,7 @@ from .compare import list_snapshot_dates, load_snapshot
 from .config import AppConfig
 from .trend import build_holdings_trend
 from .taiex_kd import build_kd_view
+from .margin_ratio import build_margin_view
 from .utils import now_taipei_iso, read_json, write_json
 
 logger = logging.getLogger(__name__)
@@ -530,16 +531,34 @@ def render_site(cfg: AppConfig) -> Path:
         kd = build_kd_view(cfg.root)
     except Exception:  # noqa: BLE001 — never break the site for KD
         logger.exception("TAIEX KD view failed")
-    if kd:
-        import json as _json
+    import json as _json
 
-        kd["chart_json"] = _json.dumps(
-            [{"date": r["date"], "close": r["close"], "k": r["k"], "d": r["d"]} for r in kd["chart"]],
-            ensure_ascii=False,
-        ).replace("</", "<\\/")
+    mg = None
+    try:
+        mg = build_margin_view(cfg.root)
+        if mg:
+            closes = {}
+            kd_file = cfg.root / "data" / "taiex" / "kd.json"
+            if kd_file.is_file():
+                closes = {r["date"]: r["close"] for r in read_json(kd_file).get("rows", [])}
+            for r in mg["full"] + mg["chart"] + [mg["latest"]]:
+                r["taiex"] = closes.get(r["date"])
+            mg["chart_json"] = _json.dumps(
+                [{"date": r["date"], "ratio": r["ratio"], "taiex": r.get("taiex")} for r in mg["chart"]],
+                ensure_ascii=False,
+            ).replace("</", "<\\/")
+    except Exception:  # noqa: BLE001 — never break the site for margin
+        logger.exception("Margin ratio view failed")
+        mg = None
+    if kd or mg:
+        if kd:
+            kd["chart_json"] = _json.dumps(
+                [{"date": r["date"], "close": r["close"], "k": r["k"], "d": r["d"]} for r in kd["chart"]],
+                ensure_ascii=False,
+            ).replace("</", "<\\/")
         (site / "taiex-kd.html").write_text(
             env.get_template("taiex_kd.html").render(
-                kd=kd, generated_at=generated_at, assets_prefix="assets"
+                kd=kd, mg=mg, generated_at=generated_at, assets_prefix="assets"
             ),
             encoding="utf-8",
         )
@@ -547,6 +566,7 @@ def render_site(cfg: AppConfig) -> Path:
 
     index_html = env.get_template("index.html").render(
         kd=kd,
+        mg=mg,
         etfs=index_rows,
         etf_blocks=etf_blocks,
         cross_adds=adds,

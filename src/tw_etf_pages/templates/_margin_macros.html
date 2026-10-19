@@ -1,0 +1,56 @@
+{% macro chg(v, unit, fmt="%+.2f") -%}
+{%- if v is none -%}<span class="muted">—</span>
+{%- elif v < 0 -%}<span class="mg-down">▼ {{ fmt|format(v) }}{{ unit }}</span>
+{%- elif v > 0 -%}<span class="mg-up">▲ {{ fmt|format(v) }}{{ unit }}</span>
+{%- else -%}<span class="muted">— 0.00{{ unit }}</span>{%- endif -%}
+{%- endmacro %}
+
+{% macro margin_card(mg, link_more=True) %}
+{% set L = mg.latest %}
+<div class="mg-card {% if L.ratio_change is not none and L.ratio_change < 0 %}down{% elif L.ratio_change is not none and L.ratio_change > 0 %}up{% endif %}">
+  <div class="kd-card-head">
+    <div>
+      <div class="kd-title">大盤融資維持率（上市）</div>
+      <div class="muted">資料日 <strong>{{ L.date }}</strong>{% if L.taiex %}／加權指數 {{ "{:,.2f}".format(L.taiex) }}{% endif %}</div>
+    </div>
+    <div class="mg-big {% if L.ratio_change is not none and L.ratio_change < 0 %}down{% elif L.ratio_change is not none and L.ratio_change > 0 %}up{% endif %}">
+      <strong>{{ "%.2f"|format(L.ratio) }}%</strong>
+      <span>{% if L.ratio_change is none %}—{% elif L.ratio_change < 0 %}▼ 下降 {{ "%.2f"|format(-L.ratio_change) }} 個百分點{% elif L.ratio_change > 0 %}▲ 上升 {{ "%.2f"|format(L.ratio_change) }} 個百分點{% else %}持平{% endif %}</span>
+    </div>
+  </div>
+  <div class="kd-metrics">
+    <div class="kd-metric"><span>融資餘額</span><strong>{{ "{:,.2f}".format(L.balance_100m) }} 億</strong>{{ chg(L.balance_change_100m, " 億") }}</div>
+    <div class="kd-metric"><span>融資張數</span><strong>{{ "{:,}".format(L.balance_lots) }}</strong>{{ chg(L.balance_lots_change, " 張", "%+d") }}</div>
+    <div class="kd-metric"><span>融資股票市值</span><strong>{{ "{:,.0f}".format(L.margin_value_100m) }} 億</strong></div>
+  </div>
+  {% if link_more %}<p class="kd-more"><a href="taiex-kd.html#margin">查看融資維持率走勢圖與近 60 日歷史 →</a></p>{% endif %}
+</div>
+{% endmacro %}
+
+{% macro margin_table(rows) %}
+<div class="table-wrap">
+  <table class="report kd-table">
+    <thead><tr><th>日期</th><th>融資維持率</th><th>維持率變化</th><th>融資餘額(億)</th><th>餘額增減(億)</th><th>加權指數</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+      <tr class="{% if r.ratio_change is not none and r.ratio_change < 0 %}mg-row-down{% elif r.ratio_change is not none and r.ratio_change > 0 %}mg-row-up{% endif %}">
+        <td>{{ r.date }}</td>
+        <td class="num"><strong>{{ "%.2f"|format(r.ratio) }}%</strong></td>
+        <td class="num">{{ chg(r.ratio_change, "") }}</td>
+        <td class="num">{{ "{:,.2f}".format(r.balance_100m) }}</td>
+        <td class="num">{{ chg(r.balance_change_100m, "") }}</td>
+        <td class="num">{% if r.taiex %}{{ "{:,.2f}".format(r.taiex) }}{% else %}—{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro margin_note(mg) %}
+<p class="muted kd-note">
+  計算方式：融資維持率 = Σ(各股融資餘額張數 × 1000 × 當日收盤價) ÷ 融資金額 × 100%；範圍為<strong>上市</strong>（含上市 ETF，不含上櫃）；當日無收盤價者以前一次收盤價計。
+  變化以「個百分點」表示，<span class="mg-down">綠 ▼ 為下降</span>、<span class="mg-up">紅 ▲ 為上升</span>（台股慣例）。一般 160% 以下視為警戒、130% 附近為個股追繳線。
+  資料來源：<a href="{{ mg.source_page }}" target="_blank" rel="noopener">臺灣證券交易所 融資融券餘額（MI_MARGN）</a>與每日收盤行情（MI_INDEX），本站自行計算；融資資料約於晚間公布，故常晚一個交易日更新。僅供參考，不構成投資建議。
+</p>
+{% endmacro %}

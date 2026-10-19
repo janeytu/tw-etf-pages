@@ -463,3 +463,39 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { drawKd(0); });
   else drawKd(0);
 })();
+
+/* ---- 大盤融資維持率走勢圖 ---- */
+(function () {
+  function drawMg(tries) {
+    var canvas = document.getElementById('mg-chart');
+    var dataEl = document.getElementById('mg-chart-data');
+    if (!canvas || !dataEl) return;
+    if (typeof Chart === 'undefined') {
+      if ((tries || 0) < 40) setTimeout(function () { drawMg((tries || 0) + 1); }, 150);
+      return;
+    }
+    var rows = JSON.parse(dataEl.textContent || '[]');
+    new Chart(canvas.getContext('2d'), {
+      type: 'line',
+      data: {
+        labels: rows.map(function (r) { return r.date.slice(5); }),
+        datasets: [
+          { label: '融資維持率 (%)', data: rows.map(function (r) { return r.ratio; }), borderColor: '#7c3aed', backgroundColor: '#7c3aed', pointRadius: 2,
+            pointBackgroundColor: rows.map(function (r, i) { return i === 0 ? '#7c3aed' : (r.ratio < rows[i - 1].ratio ? '#16a34a' : '#dc2626'); }),
+            tension: 0.2, yAxisID: 'y' },
+          { label: '加權指數', data: rows.map(function (r) { return r.taiex; }), borderColor: 'rgba(100,116,139,0.6)', backgroundColor: 'rgba(100,116,139,0.6)', borderDash: [4, 3], pointRadius: 0, tension: 0.2, yAxisID: 'y2' }
+        ]
+      },
+      options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          y: { title: { display: true, text: '維持率 %' } },
+          y2: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: '加權指數' } }
+        }
+      }
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { drawMg(0); });
+  else drawMg(0);
+})();

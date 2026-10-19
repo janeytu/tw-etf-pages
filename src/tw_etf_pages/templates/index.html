@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_kd_macros.html" import kd_card, kd_table, kd_note %}
+{% from "_margin_macros.html" import margin_card, margin_table, margin_note %}
 {% block title %}台灣主動式 ETF 持股異動日報{% endblock %}
 {% block heading %}台灣主動式 ETF 持股異動日報{% endblock %}
 {% block subtitle %}
@@ -15,6 +16,7 @@
     {% if kd %}<li><a href="#part_kd">📈 加權指數 KD 指標</a>
       <div class="toc-sub"><ol><li><a href="taiex-kd.html">KD 走勢圖／完整歷史</a></li></ol></div>
     </li>{% endif %}
+    {% if mg %}<li><a href="#part_margin">💰 大盤融資維持率</a></li>{% endif %}
     <li><a href="#part1">第一部分：整體 ETF 新增／剔除</a>
       <div class="toc-sub"><ol>
         <li><a href="#part1_add">🆕 整體 ETF 新增標的</a></li>
@@ -59,6 +61,16 @@
   <h3 class="section-title">近 {{ kd.recent|length }} 個交易日</h3>
   {{ kd_table(kd.recent) }}
   {{ kd_note(kd) }}
+</section>
+{% endif %}
+
+{% if mg %}
+<section>
+  <h2 class="banner" id="part_margin">💰 大盤融資維持率</h2>
+  {{ margin_card(mg) }}
+  <h3 class="section-title">近 {{ mg.recent|length }} 個交易日</h3>
+  {{ margin_table(mg.recent) }}
+  {{ margin_note(mg) }}
 </section>
 {% endif %}
 

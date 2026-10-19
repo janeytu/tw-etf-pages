@@ -13,7 +13,7 @@
     <header class="page-header">
       <h1>台股加權指數 每日 KD 指標</h1>
       <p class="muted">發行量加權股價指數（TAIEX）9 日 KD；K 或 D &lt; 20 亮燈「超賣」，&gt; 80 亮燈「超漲」。</p>
-      <nav class="nav-inline"><a href="index.html">← 回 ETF 持股異動日報</a></nav>
+      <nav class="nav-inline"><a href="index.html">← 回 ETF 持股異動日報</a><a href="#margin">大盤融資維持率 ↓</a></nav>
     </header>
     
     
@@ -727,8 +727,595 @@
 </p>
 
     
+    
+    <section id="margin">
+      <h2 class="banner">💰 大盤融資維持率</h2>
+      
+
+<div class="mg-card up">
+  <div class="kd-card-head">
+    <div>
+      <div class="kd-title">大盤融資維持率（上市）</div>
+      <div class="muted">資料日 <strong>2026-10-16</strong>／加權指數 47,111.26</div>
+    </div>
+    <div class="mg-big up">
+      <strong>183.39%</strong>
+      <span>▲ 上升 1.59 個百分點</span>
+    </div>
+  </div>
+  <div class="kd-metrics">
+    <div class="kd-metric"><span>融資餘額</span><strong>6,455.94 億</strong><span class="mg-down">▼ -8.22 億</span></div>
+    <div class="kd-metric"><span>融資張數</span><strong>9,538,664</strong><span class="mg-up">▲ +17434 張</span></div>
+    <div class="kd-metric"><span>融資股票市值</span><strong>11,839 億</strong></div>
+  </div>
+  
+</div>
+
+      <h3 class="section-title">近 60 個交易日融資維持率走勢</h3>
+      <div class="kd-chart-wrap"><canvas id="mg-chart" height="240"></canvas></div>
+      <script type="application/json" id="mg-chart-data">[{"date": "2026-07-22", "ratio": 181.25, "taiex": 44825.78}, {"date": "2026-07-23", "ratio": 179.83, "taiex": 44850.81}, {"date": "2026-07-24", "ratio": 173.08, "taiex": 43654.84}, {"date": "2026-07-27", "ratio": 173.46, "taiex": 43634.19}, {"date": "2026-07-28", "ratio": 163.08, "taiex": 41603.36}, {"date": "2026-07-29", "ratio": 157.99, "taiex": 40039.18}, {"date": "2026-07-30", "ratio": 156.81, "taiex": 39933.3}, {"date": "2026-07-31", "ratio": 169.81, "taiex": 43119.75}, {"date": "2026-08-03", "ratio": 176.55, "taiex": 43386.41}, {"date": "2026-08-04", "ratio": 181.69, "taiex": 43360.66}, {"date": "2026-08-05", "ratio": 186.77, "taiex": 44611.6}, {"date": "2026-08-06", "ratio": 188.19, "taiex": 44396.7}, {"date": "2026-08-07", "ratio": 184.84, "taiex": 44225.91}, {"date": "2026-08-10", "ratio": 189.82, "taiex": 44928.76}, {"date": "2026-08-11", "ratio": 190.47, "taiex": 45120.72}, {"date": "2026-08-12", "ratio": 192.68, "taiex": 45518.07}, {"date": "2026-08-13", "ratio": 194.79, "taiex": 46021.48}, {"date": "2026-08-14", "ratio": 194.07, "taiex": 45811.01}, {"date": "2026-08-17", "ratio": 194.86, "taiex": 45857.27}, {"date": "2026-08-18", "ratio": 190.35, "taiex": 45308.68}, {"date": "2026-08-19", "ratio": 187.26, "taiex": 44719.35}, {"date": "2026-08-20", "ratio": 188.85, "taiex": 44933.74}, {"date": "2026-08-21", "ratio": 187.44, "taiex": 45224.29}, {"date": "2026-08-24", "ratio": 185.64, "taiex": 44762.32}, {"date": "2026-08-25", "ratio": 188.24, "taiex": 45169.46}, {"date": "2026-08-26", "ratio": 193.26, "taiex": 45832.62}, {"date": "2026-08-27", "ratio": 194.7, "taiex": 45975.22}, {"date": "2026-08-28", "ratio": 194.31, "taiex": 46331.45}, {"date": "2026-08-31", "ratio": 192.25, "taiex": 46128.47}, {"date": "2026-09-01", "ratio": 193.94, "taiex": 46948.72}, {"date": "2026-09-02", "ratio": 190.13, "taiex": 46164.72}, {"date": "2026-09-03", "ratio": 184.43, "taiex": 45857.66}, {"date": "2026-09-04", "ratio": 188.39, "taiex": 46551.13}, {"date": "2026-09-07", "ratio": 191.46, "taiex": 47326.27}, {"date": "2026-09-08", "ratio": 188.89, "taiex": 47105.78}, {"date": "2026-09-09", "ratio": 190.12, "taiex": 47183.36}, {"date": "2026-09-10", "ratio": 189.27, "taiex": 46940.49}, {"date": "2026-09-11", "ratio": 184.84, "taiex": 46184.85}, {"date": "2026-09-14", "ratio": 183.15, "taiex": 45862.52}, {"date": "2026-09-15", "ratio": 180.19, "taiex": 45511.49}, {"date": "2026-09-16", "ratio": 183.95, "taiex": 45848.9}, {"date": "2026-09-17", "ratio": 183.94, "taiex": 46288.0}, {"date": "2026-09-18", "ratio": 189.8, "taiex": 47180.75}, {"date": "2026-09-21", "ratio": 191.44, "taiex": 47718.84}, {"date": "2026-09-22", "ratio": 193.13, "taiex": 47800.17}, {"date": "2026-09-23", "ratio": 193.44, "taiex": 48157.29}, {"date": "2026-09-24", "ratio": 193.87, "taiex": 48024.6}, {"date": "2026-09-29", "ratio": 191.81, "taiex": 47631.96}, {"date": "2026-09-30", "ratio": 193.66, "taiex": 47940.13}, {"date": "2026-10-01", "ratio": 195.13, "taiex": 48353.49}, {"date": "2026-10-02", "ratio": 197.01, "taiex": 48475.74}, {"date": "2026-10-05", "ratio": 200.67, "taiex": 49712.04}, {"date": "2026-10-06", "ratio": 199.12, "taiex": 49822.55}, {"date": "2026-10-07", "ratio": 198.92, "taiex": 49806.37}, {"date": "2026-10-08", "ratio": 197.06, "taiex": 49313.44}, {"date": "2026-10-12", "ratio": 196.16, "taiex": 49301.96}, {"date": "2026-10-13", "ratio": 189.94, "taiex": 48341.31}, {"date": "2026-10-14", "ratio": 191.61, "taiex": 48625.83}, {"date": "2026-10-15", "ratio": 181.8, "taiex": 46969.87}, {"date": "2026-10-16", "ratio": 183.39, "taiex": 47111.26}]</script>
+      <h3 class="section-title">歷史紀錄（新到舊）</h3>
+      
+<div class="table-wrap">
+  <table class="report kd-table">
+    <thead><tr><th>日期</th><th>融資維持率</th><th>維持率變化</th><th>融資餘額(億)</th><th>餘額增減(億)</th><th>加權指數</th></tr></thead>
+    <tbody>
+      
+      <tr class="mg-row-up">
+        <td>2026-10-16</td>
+        <td class="num"><strong>183.39%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.59</span></td>
+        <td class="num">6,455.94</td>
+        <td class="num"><span class="mg-down">▼ -8.22</span></td>
+        <td class="num">47,111.26</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-10-15</td>
+        <td class="num"><strong>181.80%</strong></td>
+        <td class="num"><span class="mg-down">▼ -9.81</span></td>
+        <td class="num">6,464.15</td>
+        <td class="num"><span class="mg-down">▼ -51.41</span></td>
+        <td class="num">46,969.87</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-10-14</td>
+        <td class="num"><strong>191.61%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.67</span></td>
+        <td class="num">6,515.67</td>
+        <td class="num"><span class="mg-up">▲ +65.89</span></td>
+        <td class="num">48,625.83</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-10-13</td>
+        <td class="num"><strong>189.94%</strong></td>
+        <td class="num"><span class="mg-down">▼ -6.22</span></td>
+        <td class="num">6,449.79</td>
+        <td class="num"><span class="mg-down">▼ -83.51</span></td>
+        <td class="num">48,341.31</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-10-12</td>
+        <td class="num"><strong>196.16%</strong></td>
+        <td class="num"><span class="mg-down">▼ -0.90</span></td>
+        <td class="num">6,533.30</td>
+        <td class="num"><span class="mg-up">▲ +69.24</span></td>
+        <td class="num">49,301.96</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-10-08</td>
+        <td class="num"><strong>197.06%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.86</span></td>
+        <td class="num">6,464.06</td>
+        <td class="num"><span class="mg-up">▲ +64.05</span></td>
+        <td class="num">49,313.44</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-10-07</td>
+        <td class="num"><strong>198.92%</strong></td>
+        <td class="num"><span class="mg-down">▼ -0.20</span></td>
+        <td class="num">6,400.01</td>
+        <td class="num"><span class="mg-up">▲ +23.44</span></td>
+        <td class="num">49,806.37</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-10-06</td>
+        <td class="num"><strong>199.12%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.55</span></td>
+        <td class="num">6,376.57</td>
+        <td class="num"><span class="mg-up">▲ +43.05</span></td>
+        <td class="num">49,822.55</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-10-05</td>
+        <td class="num"><strong>200.67%</strong></td>
+        <td class="num"><span class="mg-up">▲ +3.66</span></td>
+        <td class="num">6,333.52</td>
+        <td class="num"><span class="mg-down">▼ -17.53</span></td>
+        <td class="num">49,712.04</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-10-02</td>
+        <td class="num"><strong>197.01%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.88</span></td>
+        <td class="num">6,351.04</td>
+        <td class="num"><span class="mg-up">▲ +52.37</span></td>
+        <td class="num">48,475.74</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-10-01</td>
+        <td class="num"><strong>195.13%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.47</span></td>
+        <td class="num">6,298.67</td>
+        <td class="num"><span class="mg-up">▲ +75.71</span></td>
+        <td class="num">48,353.49</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-30</td>
+        <td class="num"><strong>193.66%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.85</span></td>
+        <td class="num">6,222.52</td>
+        <td class="num"><span class="mg-up">▲ +35.99</span></td>
+        <td class="num">47,940.13</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-29</td>
+        <td class="num"><strong>191.81%</strong></td>
+        <td class="num"><span class="mg-down">▼ -2.06</span></td>
+        <td class="num">6,186.53</td>
+        <td class="num"><span class="mg-up">▲ +35.50</span></td>
+        <td class="num">47,631.96</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-24</td>
+        <td class="num"><strong>193.87%</strong></td>
+        <td class="num"><span class="mg-up">▲ +0.43</span></td>
+        <td class="num">6,151.03</td>
+        <td class="num"><span class="mg-up">▲ +87.36</span></td>
+        <td class="num">48,024.60</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-23</td>
+        <td class="num"><strong>193.44%</strong></td>
+        <td class="num"><span class="mg-up">▲ +0.31</span></td>
+        <td class="num">6,063.68</td>
+        <td class="num"><span class="mg-up">▲ +15.06</span></td>
+        <td class="num">48,157.29</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-22</td>
+        <td class="num"><strong>193.13%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.69</span></td>
+        <td class="num">6,048.61</td>
+        <td class="num"><span class="mg-up">▲ +18.24</span></td>
+        <td class="num">47,800.17</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-21</td>
+        <td class="num"><strong>191.44%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.64</span></td>
+        <td class="num">6,030.38</td>
+        <td class="num"><span class="mg-up">▲ +89.98</span></td>
+        <td class="num">47,718.84</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-18</td>
+        <td class="num"><strong>189.80%</strong></td>
+        <td class="num"><span class="mg-up">▲ +5.86</span></td>
+        <td class="num">5,940.39</td>
+        <td class="num"><span class="mg-up">▲ +46.42</span></td>
+        <td class="num">47,180.75</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-17</td>
+        <td class="num"><strong>183.94%</strong></td>
+        <td class="num"><span class="mg-down">▼ -0.01</span></td>
+        <td class="num">5,893.97</td>
+        <td class="num"><span class="mg-up">▲ +32.29</span></td>
+        <td class="num">46,288.00</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-16</td>
+        <td class="num"><strong>183.95%</strong></td>
+        <td class="num"><span class="mg-up">▲ +3.76</span></td>
+        <td class="num">5,861.67</td>
+        <td class="num"><span class="mg-up">▲ +39.26</span></td>
+        <td class="num">45,848.90</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-15</td>
+        <td class="num"><strong>180.19%</strong></td>
+        <td class="num"><span class="mg-down">▼ -2.96</span></td>
+        <td class="num">5,822.40</td>
+        <td class="num"><span class="mg-down">▼ -16.37</span></td>
+        <td class="num">45,511.49</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-14</td>
+        <td class="num"><strong>183.15%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.69</span></td>
+        <td class="num">5,838.78</td>
+        <td class="num"><span class="mg-down">▼ -39.94</span></td>
+        <td class="num">45,862.52</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-11</td>
+        <td class="num"><strong>184.84%</strong></td>
+        <td class="num"><span class="mg-down">▼ -4.43</span></td>
+        <td class="num">5,878.71</td>
+        <td class="num"><span class="mg-down">▼ -40.27</span></td>
+        <td class="num">46,184.85</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-10</td>
+        <td class="num"><strong>189.27%</strong></td>
+        <td class="num"><span class="mg-down">▼ -0.85</span></td>
+        <td class="num">5,918.98</td>
+        <td class="num"><span class="mg-up">▲ +47.31</span></td>
+        <td class="num">46,940.49</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-09</td>
+        <td class="num"><strong>190.12%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.23</span></td>
+        <td class="num">5,871.67</td>
+        <td class="num"><span class="mg-up">▲ +9.00</span></td>
+        <td class="num">47,183.36</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-08</td>
+        <td class="num"><strong>188.89%</strong></td>
+        <td class="num"><span class="mg-down">▼ -2.57</span></td>
+        <td class="num">5,862.67</td>
+        <td class="num"><span class="mg-down">▼ -20.05</span></td>
+        <td class="num">47,105.78</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-07</td>
+        <td class="num"><strong>191.46%</strong></td>
+        <td class="num"><span class="mg-up">▲ +3.07</span></td>
+        <td class="num">5,882.72</td>
+        <td class="num"><span class="mg-up">▲ +63.77</span></td>
+        <td class="num">47,326.27</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-04</td>
+        <td class="num"><strong>188.39%</strong></td>
+        <td class="num"><span class="mg-up">▲ +3.96</span></td>
+        <td class="num">5,818.95</td>
+        <td class="num"><span class="mg-up">▲ +31.55</span></td>
+        <td class="num">46,551.13</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-03</td>
+        <td class="num"><strong>184.43%</strong></td>
+        <td class="num"><span class="mg-down">▼ -5.70</span></td>
+        <td class="num">5,787.39</td>
+        <td class="num"><span class="mg-down">▼ -69.36</span></td>
+        <td class="num">45,857.66</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-09-02</td>
+        <td class="num"><strong>190.13%</strong></td>
+        <td class="num"><span class="mg-down">▼ -3.81</span></td>
+        <td class="num">5,856.75</td>
+        <td class="num"><span class="mg-up">▲ +75.60</span></td>
+        <td class="num">46,164.72</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-09-01</td>
+        <td class="num"><strong>193.94%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.69</span></td>
+        <td class="num">5,781.15</td>
+        <td class="num"><span class="mg-up">▲ +82.39</span></td>
+        <td class="num">46,948.72</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-31</td>
+        <td class="num"><strong>192.25%</strong></td>
+        <td class="num"><span class="mg-down">▼ -2.06</span></td>
+        <td class="num">5,698.77</td>
+        <td class="num"><span class="mg-up">▲ +26.99</span></td>
+        <td class="num">46,128.47</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-28</td>
+        <td class="num"><strong>194.31%</strong></td>
+        <td class="num"><span class="mg-down">▼ -0.39</span></td>
+        <td class="num">5,671.78</td>
+        <td class="num"><span class="mg-up">▲ +72.59</span></td>
+        <td class="num">46,331.45</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-27</td>
+        <td class="num"><strong>194.70%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.44</span></td>
+        <td class="num">5,599.19</td>
+        <td class="num"><span class="mg-up">▲ +51.16</span></td>
+        <td class="num">45,975.22</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-26</td>
+        <td class="num"><strong>193.26%</strong></td>
+        <td class="num"><span class="mg-up">▲ +5.02</span></td>
+        <td class="num">5,548.03</td>
+        <td class="num"><span class="mg-up">▲ +78.65</span></td>
+        <td class="num">45,832.62</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-25</td>
+        <td class="num"><strong>188.24%</strong></td>
+        <td class="num"><span class="mg-up">▲ +2.60</span></td>
+        <td class="num">5,469.38</td>
+        <td class="num"><span class="mg-up">▲ +16.78</span></td>
+        <td class="num">45,169.46</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-24</td>
+        <td class="num"><strong>185.64%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.80</span></td>
+        <td class="num">5,452.59</td>
+        <td class="num"><span class="mg-down">▼ -16.80</span></td>
+        <td class="num">44,762.32</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-21</td>
+        <td class="num"><strong>187.44%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.41</span></td>
+        <td class="num">5,469.39</td>
+        <td class="num"><span class="mg-down">▼ -14.68</span></td>
+        <td class="num">45,224.29</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-20</td>
+        <td class="num"><strong>188.85%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.59</span></td>
+        <td class="num">5,484.08</td>
+        <td class="num"><span class="mg-up">▲ +2.17</span></td>
+        <td class="num">44,933.74</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-19</td>
+        <td class="num"><strong>187.26%</strong></td>
+        <td class="num"><span class="mg-down">▼ -3.09</span></td>
+        <td class="num">5,481.90</td>
+        <td class="num"><span class="mg-up">▲ +11.78</span></td>
+        <td class="num">44,719.35</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-18</td>
+        <td class="num"><strong>190.35%</strong></td>
+        <td class="num"><span class="mg-down">▼ -4.51</span></td>
+        <td class="num">5,470.11</td>
+        <td class="num"><span class="mg-down">▼ -30.90</span></td>
+        <td class="num">45,308.68</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-17</td>
+        <td class="num"><strong>194.86%</strong></td>
+        <td class="num"><span class="mg-up">▲ +0.79</span></td>
+        <td class="num">5,501.02</td>
+        <td class="num"><span class="mg-up">▲ +30.42</span></td>
+        <td class="num">45,857.27</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-14</td>
+        <td class="num"><strong>194.07%</strong></td>
+        <td class="num"><span class="mg-down">▼ -0.72</span></td>
+        <td class="num">5,470.59</td>
+        <td class="num"><span class="mg-down">▼ -27.21</span></td>
+        <td class="num">45,811.01</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-13</td>
+        <td class="num"><strong>194.79%</strong></td>
+        <td class="num"><span class="mg-up">▲ +2.11</span></td>
+        <td class="num">5,497.81</td>
+        <td class="num"><span class="mg-up">▲ +16.97</span></td>
+        <td class="num">46,021.48</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-12</td>
+        <td class="num"><strong>192.68%</strong></td>
+        <td class="num"><span class="mg-up">▲ +2.21</span></td>
+        <td class="num">5,480.84</td>
+        <td class="num"><span class="mg-up">▲ +39.32</span></td>
+        <td class="num">45,518.07</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-11</td>
+        <td class="num"><strong>190.47%</strong></td>
+        <td class="num"><span class="mg-up">▲ +0.65</span></td>
+        <td class="num">5,441.52</td>
+        <td class="num"><span class="mg-down">▼ -11.44</span></td>
+        <td class="num">45,120.72</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-10</td>
+        <td class="num"><strong>189.82%</strong></td>
+        <td class="num"><span class="mg-up">▲ +4.98</span></td>
+        <td class="num">5,452.96</td>
+        <td class="num"><span class="mg-up">▲ +76.31</span></td>
+        <td class="num">44,928.76</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-08-07</td>
+        <td class="num"><strong>184.84%</strong></td>
+        <td class="num"><span class="mg-down">▼ -3.35</span></td>
+        <td class="num">5,376.65</td>
+        <td class="num"><span class="mg-up">▲ +48.60</span></td>
+        <td class="num">44,225.91</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-06</td>
+        <td class="num"><strong>188.19%</strong></td>
+        <td class="num"><span class="mg-up">▲ +1.42</span></td>
+        <td class="num">5,328.05</td>
+        <td class="num"><span class="mg-up">▲ +93.13</span></td>
+        <td class="num">44,396.70</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-05</td>
+        <td class="num"><strong>186.77%</strong></td>
+        <td class="num"><span class="mg-up">▲ +5.08</span></td>
+        <td class="num">5,234.92</td>
+        <td class="num"><span class="mg-up">▲ +23.58</span></td>
+        <td class="num">44,611.60</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-04</td>
+        <td class="num"><strong>181.69%</strong></td>
+        <td class="num"><span class="mg-up">▲ +5.14</span></td>
+        <td class="num">5,211.35</td>
+        <td class="num"><span class="mg-up">▲ +63.79</span></td>
+        <td class="num">43,360.66</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-08-03</td>
+        <td class="num"><strong>176.55%</strong></td>
+        <td class="num"><span class="mg-up">▲ +6.74</span></td>
+        <td class="num">5,147.55</td>
+        <td class="num"><span class="mg-up">▲ +72.93</span></td>
+        <td class="num">43,386.41</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-07-31</td>
+        <td class="num"><strong>169.81%</strong></td>
+        <td class="num"><span class="mg-up">▲ +13.00</span></td>
+        <td class="num">5,074.63</td>
+        <td class="num"><span class="mg-up">▲ +135.97</span></td>
+        <td class="num">43,119.75</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-07-30</td>
+        <td class="num"><strong>156.81%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.18</span></td>
+        <td class="num">4,938.67</td>
+        <td class="num"><span class="mg-down">▼ -131.43</span></td>
+        <td class="num">39,933.30</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-07-29</td>
+        <td class="num"><strong>157.99%</strong></td>
+        <td class="num"><span class="mg-down">▼ -5.09</span></td>
+        <td class="num">5,070.11</td>
+        <td class="num"><span class="mg-down">▼ -385.22</span></td>
+        <td class="num">40,039.18</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-07-28</td>
+        <td class="num"><strong>163.08%</strong></td>
+        <td class="num"><span class="mg-down">▼ -10.38</span></td>
+        <td class="num">5,455.35</td>
+        <td class="num"><span class="mg-down">▼ -231.29</span></td>
+        <td class="num">41,603.36</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-07-27</td>
+        <td class="num"><strong>173.46%</strong></td>
+        <td class="num"><span class="mg-up">▲ +0.38</span></td>
+        <td class="num">5,686.63</td>
+        <td class="num"><span class="mg-down">▼ -83.96</span></td>
+        <td class="num">43,634.19</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-07-24</td>
+        <td class="num"><strong>173.08%</strong></td>
+        <td class="num"><span class="mg-down">▼ -6.75</span></td>
+        <td class="num">5,770.60</td>
+        <td class="num"><span class="mg-down">▼ -55.67</span></td>
+        <td class="num">43,654.84</td>
+      </tr>
+      
+      <tr class="mg-row-down">
+        <td>2026-07-23</td>
+        <td class="num"><strong>179.83%</strong></td>
+        <td class="num"><span class="mg-down">▼ -1.42</span></td>
+        <td class="num">5,826.26</td>
+        <td class="num"><span class="mg-down">▼ -1.97</span></td>
+        <td class="num">44,850.81</td>
+      </tr>
+      
+      <tr class="mg-row-up">
+        <td>2026-07-22</td>
+        <td class="num"><strong>181.25%</strong></td>
+        <td class="num"><span class="mg-up">▲ +5.78</span></td>
+        <td class="num">5,828.24</td>
+        <td class="num"><span class="mg-up">▲ +63.27</span></td>
+        <td class="num">44,825.78</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+      
+<p class="muted kd-note">
+  計算方式：融資維持率 = Σ(各股融資餘額張數 × 1000 × 當日收盤價) ÷ 融資金額 × 100%；範圍為<strong>上市</strong>（含上市 ETF，不含上櫃）；當日無收盤價者以前一次收盤價計。
+  變化以「個百分點」表示，<span class="mg-down">綠 ▼ 為下降</span>、<span class="mg-up">紅 ▲ 為上升</span>（台股慣例）。一般 160% 以下視為警戒、130% 附近為個股追繳線。
+  資料來源：<a href="https://www.twse.com.tw/zh/trading/margin/mi-margn.html" target="_blank" rel="noopener">臺灣證券交易所 融資融券餘額（MI_MARGN）</a>與每日收盤行情（MI_INDEX），本站自行計算；融資資料約於晚間公布，故常晚一個交易日更新。僅供參考，不構成投資建議。
+</p>
+
+    </section>
+    
     <footer class="site-footer">
-      <p>時區：Asia/Taipei。最後產生時間：2026-10-18T19:13:33+08:00。</p>
+      <p>時區：Asia/Taipei。最後產生時間：2026-10-19T14:08:58+08:00。</p>
     </footer>
   </div>
 </div>

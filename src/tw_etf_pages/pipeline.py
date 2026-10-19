@@ -248,6 +248,12 @@ def run_live(cfg: AppConfig | None = None, *, allow_fallback: bool = True) -> Pa
         update_kd(cfg.root)
     except Exception:  # noqa: BLE001 — KD must never fail the run
         logger.exception("TAIEX KD update failed")
+    try:
+        from .margin_ratio import update_margin
+
+        update_margin(cfg.root)
+    except Exception:  # noqa: BLE001 — margin ratio must never fail the run
+        logger.exception("Margin ratio update failed")
     site = render_site(cfg)
     from .utils import now_taipei_iso
 

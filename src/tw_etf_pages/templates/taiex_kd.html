@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_kd_macros.html" import kd_card, kd_table, kd_note %}
+{% from "_margin_macros.html" import margin_card, margin_table, margin_note %}
 {% block title %}台股加權指數 KD 指標{% endblock %}
 {% block heading %}台股加權指數 每日 KD 指標{% endblock %}
 {% block subtitle %}發行量加權股價指數（TAIEX）9 日 KD；K 或 D &lt; 20 亮燈「超賣」，&gt; 80 亮燈「超漲」。{% endblock %}
@@ -9,7 +10,7 @@
     <header class="page-header">
       <h1>台股加權指數 每日 KD 指標</h1>
       <p class="muted">發行量加權股價指數（TAIEX）9 日 KD；K 或 D &lt; 20 亮燈「超賣」，&gt; 80 亮燈「超漲」。</p>
-      <nav class="nav-inline"><a href="index.html">← 回 ETF 持股異動日報</a></nav>
+      <nav class="nav-inline"><a href="index.html">← 回 ETF 持股異動日報</a>{% if mg %}<a href="#margin">大盤融資維持率 ↓</a>{% endif %}</nav>
     </header>
     {% if kd %}
     {{ kd_card(kd, link_more=False) }}
@@ -25,6 +26,18 @@
     {{ kd_note(kd) }}
     {% else %}
     <div class="empty-box">尚無 KD 資料。</div>
+    {% endif %}
+    {% if mg %}
+    <section id="margin">
+      <h2 class="banner">💰 大盤融資維持率</h2>
+      {{ margin_card(mg, link_more=False) }}
+      <h3 class="section-title">近 {{ mg.chart|length }} 個交易日融資維持率走勢</h3>
+      <div class="kd-chart-wrap"><canvas id="mg-chart" height="240"></canvas></div>
+      <script type="application/json" id="mg-chart-data">{{ mg.chart_json|safe }}</script>
+      <h3 class="section-title">歷史紀錄（新到舊）</h3>
+      {{ margin_table(mg.full) }}
+      {{ margin_note(mg) }}
+    </section>
     {% endif %}
     <footer class="site-footer">
       <p>時區：Asia/Taipei。最後產生時間：{{ generated_at }}。</p>

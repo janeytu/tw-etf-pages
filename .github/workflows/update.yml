@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/snapshots data/changes data/last_run.json data/taiex site
+          git add data/snapshots data/changes data/last_run.json data/taiex data/margin site
           if git diff --staged --quiet; then
             echo "No data/site changes to commit"
           else
