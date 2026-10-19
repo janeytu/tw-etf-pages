@@ -1,0 +1,145 @@
+{
+  "etf_ticker": "00985A",
+  "as_of_date": "2026-10-19",
+  "prev_as_of_date": "2026-10-16",
+  "compared_at": "2026-10-19T18:56:56+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 7,
+    "decrease": 3,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3189",
+      "stock_name": "景碩科技",
+      "prev_shares": 0,
+      "curr_shares": 149000,
+      "shares_delta": 149000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8996",
+      "stock_name": "高力熱處理工業",
+      "prev_shares": 0,
+      "curr_shares": 1000,
+      "shares_delta": 1000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.01,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2344",
+      "stock_name": "華邦電子",
+      "prev_shares": 156000,
+      "curr_shares": 2294000,
+      "shares_delta": 2138000,
+      "prev_weight_pct": 0.08,
+      "curr_weight_pct": 1.21,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2327",
+      "stock_name": "國巨*",
+      "prev_shares": 770000,
+      "curr_shares": 999000,
+      "shares_delta": 229000,
+      "prev_weight_pct": 1.37,
+      "curr_weight_pct": 1.81,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技服務",
+      "prev_shares": 227036,
+      "curr_shares": 392036,
+      "shares_delta": 165000,
+      "prev_weight_pct": 1.32,
+      "curr_weight_pct": 2.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 340000,
+      "curr_shares": 462000,
+      "shares_delta": 122000,
+      "prev_weight_pct": 1.75,
+      "curr_weight_pct": 2.57,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦科技",
+      "prev_shares": 378000,
+      "curr_shares": 403000,
+      "shares_delta": 25000,
+      "prev_weight_pct": 2.35,
+      "curr_weight_pct": 2.74,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 160000,
+      "curr_shares": 168000,
+      "shares_delta": 8000,
+      "prev_weight_pct": 2.66,
+      "curr_weight_pct": 3.07,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電",
+      "prev_shares": 163000,
+      "curr_shares": 165000,
+      "shares_delta": 2000,
+      "prev_weight_pct": 2.65,
+      "curr_weight_pct": 2.87,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "1216",
+      "stock_name": "統一企業",
+      "prev_shares": 14442000,
+      "curr_shares": 11728000,
+      "shares_delta": -2714000,
+      "prev_weight_pct": 3.61,
+      "curr_weight_pct": 3.16,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 9139000,
+      "curr_shares": 7183000,
+      "shares_delta": -1956000,
+      "prev_weight_pct": 3.26,
+      "curr_weight_pct": 2.74,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞",
+      "prev_shares": 236000,
+      "curr_shares": 227000,
+      "shares_delta": -9000,
+      "prev_weight_pct": 1.89,
+      "curr_weight_pct": 1.98,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,256 @@
+{
+  "etf_ticker": "00881",
+  "as_of_date": "2026-10-19",
+  "source": "cathay",
+  "fetched_at": "2026-10-19T18:57:15+08:00",
+  "raw_file": "00881_2026-10-19_cathay.json",
+  "raw_file_hash": "24455735eb2f31082677a83c495a4a7c5decb84ca1aa8a6ee9b5e3f0bebe1db3",
+  "holdings_count": 34,
+  "placeholder_count": 3,
+  "meta": {
+    "source_url": "https://www.cathaysite.com.tw/ETF/detail/ECR?tab=etf3",
+    "api_url": "https://cwapi.cathaysite.com.tw/api/ETF/GetIndexStockWeights?fundCode=CR",
+    "fund_code": "CR",
+    "shares_note": "synthetic_from_weight_pct_x_1e6"
+  },
+  "holdings": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "shares": 39860000,
+      "weight_pct": 39.86,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "shares": 10080000,
+      "weight_pct": 10.08,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "shares": 5470000,
+      "weight_pct": 5.47,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2317",
+      "stock_name": "鴻海",
+      "shares": 4610000,
+      "weight_pct": 4.61,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興",
+      "shares": 2920000,
+      "weight_pct": 2.92,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "shares": 2650000,
+      "weight_pct": 2.65,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電",
+      "shares": 2650000,
+      "weight_pct": 2.65,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "shares": 2320000,
+      "weight_pct": 2.32,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦",
+      "shares": 2240000,
+      "weight_pct": 2.24,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖",
+      "shares": 2100000,
+      "weight_pct": 2.1,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2382",
+      "stock_name": "廣達",
+      "shares": 2000000,
+      "weight_pct": 2.0,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2360",
+      "stock_name": "致茂",
+      "shares": 1840000,
+      "weight_pct": 1.84,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "shares": 1810000,
+      "weight_pct": 1.81,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創",
+      "shares": 1660000,
+      "weight_pct": 1.66,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台  燿",
+      "shares": 1460000,
+      "weight_pct": 1.46,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "4958",
+      "stock_name": "臻鼎-KY",
+      "shares": 1460000,
+      "weight_pct": 1.46,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽",
+      "shares": 1380000,
+      "weight_pct": 1.38,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "shares": 1290000,
+      "weight_pct": 1.29,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱",
+      "shares": 1230000,
+      "weight_pct": 1.23,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "shares": 1140000,
+      "weight_pct": 1.14,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3034",
+      "stock_name": "聯詠",
+      "shares": 1120000,
+      "weight_pct": 1.12,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3044",
+      "stock_name": "健鼎",
+      "shares": 980000,
+      "weight_pct": 0.98,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2449",
+      "stock_name": "京元電子",
+      "shares": 960000,
+      "weight_pct": 0.96,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大",
+      "shares": 930000,
+      "weight_pct": 0.93,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳",
+      "shares": 900000,
+      "weight_pct": 0.9,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "2313",
+      "stock_name": "華通",
+      "shares": 820000,
+      "weight_pct": 0.82,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "8046",
+      "stock_name": "南電",
+      "shares": 540000,
+      "weight_pct": 0.54,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3189",
+      "stock_name": "景碩",
+      "shares": 530000,
+      "weight_pct": 0.53,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3081",
+      "stock_name": "聯  亞",
+      "shares": 410000,
+      "weight_pct": 0.41,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "6770",
+      "stock_name": "力積電",
+      "shares": 400000,
+      "weight_pct": 0.4,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴",
+      "shares": 30000,
+      "weight_pct": 0.03,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "3105",
+      "stock_name": "穩懋",
+      "shares": 0,
+      "weight_pct": 0.0,
+      "is_placeholder": true
+    },
+    {
+      "stock_code": "3036",
+      "stock_name": "文曄",
+      "shares": 0,
+      "weight_pct": 0.0,
+      "is_placeholder": true
+    },
+    {
+      "stock_code": "4938",
+      "stock_name": "和碩",
+      "shares": 0,
+      "weight_pct": 0.0,
+      "is_placeholder": true
+    }
+  ]
+}

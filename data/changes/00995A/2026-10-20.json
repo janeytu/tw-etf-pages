@@ -1,0 +1,54 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-19T18:57:03+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 1
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 25000,
+      "curr_shares": 35000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 1.72,
+      "curr_weight_pct": 2.52,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 15000,
+      "curr_shares": 16000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 2.48,
+      "curr_weight_pct": 2.84,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "6488",
+      "stock_name": "環球晶",
+      "prev_shares": 40000,
+      "curr_shares": 0,
+      "shares_delta": -40000,
+      "prev_weight_pct": 0.8,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

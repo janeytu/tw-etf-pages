@@ -1,0 +1,115 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-16",
+  "prev_as_of_date": "2026-10-15",
+  "compared_at": "2026-10-19T18:56:50+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 6,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "META US",
+      "stock_name": "META PLATFORMS INC(Meta平台公司)",
+      "prev_shares": 0,
+      "curr_shares": 25000,
+      "shares_delta": 25000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.26,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "6787 JP",
+      "stock_name": "MEIKO ELECTRONICS CO LTD",
+      "prev_shares": 165000,
+      "curr_shares": 220000,
+      "shares_delta": 55000,
+      "prev_weight_pct": 1.49,
+      "curr_weight_pct": 2.13,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 560000,
+      "curr_shares": 600000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 3.66,
+      "curr_weight_pct": 4.35,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "CRWD US",
+      "stock_name": "CROWDSTRIKE HOLDINGS INC - A",
+      "prev_shares": 150754,
+      "curr_shares": 185754,
+      "shares_delta": 35000,
+      "prev_weight_pct": 2.53,
+      "curr_weight_pct": 2.99,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "PLTR US",
+      "stock_name": "PALANTIR TECHNOLOGIES INC-A",
+      "prev_shares": 275000,
+      "curr_shares": 310000,
+      "shares_delta": 35000,
+      "prev_weight_pct": 3.79,
+      "curr_weight_pct": 4.08,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽",
+      "prev_shares": 80000,
+      "curr_shares": 110000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 0.9,
+      "curr_weight_pct": 1.25,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AMD US",
+      "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "prev_shares": 68000,
+      "curr_shares": 76000,
+      "shares_delta": 8000,
+      "prev_weight_pct": 2.63,
+      "curr_weight_pct": 2.84,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6981 JP",
+      "stock_name": "MURATA MANUFACTURING CO LTD",
+      "prev_shares": 650000,
+      "curr_shares": 500000,
+      "shares_delta": -150000,
+      "prev_weight_pct": 1.91,
+      "curr_weight_pct": 1.55,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "009150 KS",
+      "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+      "prev_shares": 53000,
+      "curr_shares": 46000,
+      "shares_delta": -7000,
+      "prev_weight_pct": 3.16,
+      "curr_weight_pct": 2.9,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": []
+}

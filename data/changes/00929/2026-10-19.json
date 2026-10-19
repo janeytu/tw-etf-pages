@@ -1,0 +1,53 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-10-19",
+  "prev_as_of_date": "2026-10-16",
+  "compared_at": "2026-10-19T18:57:21+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3702",
+      "stock_name": "大聯大控",
+      "prev_shares": 33944000,
+      "curr_shares": 35492000,
+      "shares_delta": 1548000,
+      "prev_weight_pct": 2.431,
+      "curr_weight_pct": 2.497,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2347",
+      "stock_name": "聯強國際",
+      "prev_shares": 52392000,
+      "curr_shares": 53513000,
+      "shares_delta": 1121000,
+      "prev_weight_pct": 3.317,
+      "curr_weight_pct": 3.321,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩電腦",
+      "prev_shares": 6577000,
+      "curr_shares": 6746000,
+      "shares_delta": 169000,
+      "prev_weight_pct": 4.019,
+      "curr_weight_pct": 4.021,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

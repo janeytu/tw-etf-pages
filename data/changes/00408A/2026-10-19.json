@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-10-19",
+  "prev_as_of_date": "2026-10-16",
+  "compared_at": "2026-10-19T18:57:02+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 4,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 12000,
+      "curr_shares": 14000,
+      "shares_delta": 2000,
+      "prev_weight_pct": 1.9,
+      "curr_weight_pct": 2.31,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 36998,
+      "curr_shares": 36999,
+      "shares_delta": 1,
+      "prev_weight_pct": 6.29,
+      "curr_weight_pct": 6.34,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6239",
+      "stock_name": "力成科技",
+      "prev_shares": 67000,
+      "curr_shares": 22000,
+      "shares_delta": -45000,
+      "prev_weight_pct": 1.29,
+      "curr_weight_pct": 0.41,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 30000,
+      "curr_shares": 22000,
+      "shares_delta": -8000,
+      "prev_weight_pct": 2.1,
+      "curr_weight_pct": 1.51,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 151000,
+      "curr_shares": 146000,
+      "shares_delta": -5000,
+      "prev_weight_pct": 1.41,
+      "curr_weight_pct": 1.36,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2327",
+      "stock_name": "國巨*",
+      "prev_shares": 23000,
+      "curr_shares": 20000,
+      "shares_delta": -3000,
+      "prev_weight_pct": 0.92,
+      "curr_weight_pct": 0.76,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
