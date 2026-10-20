@@ -1,0 +1,116 @@
+{
+  "etf_ticker": "00985A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:27+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 3,
+    "decrease": 3,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 0,
+      "curr_shares": 1538000,
+      "shares_delta": 1538000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6285",
+      "stock_name": "啟碁科技",
+      "prev_shares": 0,
+      "curr_shares": 934000,
+      "shares_delta": 934000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.79,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2317",
+      "stock_name": "鴻海精密工業",
+      "prev_shares": 1579000,
+      "curr_shares": 2225000,
+      "shares_delta": 646000,
+      "prev_weight_pct": 1.28,
+      "curr_weight_pct": 1.84,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6526",
+      "stock_name": "達發",
+      "prev_shares": 102000,
+      "curr_shares": 314000,
+      "shares_delta": 212000,
+      "prev_weight_pct": 0.27,
+      "curr_weight_pct": 0.86,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技服務",
+      "prev_shares": 392036,
+      "curr_shares": 537036,
+      "shares_delta": 145000,
+      "prev_weight_pct": 2.5,
+      "curr_weight_pct": 3.54,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "1216",
+      "stock_name": "統一企業",
+      "prev_shares": 11728000,
+      "curr_shares": 9243000,
+      "shares_delta": -2485000,
+      "prev_weight_pct": 3.16,
+      "curr_weight_pct": 2.48,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2609",
+      "stock_name": "陽明",
+      "prev_shares": 8425000,
+      "curr_shares": 6482000,
+      "shares_delta": -1943000,
+      "prev_weight_pct": 1.81,
+      "curr_weight_pct": 1.38,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 2059000,
+      "curr_shares": 1569000,
+      "shares_delta": -490000,
+      "prev_weight_pct": 1.83,
+      "curr_weight_pct": 1.4,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2881",
+      "stock_name": "富邦金融控股",
+      "prev_shares": 17000,
+      "curr_shares": 0,
+      "shares_delta": -17000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

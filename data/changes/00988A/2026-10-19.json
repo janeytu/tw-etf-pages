@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-19",
+  "prev_as_of_date": "2026-10-16",
+  "compared_at": "2026-10-20T18:54:22+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6787 JP",
+      "stock_name": "MEIKO ELECTRONICS CO LTD",
+      "prev_shares": 220000,
+      "curr_shares": 250000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 2.13,
+      "curr_weight_pct": 2.42,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 30000,
+      "curr_shares": 48000,
+      "shares_delta": 18000,
+      "prev_weight_pct": 0.49,
+      "curr_weight_pct": 0.81,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "MSFT US",
+      "stock_name": "MICROSOFT CORP(微軟公司)",
+      "prev_shares": 60000,
+      "curr_shares": 78000,
+      "shares_delta": 18000,
+      "prev_weight_pct": 2.25,
+      "curr_weight_pct": 2.92,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AAPL US",
+      "stock_name": "APPLE INC(蘋果公司)",
+      "prev_shares": 90000,
+      "curr_shares": 100000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 2.19,
+      "curr_weight_pct": 2.4,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "009150 KS",
+      "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+      "prev_shares": 46000,
+      "curr_shares": 40000,
+      "shares_delta": -6000,
+      "prev_weight_pct": 2.9,
+      "curr_weight_pct": 2.46,
+      "streak_days": 3
+    }
+  ],
+  "full_exit": []
+}

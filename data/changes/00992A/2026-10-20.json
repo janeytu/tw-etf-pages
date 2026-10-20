@@ -1,0 +1,44 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:25+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 0,
+      "curr_shares": 500000,
+      "shares_delta": 500000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.273,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3026",
+      "stock_name": "禾伸堂",
+      "prev_shares": 367000,
+      "curr_shares": 567000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 0.5902,
+      "curr_weight_pct": 0.9954,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

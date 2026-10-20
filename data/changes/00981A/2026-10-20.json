@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:20+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創",
+      "prev_shares": 0,
+      "curr_shares": 4703000,
+      "shares_delta": 4703000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.33,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2449",
+      "stock_name": "京元電子",
+      "prev_shares": 5151450,
+      "curr_shares": 6351450,
+      "shares_delta": 1200000,
+      "prev_weight_pct": 0.49,
+      "curr_weight_pct": 0.61,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 12392000,
+      "curr_shares": 12671000,
+      "shares_delta": 279000,
+      "prev_weight_pct": 10.86,
+      "curr_weight_pct": 11.3,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 769000,
+      "curr_shares": 819000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 0.65,
+      "curr_weight_pct": 0.7,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 6303000,
+      "curr_shares": 6343000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 7.58,
+      "curr_weight_pct": 7.82,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策",
+      "prev_shares": 2502000,
+      "curr_shares": 2512000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 5.95,
+      "curr_weight_pct": 6.19,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

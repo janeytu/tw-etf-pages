@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:46+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "8069",
+      "stock_name": "元太科技",
+      "prev_shares": 14913000,
+      "curr_shares": 15450000,
+      "shares_delta": 537000,
+      "prev_weight_pct": 1.439,
+      "curr_weight_pct": 1.484,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2303",
+      "stock_name": "聯華電子",
+      "prev_shares": 18289000,
+      "curr_shares": 18734000,
+      "shares_delta": 445000,
+      "prev_weight_pct": 1.478,
+      "curr_weight_pct": 1.465,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 38213000,
+      "curr_shares": 38629000,
+      "shares_delta": 416000,
+      "prev_weight_pct": 2.642,
+      "curr_weight_pct": 2.664,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3034",
+      "stock_name": "聯詠科技",
+      "prev_shares": 11210000,
+      "curr_shares": 11444000,
+      "shares_delta": 234000,
+      "prev_weight_pct": 4.03,
+      "curr_weight_pct": 4.002,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱半導",
+      "prev_shares": 6577000,
+      "curr_shares": 6744000,
+      "shares_delta": 167000,
+      "prev_weight_pct": 3.148,
+      "curr_weight_pct": 3.214,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

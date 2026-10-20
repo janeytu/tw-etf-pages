@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:22+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光電",
+      "prev_shares": 150000,
+      "curr_shares": 170000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 1.335,
+      "curr_weight_pct": 1.477,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 470000,
+      "curr_shares": 482000,
+      "shares_delta": 12000,
+      "prev_weight_pct": 6.644,
+      "curr_weight_pct": 7.081,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

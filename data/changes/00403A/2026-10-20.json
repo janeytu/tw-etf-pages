@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:24+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎",
+      "prev_shares": 1697956,
+      "curr_shares": 1850956,
+      "shares_delta": 153000,
+      "prev_weight_pct": 2.44,
+      "curr_weight_pct": 2.77,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1560",
+      "stock_name": "中砂",
+      "prev_shares": 300000,
+      "curr_shares": 400000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 0.2,
+      "curr_weight_pct": 0.27,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 2140000,
+      "curr_shares": 2200000,
+      "shares_delta": 60000,
+      "prev_weight_pct": 5.42,
+      "curr_weight_pct": 5.68,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖",
+      "prev_shares": 75000,
+      "curr_shares": 90000,
+      "shares_delta": 15000,
+      "prev_weight_pct": 0.57,
+      "curr_weight_pct": 0.71,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 15000000,
+      "curr_shares": 10000000,
+      "shares_delta": -5000000,
+      "prev_weight_pct": 1.5,
+      "curr_weight_pct": 0.99,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

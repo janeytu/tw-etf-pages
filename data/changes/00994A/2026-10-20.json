@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-20T18:54:31+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 0,
+      "curr_shares": 80000,
+      "shares_delta": 80000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.39,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2455",
+      "stock_name": "全新",
+      "prev_shares": 0,
+      "curr_shares": 25000,
+      "shares_delta": 25000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.31,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐科技",
+      "prev_shares": 67500,
+      "curr_shares": 75500,
+      "shares_delta": 8000,
+      "prev_weight_pct": 5.58,
+      "curr_weight_pct": 6.42,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8996",
+      "stock_name": "高力熱處理工業",
+      "prev_shares": 37000,
+      "curr_shares": 45000,
+      "shares_delta": 8000,
+      "prev_weight_pct": 1.41,
+      "curr_weight_pct": 1.78,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 11001,
+      "curr_shares": 13001,
+      "shares_delta": 2000,
+      "prev_weight_pct": 2.72,
+      "curr_weight_pct": 3.36,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "6239",
+      "stock_name": "力成科技",
+      "prev_shares": 100000,
+      "curr_shares": 0,
+      "shares_delta": -100000,
+      "prev_weight_pct": 0.66,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
