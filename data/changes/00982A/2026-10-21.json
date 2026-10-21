@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00982A",
+  "as_of_date": "2026-10-21",
+  "prev_as_of_date": "2026-10-20",
+  "compared_at": "2026-10-21T18:53:15+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 3638000,
+      "curr_shares": 4838000,
+      "shares_delta": 1200000,
+      "prev_weight_pct": 1.4838,
+      "curr_weight_pct": 1.9873,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6531",
+      "stock_name": "愛普科技",
+      "prev_shares": 2110000,
+      "curr_shares": 2290000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 3.6428,
+      "curr_weight_pct": 4.0088,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2360",
+      "stock_name": "致茂電子",
+      "prev_shares": 851000,
+      "curr_shares": 951000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 3.673,
+      "curr_weight_pct": 4.0267,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2478",
+      "stock_name": "大毅",
+      "prev_shares": 2199000,
+      "curr_shares": 1299000,
+      "shares_delta": -900000,
+      "prev_weight_pct": 0.5694,
+      "curr_weight_pct": 0.3461,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3090",
+      "stock_name": "日電貿",
+      "prev_shares": 1640000,
+      "curr_shares": 990000,
+      "shares_delta": -650000,
+      "prev_weight_pct": 0.5556,
+      "curr_weight_pct": 0.342,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": []
+}

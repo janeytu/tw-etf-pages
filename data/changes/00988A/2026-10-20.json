@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-20",
+  "prev_as_of_date": "2026-10-19",
+  "compared_at": "2026-10-21T18:53:07+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 4,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "600183 CH",
+      "stock_name": "Shengyi Technology Co Ltd-A.600183 ch",
+      "prev_shares": 0,
+      "curr_shares": 400000,
+      "shares_delta": 400000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "AAPL US",
+      "stock_name": "APPLE INC(蘋果公司)",
+      "prev_shares": 100000,
+      "curr_shares": 125000,
+      "shares_delta": 25000,
+      "prev_weight_pct": 2.4,
+      "curr_weight_pct": 3.01,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "5801 JP",
+      "stock_name": "FURUKAWA ELECTRIC CO LTD",
+      "prev_shares": 800000,
+      "curr_shares": 400000,
+      "shares_delta": -400000,
+      "prev_weight_pct": 1.18,
+      "curr_weight_pct": 0.56,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "HOOD US",
+      "stock_name": "ROBINHOOD MARKETS INC - A",
+      "prev_shares": 400120,
+      "curr_shares": 280000,
+      "shares_delta": -120120,
+      "prev_weight_pct": 2.71,
+      "curr_weight_pct": 1.95,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "COIN US",
+      "stock_name": "COINBASE GLOBAL INC -CLASS A",
+      "prev_shares": 70000,
+      "curr_shares": 35000,
+      "shares_delta": -35000,
+      "prev_weight_pct": 0.83,
+      "curr_weight_pct": 0.42,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "LITE US",
+      "stock_name": "LUMENTUM HOLDINGS INC",
+      "prev_shares": 92000,
+      "curr_shares": 82000,
+      "shares_delta": -10000,
+      "prev_weight_pct": 5.38,
+      "curr_weight_pct": 4.79,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,65 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-10-21",
+  "prev_as_of_date": "2026-10-20",
+  "compared_at": "2026-10-21T18:53:19+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 2,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 0,
+      "curr_shares": 1000,
+      "shares_delta": 1000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.58,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興",
+      "prev_shares": 29999,
+      "curr_shares": 40999,
+      "shares_delta": 11000,
+      "prev_weight_pct": 2.28,
+      "curr_weight_pct": 3.27,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 171000,
+      "curr_shares": 180000,
+      "shares_delta": 9000,
+      "prev_weight_pct": 3.64,
+      "curr_weight_pct": 4.18,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦科技",
+      "prev_shares": 6000,
+      "curr_shares": 5500,
+      "shares_delta": -500,
+      "prev_weight_pct": 0.85,
+      "curr_weight_pct": 0.72,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
