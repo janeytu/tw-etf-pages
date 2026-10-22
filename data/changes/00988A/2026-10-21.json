@@ -1,0 +1,115 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-21",
+  "prev_as_of_date": "2026-10-20",
+  "compared_at": "2026-10-22T18:47:57+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 1,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "600183 CH",
+      "stock_name": "Shengyi Technology Co Ltd-A.600183 ch",
+      "prev_shares": 400000,
+      "curr_shares": 660000,
+      "shares_delta": 260000,
+      "prev_weight_pct": 0.5,
+      "curr_weight_pct": 0.81,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "PLTR US",
+      "stock_name": "PALANTIR TECHNOLOGIES INC-A",
+      "prev_shares": 310000,
+      "curr_shares": 350000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 4.24,
+      "curr_weight_pct": 4.86,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 48000,
+      "curr_shares": 80000,
+      "shares_delta": 32000,
+      "prev_weight_pct": 0.81,
+      "curr_weight_pct": 1.36,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "BE US",
+      "stock_name": "BLOOM ENERGY CORP- A",
+      "prev_shares": 420000,
+      "curr_shares": 450000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 6.64,
+      "curr_weight_pct": 7.38,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "ZS US",
+      "stock_name": "ZSCALER INC",
+      "prev_shares": 50000,
+      "curr_shares": 75145,
+      "shares_delta": 25145,
+      "prev_weight_pct": 0.76,
+      "curr_weight_pct": 1.2,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AMD US",
+      "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "prev_shares": 76000,
+      "curr_shares": 100000,
+      "shares_delta": 24000,
+      "prev_weight_pct": 2.89,
+      "curr_weight_pct": 3.8,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 165000,
+      "curr_shares": 80000,
+      "shares_delta": -85000,
+      "prev_weight_pct": 1.49,
+      "curr_weight_pct": 0.7,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "5801 JP",
+      "stock_name": "FURUKAWA ELECTRIC CO LTD",
+      "prev_shares": 400000,
+      "curr_shares": 0,
+      "shares_delta": -400000,
+      "prev_weight_pct": 0.56,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "COIN US",
+      "stock_name": "COINBASE GLOBAL INC -CLASS A",
+      "prev_shares": 35000,
+      "curr_shares": 0,
+      "shares_delta": -35000,
+      "prev_weight_pct": 0.42,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

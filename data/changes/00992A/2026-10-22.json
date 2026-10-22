@@ -1,0 +1,33 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-10-22",
+  "prev_as_of_date": "2026-10-21",
+  "compared_at": "2026-10-22T18:48:01+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "6584",
+      "stock_name": "南俊國際",
+      "prev_shares": 1904000,
+      "curr_shares": 1884000,
+      "shares_delta": -20000,
+      "prev_weight_pct": 1.8986,
+      "curr_weight_pct": 1.8465,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

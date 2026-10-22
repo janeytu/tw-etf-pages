@@ -1,0 +1,96 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-10-23",
+  "prev_as_of_date": "2026-10-22",
+  "compared_at": "2026-10-22T18:48:10+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 3,
+    "full_exit": 2
+  },
+  "first_buy": [
+    {
+      "stock_code": "4770",
+      "stock_name": "上品綜合工業股份有限公司",
+      "prev_shares": 0,
+      "curr_shares": 70000,
+      "shares_delta": 70000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.48,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 220000,
+      "curr_shares": 340000,
+      "shares_delta": 120000,
+      "prev_weight_pct": 1.62,
+      "curr_weight_pct": 2.42,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 25000,
+      "curr_shares": 10000,
+      "shares_delta": -15000,
+      "prev_weight_pct": 0.86,
+      "curr_weight_pct": 0.34,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 15000,
+      "curr_shares": 5000,
+      "shares_delta": -10000,
+      "prev_weight_pct": 0.46,
+      "curr_weight_pct": 0.15,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴科技",
+      "prev_shares": 3000,
+      "curr_shares": 1000,
+      "shares_delta": -2000,
+      "prev_weight_pct": 0.34,
+      "curr_weight_pct": 0.11,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2467",
+      "stock_name": "志聖",
+      "prev_shares": 20000,
+      "curr_shares": 0,
+      "shares_delta": -20000,
+      "prev_weight_pct": 0.22,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8210",
+      "stock_name": "勤誠興業",
+      "prev_shares": 1000,
+      "curr_shares": 0,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.02,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

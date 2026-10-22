@@ -1,0 +1,114 @@
+{
+  "etf_ticker": "00985A",
+  "as_of_date": "2026-10-22",
+  "prev_as_of_date": "2026-10-21",
+  "compared_at": "2026-10-22T18:48:04+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 7,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1101",
+      "stock_name": "臺灣水泥",
+      "prev_shares": 14486000,
+      "curr_shares": 18842000,
+      "shares_delta": 4356000,
+      "prev_weight_pct": 1.32,
+      "curr_weight_pct": 1.82,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2610",
+      "stock_name": "華航",
+      "prev_shares": 23341000,
+      "curr_shares": 25735000,
+      "shares_delta": 2394000,
+      "prev_weight_pct": 1.61,
+      "curr_weight_pct": 1.82,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1402",
+      "stock_name": "遠東新",
+      "prev_shares": 15953000,
+      "curr_shares": 17903000,
+      "shares_delta": 1950000,
+      "prev_weight_pct": 1.55,
+      "curr_weight_pct": 1.79,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電信",
+      "prev_shares": 2818000,
+      "curr_shares": 4107000,
+      "shares_delta": 1289000,
+      "prev_weight_pct": 1.47,
+      "curr_weight_pct": 2.24,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2027",
+      "stock_name": "大成鋼",
+      "prev_shares": 10874000,
+      "curr_shares": 11562000,
+      "shares_delta": 688000,
+      "prev_weight_pct": 1.84,
+      "curr_weight_pct": 2.02,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3036",
+      "stock_name": "文曄",
+      "prev_shares": 3650000,
+      "curr_shares": 4137000,
+      "shares_delta": 487000,
+      "prev_weight_pct": 2.63,
+      "curr_weight_pct": 3.04,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 7183000,
+      "curr_shares": 7423000,
+      "shares_delta": 240000,
+      "prev_weight_pct": 2.73,
+      "curr_weight_pct": 2.95,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2408",
+      "stock_name": "南亞科技",
+      "prev_shares": 1092000,
+      "curr_shares": 833000,
+      "shares_delta": -259000,
+      "prev_weight_pct": 1.62,
+      "curr_weight_pct": 1.19,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐科技",
+      "prev_shares": 145000,
+      "curr_shares": 109000,
+      "shares_delta": -36000,
+      "prev_weight_pct": 1.59,
+      "curr_weight_pct": 1.18,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

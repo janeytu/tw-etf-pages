@@ -1,0 +1,44 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-10-22",
+  "prev_as_of_date": "2026-10-21",
+  "compared_at": "2026-10-22T18:48:10+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 0,
+    "decrease": 0,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "2891",
+      "stock_name": "中國信託金融控股",
+      "prev_shares": 0,
+      "curr_shares": 101000,
+      "shares_delta": 101000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.2,
+      "streak_days": 1
+    }
+  ],
+  "increase": [],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "2327",
+      "stock_name": "國巨*",
+      "prev_shares": 21000,
+      "curr_shares": 0,
+      "shares_delta": -21000,
+      "prev_weight_pct": 0.29,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

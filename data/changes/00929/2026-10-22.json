@@ -1,0 +1,103 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-10-22",
+  "prev_as_of_date": "2026-10-21",
+  "compared_at": "2026-10-22T18:48:27+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 8,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "5483",
+      "stock_name": "中美矽晶",
+      "prev_shares": 16339000,
+      "curr_shares": 17363000,
+      "shares_delta": 1024000,
+      "prev_weight_pct": 1.985,
+      "curr_weight_pct": 2.002,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2382",
+      "stock_name": "廣達電腦",
+      "prev_shares": 12946000,
+      "curr_shares": 13537000,
+      "shares_delta": 591000,
+      "prev_weight_pct": 2.597,
+      "curr_weight_pct": 2.702,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3090",
+      "stock_name": "日電貿股",
+      "prev_shares": 9541000,
+      "curr_shares": 10096000,
+      "shares_delta": 555000,
+      "prev_weight_pct": 0.955,
+      "curr_weight_pct": 0.979,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 22547000,
+      "curr_shares": 23047000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 2.684,
+      "curr_weight_pct": 2.715,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5434",
+      "stock_name": "崇越科技",
+      "prev_shares": 7188000,
+      "curr_shares": 7384000,
+      "shares_delta": 196000,
+      "prev_weight_pct": 2.515,
+      "curr_weight_pct": 2.518,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 10305000,
+      "curr_shares": 10474000,
+      "shares_delta": 169000,
+      "prev_weight_pct": 1.667,
+      "curr_weight_pct": 1.601,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6257",
+      "stock_name": "矽格股份",
+      "prev_shares": 11175000,
+      "curr_shares": 11293000,
+      "shares_delta": 118000,
+      "prev_weight_pct": 1.692,
+      "curr_weight_pct": 1.624,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱半導",
+      "prev_shares": 6744000,
+      "curr_shares": 6790000,
+      "shares_delta": 46000,
+      "prev_weight_pct": 3.261,
+      "curr_weight_pct": 3.25,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

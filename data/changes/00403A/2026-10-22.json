@@ -1,0 +1,54 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-10-22",
+  "prev_as_of_date": "2026-10-21",
+  "compared_at": "2026-10-22T18:48:01+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興",
+      "prev_shares": 7000000,
+      "curr_shares": 7200000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 5.9,
+      "curr_weight_pct": 6.17,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 2235000,
+      "curr_shares": 2275000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 5.54,
+      "curr_weight_pct": 5.65,
+      "streak_days": 3
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3653",
+      "stock_name": "健策",
+      "prev_shares": 1115000,
+      "curr_shares": 1000000,
+      "shares_delta": -115000,
+      "prev_weight_pct": 5.59,
+      "curr_weight_pct": 4.79,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
