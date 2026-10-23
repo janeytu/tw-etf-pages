@@ -2,14 +2,14 @@
   "etf_ticker": "00994A",
   "as_of_date": "2026-10-22",
   "source": "zdsetf",
-  "fetched_at": "2026-10-23T18:49:29+08:00",
+  "fetched_at": "2026-10-23T22:11:13+08:00",
   "raw_file": "00994A_2026-10-23_zdsetf.json",
-  "raw_file_hash": "535ba2e05068c0bab8e7f5df2d6f537c9f1ad20a8a0019f39203c28cbfc1cb49",
+  "raw_file_hash": "3b8d171afd6e90695e571580c838cce7de9599fd7b73672e03f2a54d961bf933",
   "holdings_count": 40,
   "placeholder_count": 0,
   "meta": {
     "source_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182",
-    "fetched_at_upstream": "2026-10-23T09:40:53"
+    "fetched_at_upstream": "2026-10-23T12:21:23"
   },
   "holdings": [
     {
@@ -244,20 +244,6 @@
       "is_placeholder": false
     },
     {
-      "stock_code": "6488",
-      "stock_name": "環球晶",
-      "shares": 15000,
-      "weight_pct": 0.32,
-      "is_placeholder": false
-    },
-    {
-      "stock_code": "6510",
-      "stock_name": "精測",
-      "shares": 4000,
-      "weight_pct": 0.32,
-      "is_placeholder": false
-    },
-    {
       "stock_code": "6526",
       "stock_name": "達發",
       "shares": 16000,
@@ -268,6 +254,20 @@
       "stock_code": "3264",
       "stock_name": "欣銓科技",
       "shares": 49000,
+      "weight_pct": 0.32,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "6488",
+      "stock_name": "環球晶",
+      "shares": 15000,
+      "weight_pct": 0.32,
+      "is_placeholder": false
+    },
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "shares": 4000,
       "weight_pct": 0.32,
       "is_placeholder": false
     },
