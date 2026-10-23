@@ -2,14 +2,14 @@
   "etf_ticker": "00994A",
   "as_of_date": "2026-10-22",
   "source": "zdsetf",
-  "fetched_at": "2026-10-22T22:29:18+08:00",
-  "raw_file": "00994A_2026-10-22_zdsetf.json",
-  "raw_file_hash": "75648652efe6b909e723a90c9cca01db6d7f178313154deb77946e1aadabfe26",
+  "fetched_at": "2026-10-23T18:49:29+08:00",
+  "raw_file": "00994A_2026-10-23_zdsetf.json",
+  "raw_file_hash": "535ba2e05068c0bab8e7f5df2d6f537c9f1ad20a8a0019f39203c28cbfc1cb49",
   "holdings_count": 40,
   "placeholder_count": 0,
   "meta": {
     "source_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182",
-    "fetched_at_upstream": "2026-10-22T12:20:50"
+    "fetched_at_upstream": "2026-10-23T09:40:53"
   },
   "holdings": [
     {
@@ -251,6 +251,13 @@
       "is_placeholder": false
     },
     {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "shares": 4000,
+      "weight_pct": 0.32,
+      "is_placeholder": false
+    },
+    {
       "stock_code": "6526",
       "stock_name": "達發",
       "shares": 16000,
@@ -261,13 +268,6 @@
       "stock_code": "3264",
       "stock_name": "欣銓科技",
       "shares": 49000,
-      "weight_pct": 0.32,
-      "is_placeholder": false
-    },
-    {
-      "stock_code": "6510",
-      "stock_name": "精測",
-      "shares": 4000,
       "weight_pct": 0.32,
       "is_placeholder": false
     },
