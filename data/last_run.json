@@ -1,8 +1,12 @@
 {
   "mode": "live",
-  "generated_at": "2026-10-23T22:11:44+08:00",
+  "generated_at": "2026-10-24T21:09:30+08:00",
   "errors": [
+    "0050: Yuanta curl failed rc=22: 'curl: (22) The requested URL returned error: 404\\n' (requests: Yuanta ratio HTTP 404: https://www.yuantaetfs.com/product/detail/0050/ratio)",
+    "0056: Yuanta curl failed rc=22: 'curl: (22) The requested URL returned error: 404\\n' (requests: Yuanta ratio HTTP 404: https://www.yuantaetfs.com/product/detail/0056/ratio)",
+    "00713: Yuanta curl failed rc=22: 'curl: (22) The requested URL returned error: 404\\n' (requests: Yuanta ratio HTTP 404: https://www.yuantaetfs.com/product/detail/00713/ratio)",
     "00881: Cathay weights HTTP 403: https://cwapi.cathaysite.com.tw/api/ETF/GetIndexStockWeights?fundCode=CR",
-    "00878: Cathay weights HTTP 403: https://cwapi.cathaysite.com.tw/api/ETF/GetIndexStockWeights?fundCode=CN"
+    "00878: Cathay weights HTTP 403: https://cwapi.cathaysite.com.tw/api/ETF/GetIndexStockWeights?fundCode=CN",
+    "00940: Yuanta curl failed rc=22: 'curl: (22) The requested URL returned error: 404\\n' (requests: Yuanta ratio HTTP 404: https://www.yuantaetfs.com/product/detail/00940/ratio)"
   ]
 }
