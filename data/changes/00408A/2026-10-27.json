@@ -1,0 +1,65 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-10-27",
+  "prev_as_of_date": "2026-10-22",
+  "compared_at": "2026-10-27T23:05:50+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 1,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 0,
+      "curr_shares": 1000,
+      "shares_delta": 1000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.01,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2408",
+      "stock_name": "南亞科技",
+      "prev_shares": 42000,
+      "curr_shares": 61000,
+      "shares_delta": 19000,
+      "prev_weight_pct": 1.3,
+      "curr_weight_pct": 1.95,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 7899,
+      "curr_shares": 2899,
+      "shares_delta": -5000,
+      "prev_weight_pct": 1.1,
+      "curr_weight_pct": 0.37,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 32000,
+      "curr_shares": 29000,
+      "shares_delta": -3000,
+      "prev_weight_pct": 3.39,
+      "curr_weight_pct": 2.69,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

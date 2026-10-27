@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00401A",
+  "as_of_date": "2026-10-27",
+  "prev_as_of_date": "2026-10-26",
+  "compared_at": "2026-10-27T23:05:49+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 3,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 237000,
+      "curr_shares": 264000,
+      "shares_delta": 27000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 20665,
+      "curr_shares": 26665,
+      "shares_delta": 6000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2360",
+      "stock_name": "致茂電子",
+      "prev_shares": 25220,
+      "curr_shares": 30220,
+      "shares_delta": 5000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興",
+      "prev_shares": 80600,
+      "curr_shares": 73600,
+      "shares_delta": -7000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦科技",
+      "prev_shares": 6523,
+      "curr_shares": 2523,
+      "shares_delta": -4000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 7000,
+      "curr_shares": 6000,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

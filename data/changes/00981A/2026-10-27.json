@@ -1,0 +1,114 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-10-27",
+  "prev_as_of_date": "2026-10-22",
+  "compared_at": "2026-10-27T23:05:39+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 7,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 8895000,
+      "curr_shares": 9968000,
+      "shares_delta": 1073000,
+      "prev_weight_pct": 2.18,
+      "curr_weight_pct": 2.44,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2449",
+      "stock_name": "京元電子",
+      "prev_shares": 6587450,
+      "curr_shares": 7556450,
+      "shares_delta": 969000,
+      "prev_weight_pct": 0.65,
+      "curr_weight_pct": 0.76,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 12671000,
+      "curr_shares": 13046000,
+      "shares_delta": 375000,
+      "prev_weight_pct": 11.34,
+      "curr_weight_pct": 11.75,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 5143000,
+      "curr_shares": 5233000,
+      "shares_delta": 90000,
+      "prev_weight_pct": 7.74,
+      "curr_weight_pct": 7.78,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 6899000,
+      "curr_shares": 6979000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 2.89,
+      "curr_weight_pct": 2.83,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 6457000,
+      "curr_shares": 6537000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 7.62,
+      "curr_weight_pct": 7.68,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 919000,
+      "curr_shares": 969000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 0.81,
+      "curr_weight_pct": 0.82,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "8210",
+      "stock_name": "勤誠",
+      "prev_shares": 478000,
+      "curr_shares": 378000,
+      "shares_delta": -100000,
+      "prev_weight_pct": 0.14,
+      "curr_weight_pct": 0.11,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴",
+      "prev_shares": 93000,
+      "curr_shares": 85000,
+      "shares_delta": -8000,
+      "prev_weight_pct": 0.17,
+      "curr_weight_pct": 0.15,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

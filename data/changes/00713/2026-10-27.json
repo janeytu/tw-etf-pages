@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "00713",
+  "as_of_date": "2026-10-27",
+  "prev_as_of_date": "2026-10-22",
+  "compared_at": "2026-10-27T23:05:58+08:00",
+  "source": "yuanta",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2884",
+      "stock_name": "玉山金",
+      "prev_shares": 126592567,
+      "curr_shares": 127930567,
+      "shares_delta": 1338000,
+      "prev_weight_pct": 5.63,
+      "curr_weight_pct": 5.62,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2845",
+      "stock_name": "遠東銀",
+      "prev_shares": 104971502,
+      "curr_shares": 105334502,
+      "shares_delta": 363000,
+      "prev_weight_pct": 1.25,
+      "curr_weight_pct": 1.25,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1477",
+      "stock_name": "聚陽",
+      "prev_shares": 5379000,
+      "curr_shares": 5435000,
+      "shares_delta": 56000,
+      "prev_weight_pct": 1.0,
+      "curr_weight_pct": 1.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2458",
+      "stock_name": "義隆",
+      "prev_shares": 7268000,
+      "curr_shares": 7316000,
+      "shares_delta": 48000,
+      "prev_weight_pct": 0.84,
+      "curr_weight_pct": 0.85,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2385",
+      "stock_name": "群光",
+      "prev_shares": 7925000,
+      "curr_shares": 7946000,
+      "shares_delta": 21000,
+      "prev_weight_pct": 0.71,
+      "curr_weight_pct": 0.73,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2376",
+      "stock_name": "技嘉",
+      "prev_shares": 2943000,
+      "curr_shares": 2947000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 0.92,
+      "curr_weight_pct": 0.94,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
