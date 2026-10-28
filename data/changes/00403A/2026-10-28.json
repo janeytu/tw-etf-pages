@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-10-28",
+  "prev_as_of_date": "2026-10-27",
+  "compared_at": "2026-10-28T23:41:22+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 400000,
+      "curr_shares": 900000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 0.21,
+      "curr_weight_pct": 0.47,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1560",
+      "stock_name": "中砂",
+      "prev_shares": 480000,
+      "curr_shares": 550000,
+      "shares_delta": 70000,
+      "prev_weight_pct": 0.32,
+      "curr_weight_pct": 0.38,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 1500000,
+      "curr_shares": 1530000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 4.7,
+      "curr_weight_pct": 4.92,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 680000,
+      "curr_shares": 710000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 4.0,
+      "curr_weight_pct": 4.4,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 2900000,
+      "curr_shares": 2658000,
+      "shares_delta": -242000,
+      "prev_weight_pct": 3.47,
+      "curr_weight_pct": 3.13,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3583",
+      "stock_name": "辛耘",
+      "prev_shares": 800000,
+      "curr_shares": 723000,
+      "shares_delta": -77000,
+      "prev_weight_pct": 0.37,
+      "curr_weight_pct": 0.34,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

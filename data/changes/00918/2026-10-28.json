@@ -1,0 +1,63 @@
+{
+  "etf_ticker": "00918",
+  "as_of_date": "2026-10-28",
+  "prev_as_of_date": "2026-10-27",
+  "compared_at": "2026-10-28T23:41:45+08:00",
+  "source": "uobam",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 4,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2801",
+      "stock_name": "彰銀",
+      "prev_shares": 212357500,
+      "curr_shares": 211001500,
+      "shares_delta": -1356000,
+      "prev_weight_pct": 3.91,
+      "curr_weight_pct": 3.86,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 289354380,
+      "curr_shares": 288333380,
+      "shares_delta": -1021000,
+      "prev_weight_pct": 7.45,
+      "curr_weight_pct": 7.41,
+      "streak_days": 4
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 12088000,
+      "curr_shares": 11877000,
+      "shares_delta": -211000,
+      "prev_weight_pct": 7.13,
+      "curr_weight_pct": 7.18,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2892",
+      "stock_name": "第一金",
+      "prev_shares": 175231000,
+      "curr_shares": 175079000,
+      "shares_delta": -152000,
+      "prev_weight_pct": 4.61,
+      "curr_weight_pct": 4.58,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

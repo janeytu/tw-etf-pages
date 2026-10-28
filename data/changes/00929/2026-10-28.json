@@ -1,0 +1,103 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-10-28",
+  "prev_as_of_date": "2026-10-27",
+  "compared_at": "2026-10-28T23:41:47+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 8,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6121",
+      "stock_name": "新普科技",
+      "prev_shares": 6478000,
+      "curr_shares": 6873000,
+      "shares_delta": 395000,
+      "prev_weight_pct": 1.489,
+      "curr_weight_pct": 1.584,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8069",
+      "stock_name": "元太科技",
+      "prev_shares": 15971000,
+      "curr_shares": 16279000,
+      "shares_delta": 308000,
+      "prev_weight_pct": 1.537,
+      "curr_weight_pct": 1.532,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2474",
+      "stock_name": "可成科技",
+      "prev_shares": 24242000,
+      "curr_shares": 24487000,
+      "shares_delta": 245000,
+      "prev_weight_pct": 2.943,
+      "curr_weight_pct": 2.94,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3034",
+      "stock_name": "聯詠科技",
+      "prev_shares": 11444000,
+      "curr_shares": 11602000,
+      "shares_delta": 158000,
+      "prev_weight_pct": 4.203,
+      "curr_weight_pct": 4.186,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 40199000,
+      "curr_shares": 40333000,
+      "shares_delta": 134000,
+      "prev_weight_pct": 2.81,
+      "curr_weight_pct": 2.726,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6409",
+      "stock_name": "旭隼科技",
+      "prev_shares": 4101000,
+      "curr_shares": 4194000,
+      "shares_delta": 93000,
+      "prev_weight_pct": 2.411,
+      "curr_weight_pct": 2.361,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 10474000,
+      "curr_shares": 10559000,
+      "shares_delta": 85000,
+      "prev_weight_pct": 1.593,
+      "curr_weight_pct": 1.513,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5269",
+      "stock_name": "祥碩科技",
+      "prev_shares": 2388000,
+      "curr_shares": 2425000,
+      "shares_delta": 37000,
+      "prev_weight_pct": 2.189,
+      "curr_weight_pct": 2.202,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

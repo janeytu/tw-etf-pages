@@ -1,0 +1,33 @@
+{
+  "etf_ticker": "00987A",
+  "as_of_date": "2026-10-28",
+  "prev_as_of_date": "2026-10-27",
+  "compared_at": "2026-10-28T23:41:30+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "8996",
+      "stock_name": "高力熱處理工業",
+      "prev_shares": 35000,
+      "curr_shares": 43000,
+      "shares_delta": 8000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
