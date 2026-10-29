@@ -1,0 +1,124 @@
+{
+  "etf_ticker": "00985A",
+  "as_of_date": "2026-10-29",
+  "prev_as_of_date": "2026-10-28",
+  "compared_at": "2026-10-29T23:48:41+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 4,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 3110000,
+      "curr_shares": 4268000,
+      "shares_delta": 1158000,
+      "prev_weight_pct": 1.34,
+      "curr_weight_pct": 1.69,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6446",
+      "stock_name": "藥華醫藥",
+      "prev_shares": 605000,
+      "curr_shares": 713000,
+      "shares_delta": 108000,
+      "prev_weight_pct": 2.44,
+      "curr_weight_pct": 3.03,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 462000,
+      "curr_shares": 528000,
+      "shares_delta": 66000,
+      "prev_weight_pct": 2.41,
+      "curr_weight_pct": 2.68,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "7750",
+      "stock_name": "新  代",
+      "prev_shares": 132000,
+      "curr_shares": 183000,
+      "shares_delta": 51000,
+      "prev_weight_pct": 0.89,
+      "curr_weight_pct": 1.31,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 211000,
+      "curr_shares": 258000,
+      "shares_delta": 47000,
+      "prev_weight_pct": 1.29,
+      "curr_weight_pct": 1.51,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 102000,
+      "curr_shares": 126000,
+      "shares_delta": 24000,
+      "prev_weight_pct": 1.45,
+      "curr_weight_pct": 1.74,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "1216",
+      "stock_name": "統一企業",
+      "prev_shares": 9243000,
+      "curr_shares": 8135000,
+      "shares_delta": -1108000,
+      "prev_weight_pct": 2.45,
+      "curr_weight_pct": 2.2,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 7423000,
+      "curr_shares": 6471000,
+      "shares_delta": -952000,
+      "prev_weight_pct": 2.8,
+      "curr_weight_pct": 2.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3105",
+      "stock_name": "穩懋",
+      "prev_shares": 666000,
+      "curr_shares": 49000,
+      "shares_delta": -617000,
+      "prev_weight_pct": 1.21,
+      "curr_weight_pct": 0.1,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技服務",
+      "prev_shares": 575036,
+      "curr_shares": 463036,
+      "shares_delta": -112000,
+      "prev_weight_pct": 3.78,
+      "curr_weight_pct": 2.99,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

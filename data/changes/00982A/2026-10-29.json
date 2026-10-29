@@ -1,0 +1,64 @@
+{
+  "etf_ticker": "00982A",
+  "as_of_date": "2026-10-29",
+  "prev_as_of_date": "2026-10-28",
+  "compared_at": "2026-10-29T23:48:43+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "8070",
+      "stock_name": "長華*",
+      "prev_shares": 4343000,
+      "curr_shares": 6343000,
+      "shares_delta": 2000000,
+      "prev_weight_pct": 0.465,
+      "curr_weight_pct": 0.6855,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3105",
+      "stock_name": "穩懋",
+      "prev_shares": 5709000,
+      "curr_shares": 7059000,
+      "shares_delta": 1350000,
+      "prev_weight_pct": 6.4344,
+      "curr_weight_pct": 8.9383,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投資控股",
+      "prev_shares": 954000,
+      "curr_shares": 1354000,
+      "shares_delta": 400000,
+      "prev_weight_pct": 1.3838,
+      "curr_weight_pct": 1.9713,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技服務",
+      "prev_shares": 592225,
+      "curr_shares": 586225,
+      "shares_delta": -6000,
+      "prev_weight_pct": 2.4103,
+      "curr_weight_pct": 2.3555,
+      "streak_days": 4
+    }
+  ],
+  "full_exit": []
+}

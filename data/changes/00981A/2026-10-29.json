@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-10-29",
+  "prev_as_of_date": "2026-10-28",
+  "compared_at": "2026-10-29T23:48:33+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓",
+      "prev_shares": 4827000,
+      "curr_shares": 5027000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 0.41,
+      "curr_weight_pct": 0.44,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 1126000,
+      "curr_shares": 1206000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 0.99,
+      "curr_weight_pct": 1.07,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "8046",
+      "stock_name": "南電",
+      "prev_shares": 8937000,
+      "curr_shares": 8987000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 4.15,
+      "curr_weight_pct": 4.12,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 7224000,
+      "curr_shares": 7262000,
+      "shares_delta": 38000,
+      "prev_weight_pct": 3.55,
+      "curr_weight_pct": 3.7,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5274",
+      "stock_name": "信驊",
+      "prev_shares": 223900,
+      "curr_shares": 238900,
+      "shares_delta": 15000,
+      "prev_weight_pct": 1.38,
+      "curr_weight_pct": 1.49,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴",
+      "prev_shares": 77000,
+      "curr_shares": 69000,
+      "shares_delta": -8000,
+      "prev_weight_pct": 0.14,
+      "curr_weight_pct": 0.12,
+      "streak_days": 3
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,75 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-10-29",
+  "prev_as_of_date": "2026-10-28",
+  "compared_at": "2026-10-29T23:48:46+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 3,
+    "full_exit": 1
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 1000,
+      "curr_shares": 11000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": 0.11,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 146000,
+      "curr_shares": 106000,
+      "shares_delta": -40000,
+      "prev_weight_pct": 1.3,
+      "curr_weight_pct": 0.87,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 17000,
+      "curr_shares": 8000,
+      "shares_delta": -9000,
+      "prev_weight_pct": 1.17,
+      "curr_weight_pct": 0.54,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 22899,
+      "curr_shares": 16899,
+      "shares_delta": -6000,
+      "prev_weight_pct": 2.47,
+      "curr_weight_pct": 1.78,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2376",
+      "stock_name": "技嘉",
+      "prev_shares": 55000,
+      "curr_shares": 0,
+      "shares_delta": -55000,
+      "prev_weight_pct": 1.39,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

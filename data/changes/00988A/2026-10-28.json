@@ -1,0 +1,64 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-10-28",
+  "prev_as_of_date": "2026-10-27",
+  "compared_at": "2026-10-29T23:48:35+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 2250000,
+      "curr_shares": 2825000,
+      "shares_delta": 575000,
+      "prev_weight_pct": 1.44,
+      "curr_weight_pct": 1.91,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "MSFT US",
+      "stock_name": "MICROSOFT CORP(微軟公司)",
+      "prev_shares": 78000,
+      "curr_shares": 103000,
+      "shares_delta": 25000,
+      "prev_weight_pct": 2.89,
+      "curr_weight_pct": 3.75,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "HOOD US",
+      "stock_name": "ROBINHOOD MARKETS INC - A",
+      "prev_shares": 280000,
+      "curr_shares": 0,
+      "shares_delta": -280000,
+      "prev_weight_pct": 1.84,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "300757 CH",
+      "stock_name": "ROBOTECHNIK INTELLIGENT TE-A",
+      "prev_shares": 85748,
+      "curr_shares": 0,
+      "shares_delta": -85748,
+      "prev_weight_pct": 0.33,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
