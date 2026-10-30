@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-10-30",
+  "prev_as_of_date": "2026-10-29",
+  "compared_at": "2026-10-30T23:29:47+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 3
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 70000,
+      "curr_shares": 88000,
+      "shares_delta": 18000,
+      "prev_weight_pct": 1.3,
+      "curr_weight_pct": 1.76,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 11000,
+      "curr_shares": 12000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.11,
+      "curr_weight_pct": 0.12,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 70000,
+      "curr_shares": 71000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.94,
+      "curr_weight_pct": 0.96,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "6488",
+      "stock_name": "環球晶",
+      "prev_shares": 14000,
+      "curr_shares": 0,
+      "shares_delta": -14000,
+      "prev_weight_pct": 0.81,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 8000,
+      "curr_shares": 0,
+      "shares_delta": -8000,
+      "prev_weight_pct": 0.54,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 2000,
+      "curr_shares": 0,
+      "shares_delta": -2000,
+      "prev_weight_pct": 0.83,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-10-30",
+  "prev_as_of_date": "2026-10-29",
+  "compared_at": "2026-10-30T23:29:34+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 11944000,
+      "curr_shares": 13588000,
+      "shares_delta": 1644000,
+      "prev_weight_pct": 2.99,
+      "curr_weight_pct": 3.42,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 1206000,
+      "curr_shares": 1412000,
+      "shares_delta": 206000,
+      "prev_weight_pct": 1.07,
+      "curr_weight_pct": 1.27,
+      "streak_days": 4
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 13046000,
+      "curr_shares": 13251000,
+      "shares_delta": 205000,
+      "prev_weight_pct": 11.56,
+      "curr_weight_pct": 11.84,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 6537000,
+      "curr_shares": 6616000,
+      "shares_delta": 79000,
+      "prev_weight_pct": 7.45,
+      "curr_weight_pct": 7.72,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 5306000,
+      "curr_shares": 5367000,
+      "shares_delta": 61000,
+      "prev_weight_pct": 7.88,
+      "curr_weight_pct": 7.92,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

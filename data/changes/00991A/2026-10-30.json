@@ -1,0 +1,104 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-10-30",
+  "prev_as_of_date": "2026-10-29",
+  "compared_at": "2026-10-30T23:29:37+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 7,
+    "decrease": 0,
+    "full_exit": 1
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞塑膠",
+      "prev_shares": 10200000,
+      "curr_shares": 11000000,
+      "shares_delta": 800000,
+      "prev_weight_pct": 4.55,
+      "curr_weight_pct": 4.839,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投",
+      "prev_shares": 2400000,
+      "curr_shares": 3000000,
+      "shares_delta": 600000,
+      "prev_weight_pct": 2.344,
+      "curr_weight_pct": 2.979,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8046",
+      "stock_name": "南亞電路",
+      "prev_shares": 3400000,
+      "curr_shares": 3500000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 6.077,
+      "curr_weight_pct": 6.19,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐科技",
+      "prev_shares": 1400000,
+      "curr_shares": 1430000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 6.216,
+      "curr_weight_pct": 6.578,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3189",
+      "stock_name": "景碩科技",
+      "prev_shares": 4620000,
+      "curr_shares": 4650000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 6.335,
+      "curr_weight_pct": 6.441,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策精密",
+      "prev_shares": 350000,
+      "curr_shares": 365000,
+      "shares_delta": 15000,
+      "prev_weight_pct": 3.205,
+      "curr_weight_pct": 3.426,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 482000,
+      "curr_shares": 485000,
+      "shares_delta": 3000,
+      "prev_weight_pct": 6.809,
+      "curr_weight_pct": 6.956,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光電",
+      "prev_shares": 170000,
+      "curr_shares": 0,
+      "shares_delta": -170000,
+      "prev_weight_pct": 1.413,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "etf_ticker": "00918",
+  "as_of_date": "2026-10-30",
+  "prev_as_of_date": "2026-10-29",
+  "compared_at": "2026-10-30T23:30:02+08:00",
+  "source": "uobam",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 9,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 287733380,
+      "curr_shares": 294943380,
+      "shares_delta": 7210000,
+      "prev_weight_pct": 7.52,
+      "curr_weight_pct": 7.69,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2884",
+      "stock_name": "玉山金",
+      "prev_shares": 205151000,
+      "curr_shares": 209712000,
+      "shares_delta": 4561000,
+      "prev_weight_pct": 6.2,
+      "curr_weight_pct": 6.34,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2892",
+      "stock_name": "第一金",
+      "prev_shares": 174058000,
+      "curr_shares": 177160000,
+      "shares_delta": 3102000,
+      "prev_weight_pct": 4.77,
+      "curr_weight_pct": 4.87,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 126897000,
+      "curr_shares": 129153000,
+      "shares_delta": 2256000,
+      "prev_weight_pct": 5.89,
+      "curr_weight_pct": 6.04,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2801",
+      "stock_name": "彰銀",
+      "prev_shares": 210498500,
+      "curr_shares": 211500500,
+      "shares_delta": 1002000,
+      "prev_weight_pct": 3.96,
+      "curr_weight_pct": 4.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2890",
+      "stock_name": "永豐金",
+      "prev_shares": 169724200,
+      "curr_shares": 170256200,
+      "shares_delta": 532000,
+      "prev_weight_pct": 4.86,
+      "curr_weight_pct": 4.88,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 11877000,
+      "curr_shares": 12003000,
+      "shares_delta": 126000,
+      "prev_weight_pct": 6.95,
+      "curr_weight_pct": 6.71,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 42081000,
+      "curr_shares": 42182000,
+      "shares_delta": 101000,
+      "prev_weight_pct": 6.77,
+      "curr_weight_pct": 7.06,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱",
+      "prev_shares": 8694000,
+      "curr_shares": 8734000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 4.25,
+      "curr_weight_pct": 4.33,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

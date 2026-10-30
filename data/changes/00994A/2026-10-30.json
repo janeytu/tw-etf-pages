@@ -1,0 +1,74 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-10-30",
+  "prev_as_of_date": "2026-10-29",
+  "compared_at": "2026-10-30T23:29:48+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 128000,
+      "curr_shares": 129000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.87,
+      "curr_weight_pct": 0.95,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 3000,
+      "curr_shares": 4000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": 0.01,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 80000,
+      "curr_shares": 81000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.39,
+      "curr_weight_pct": 0.4,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦科技",
+      "prev_shares": 23000,
+      "curr_shares": 0,
+      "shares_delta": -23000,
+      "prev_weight_pct": 1.06,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 3000,
+      "curr_shares": 0,
+      "shares_delta": -3000,
+      "prev_weight_pct": 0.46,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

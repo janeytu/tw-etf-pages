@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-10-30",
+  "prev_as_of_date": "2026-10-29",
+  "compared_at": "2026-10-30T23:31:06+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "4938",
+      "stock_name": "和碩",
+      "prev_shares": 141680000,
+      "curr_shares": 143030000,
+      "shares_delta": 1350000,
+      "prev_weight_pct": 2.33,
+      "curr_weight_pct": 2.31,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 38650000,
+      "curr_shares": 38750000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 5.77,
+      "curr_weight_pct": 5.54,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
