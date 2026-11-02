@@ -1,0 +1,44 @@
+{
+  "etf_ticker": "00982A",
+  "as_of_date": "2026-11-02",
+  "prev_as_of_date": "2026-10-30",
+  "compared_at": "2026-11-03T03:05:18+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 786000,
+      "curr_shares": 787000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 6.778,
+      "curr_weight_pct": 6.8777,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎科技服務",
+      "prev_shares": 586225,
+      "curr_shares": 506225,
+      "shares_delta": -80000,
+      "prev_weight_pct": 2.3371,
+      "curr_weight_pct": 2.0281,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

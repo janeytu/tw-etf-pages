@@ -1,0 +1,103 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-02",
+  "prev_as_of_date": "2026-10-30",
+  "compared_at": "2026-11-03T03:05:12+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 8,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞塑膠",
+      "prev_shares": 11000000,
+      "curr_shares": 11200000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 4.839,
+      "curr_weight_pct": 5.002,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投",
+      "prev_shares": 3000000,
+      "curr_shares": 3100000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 2.979,
+      "curr_weight_pct": 3.1,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興電子",
+      "prev_shares": 5350000,
+      "curr_shares": 5410000,
+      "shares_delta": 60000,
+      "prev_weight_pct": 7.864,
+      "curr_weight_pct": 8.004,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8046",
+      "stock_name": "南亞電路",
+      "prev_shares": 3500000,
+      "curr_shares": 3550000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 6.19,
+      "curr_weight_pct": 6.242,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐科技",
+      "prev_shares": 1430000,
+      "curr_shares": 1450000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 6.578,
+      "curr_weight_pct": 6.584,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 1050000,
+      "curr_shares": 1065000,
+      "shares_delta": 15000,
+      "prev_weight_pct": 6.11,
+      "curr_weight_pct": 6.274,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策精密",
+      "prev_shares": 365000,
+      "curr_shares": 375000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 3.426,
+      "curr_weight_pct": 3.517,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "5274",
+      "stock_name": "信驊科技",
+      "prev_shares": 110500,
+      "curr_shares": 115500,
+      "shares_delta": 5000,
+      "prev_weight_pct": 2.623,
+      "curr_weight_pct": 2.678,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
