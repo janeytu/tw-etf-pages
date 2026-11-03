@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-11-03",
+  "prev_as_of_date": "2026-11-02",
+  "compared_at": "2026-11-04T00:48:22+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 200000,
+      "curr_shares": 350000,
+      "shares_delta": 150000,
+      "prev_weight_pct": 0.6118,
+      "curr_weight_pct": 1.0665,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 183000,
+      "curr_shares": 218000,
+      "shares_delta": 35000,
+      "prev_weight_pct": 3.892,
+      "curr_weight_pct": 4.833,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

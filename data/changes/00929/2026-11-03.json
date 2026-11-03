@@ -1,0 +1,103 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-11-03",
+  "prev_as_of_date": "2026-11-02",
+  "compared_at": "2026-11-04T00:48:43+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 8,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2347",
+      "stock_name": "聯強國際",
+      "prev_shares": 55729000,
+      "curr_shares": 56322000,
+      "shares_delta": 593000,
+      "prev_weight_pct": 3.289,
+      "curr_weight_pct": 3.334,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2317",
+      "stock_name": "鴻海精密",
+      "prev_shares": 10921000,
+      "curr_shares": 11346000,
+      "shares_delta": 425000,
+      "prev_weight_pct": 1.712,
+      "curr_weight_pct": 1.804,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5434",
+      "stock_name": "崇越科技",
+      "prev_shares": 7384000,
+      "curr_shares": 7644000,
+      "shares_delta": 260000,
+      "prev_weight_pct": 2.527,
+      "curr_weight_pct": 2.633,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6139",
+      "stock_name": "亞翔工程",
+      "prev_shares": 4528000,
+      "curr_shares": 4771000,
+      "shares_delta": 243000,
+      "prev_weight_pct": 1.801,
+      "curr_weight_pct": 1.878,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱半導",
+      "prev_shares": 6892000,
+      "curr_shares": 7037000,
+      "shares_delta": 145000,
+      "prev_weight_pct": 3.379,
+      "curr_weight_pct": 3.445,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6121",
+      "stock_name": "新普科技",
+      "prev_shares": 6873000,
+      "curr_shares": 6988000,
+      "shares_delta": 115000,
+      "prev_weight_pct": 1.601,
+      "curr_weight_pct": 1.67,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3260",
+      "stock_name": "威剛科技",
+      "prev_shares": 11563609,
+      "curr_shares": 11661609,
+      "shares_delta": 98000,
+      "prev_weight_pct": 2.459,
+      "curr_weight_pct": 2.401,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3034",
+      "stock_name": "聯詠科技",
+      "prev_shares": 11906000,
+      "curr_shares": 11978000,
+      "shares_delta": 72000,
+      "prev_weight_pct": 4.246,
+      "curr_weight_pct": 4.305,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

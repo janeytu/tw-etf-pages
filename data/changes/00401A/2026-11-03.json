@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "00401A",
+  "as_of_date": "2026-11-03",
+  "prev_as_of_date": "2026-11-02",
+  "compared_at": "2026-11-04T00:48:27+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2890",
+      "stock_name": "永豐金融",
+      "prev_shares": 959920,
+      "curr_shares": 1195000,
+      "shares_delta": 235080,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1476",
+      "stock_name": "儒鴻",
+      "prev_shares": 78000,
+      "curr_shares": 157000,
+      "shares_delta": 79000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投資控股",
+      "prev_shares": 228000,
+      "curr_shares": 244000,
+      "shares_delta": 16000,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "2360",
+      "stock_name": "致茂電子",
+      "prev_shares": 39220,
+      "curr_shares": 45600,
+      "shares_delta": 6380,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 327760,
+      "curr_shares": 332400,
+      "shares_delta": 4640,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽科技",
+      "prev_shares": 11814,
+      "curr_shares": 14100,
+      "shares_delta": 2286,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

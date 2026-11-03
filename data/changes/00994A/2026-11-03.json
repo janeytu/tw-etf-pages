@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-11-03",
+  "prev_as_of_date": "2026-11-02",
+  "compared_at": "2026-11-04T00:48:28+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 3,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 4000,
+      "curr_shares": 5000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": 0.02,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "8046",
+      "stock_name": "南電",
+      "prev_shares": 95000,
+      "curr_shares": 73000,
+      "shares_delta": -22000,
+      "prev_weight_pct": 3.08,
+      "curr_weight_pct": 2.28,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 118002,
+      "curr_shares": 100002,
+      "shares_delta": -18000,
+      "prev_weight_pct": 3.91,
+      "curr_weight_pct": 3.18,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞",
+      "prev_shares": 34000,
+      "curr_shares": 17000,
+      "shares_delta": -17000,
+      "prev_weight_pct": 2.25,
+      "curr_weight_pct": 1.08,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 49000,
+      "curr_shares": 0,
+      "shares_delta": -49000,
+      "prev_weight_pct": 0.29,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3105",
+      "stock_name": "穩懋",
+      "prev_shares": 40000,
+      "curr_shares": 0,
+      "shares_delta": -40000,
+      "prev_weight_pct": 0.64,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

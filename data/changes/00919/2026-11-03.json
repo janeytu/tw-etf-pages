@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-11-03",
+  "prev_as_of_date": "2026-11-02",
+  "compared_at": "2026-11-04T00:48:42+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 104423000,
+      "curr_shares": 105133000,
+      "shares_delta": 710000,
+      "prev_weight_pct": 4.55,
+      "curr_weight_pct": 4.56,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2882",
+      "stock_name": "國泰金",
+      "prev_shares": 700470000,
+      "curr_shares": 700870000,
+      "shares_delta": 400000,
+      "prev_weight_pct": 12.91,
+      "curr_weight_pct": 12.88,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 936497000,
+      "curr_shares": 936837000,
+      "shares_delta": 340000,
+      "prev_weight_pct": 11.16,
+      "curr_weight_pct": 11.31,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2881",
+      "stock_name": "富邦金",
+      "prev_shares": 611760000,
+      "curr_shares": 611980000,
+      "shares_delta": 220000,
+      "prev_weight_pct": 15.5,
+      "curr_weight_pct": 15.33,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "8112",
+      "stock_name": "至上",
+      "prev_shares": 30062899,
+      "curr_shares": 30152899,
+      "shares_delta": 90000,
+      "prev_weight_pct": 0.39,
+      "curr_weight_pct": 0.39,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
