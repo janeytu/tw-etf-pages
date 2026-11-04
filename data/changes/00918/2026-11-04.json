@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00918",
+  "as_of_date": "2026-11-04",
+  "prev_as_of_date": "2026-11-03",
+  "compared_at": "2026-11-05T00:48:31+08:00",
+  "source": "uobam",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 296892380,
+      "curr_shares": 299402380,
+      "shares_delta": 2510000,
+      "prev_weight_pct": 7.76,
+      "curr_weight_pct": 7.68,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 129722000,
+      "curr_shares": 131120000,
+      "shares_delta": 1398000,
+      "prev_weight_pct": 6.1,
+      "curr_weight_pct": 6.12,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2886",
+      "stock_name": "兆豐金",
+      "prev_shares": 154273000,
+      "curr_shares": 154805000,
+      "shares_delta": 532000,
+      "prev_weight_pct": 5.2,
+      "curr_weight_pct": 5.28,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2027",
+      "stock_name": "大成鋼",
+      "prev_shares": 74403000,
+      "curr_shares": 74824000,
+      "shares_delta": 421000,
+      "prev_weight_pct": 2.31,
+      "curr_weight_pct": 2.32,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 42182000,
+      "curr_shares": 42384000,
+      "shares_delta": 202000,
+      "prev_weight_pct": 7.13,
+      "curr_weight_pct": 7.24,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

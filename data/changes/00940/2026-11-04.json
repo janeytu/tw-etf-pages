@@ -1,0 +1,93 @@
+{
+  "etf_ticker": "00940",
+  "as_of_date": "2026-11-04",
+  "prev_as_of_date": "2026-11-03",
+  "compared_at": "2026-11-05T00:49:42+08:00",
+  "source": "yuanta",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 7,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "4915",
+      "stock_name": "致伸",
+      "prev_shares": 8581000,
+      "curr_shares": 9287000,
+      "shares_delta": 706000,
+      "prev_weight_pct": 0.75,
+      "curr_weight_pct": 0.82,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 11944000,
+      "curr_shares": 12367000,
+      "shares_delta": 423000,
+      "prev_weight_pct": 1.96,
+      "curr_weight_pct": 2.09,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2458",
+      "stock_name": "義隆",
+      "prev_shares": 5859000,
+      "curr_shares": 6101000,
+      "shares_delta": 242000,
+      "prev_weight_pct": 1.13,
+      "curr_weight_pct": 1.18,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2892",
+      "stock_name": "第一金",
+      "prev_shares": 46132944,
+      "curr_shares": 46224944,
+      "shares_delta": 92000,
+      "prev_weight_pct": 3.13,
+      "curr_weight_pct": 3.15,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3023",
+      "stock_name": "信邦",
+      "prev_shares": 3334000,
+      "curr_shares": 3417000,
+      "shares_delta": 83000,
+      "prev_weight_pct": 1.26,
+      "curr_weight_pct": 1.36,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2404",
+      "stock_name": "漢唐",
+      "prev_shares": 1320000,
+      "curr_shares": 1343000,
+      "shares_delta": 23000,
+      "prev_weight_pct": 2.1,
+      "curr_weight_pct": 2.14,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8069",
+      "stock_name": "元太",
+      "prev_shares": 9426000,
+      "curr_shares": 9444000,
+      "shares_delta": 18000,
+      "prev_weight_pct": 2.15,
+      "curr_weight_pct": 2.19,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
