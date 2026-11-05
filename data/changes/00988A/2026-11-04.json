@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-04",
+  "prev_as_of_date": "2026-11-03",
+  "compared_at": "2026-11-06T01:02:59+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "NTSK US",
+      "stock_name": "NETSKOPE INC-CL A",
+      "prev_shares": 0,
+      "curr_shares": 400000,
+      "shares_delta": 400000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.72,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 470000,
+      "curr_shares": 670000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 0.69,
+      "curr_weight_pct": 1.01,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 150000,
+      "curr_shares": 180000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 2.43,
+      "curr_weight_pct": 3.09,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "AMD US",
+      "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "prev_shares": 100000,
+      "curr_shares": 125000,
+      "shares_delta": 25000,
+      "prev_weight_pct": 3.8,
+      "curr_weight_pct": 4.85,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "NVDA US",
+      "stock_name": "NVIDIA CORP(輝達公司)",
+      "prev_shares": 290000,
+      "curr_shares": 310000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 4.7,
+      "curr_weight_pct": 4.93,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6787 JP",
+      "stock_name": "MEIKO ELECTRONICS CO LTD",
+      "prev_shares": 500000,
+      "curr_shares": 250000,
+      "shares_delta": -250000,
+      "prev_weight_pct": 2.06,
+      "curr_weight_pct": 0.97,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

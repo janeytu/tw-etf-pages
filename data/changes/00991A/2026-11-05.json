@@ -1,0 +1,106 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-05",
+  "prev_as_of_date": "2026-11-04",
+  "compared_at": "2026-11-06T01:03:00+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 2
+  },
+  "first_buy": [
+    {
+      "stock_code": "4958",
+      "stock_name": "臻鼎-KY",
+      "prev_shares": 0,
+      "curr_shares": 690000,
+      "shares_delta": 690000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.463,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 9000,
+      "curr_shares": 1700000,
+      "shares_delta": 1691000,
+      "prev_weight_pct": 0.003,
+      "curr_weight_pct": 0.488,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2317",
+      "stock_name": "鴻海精密",
+      "prev_shares": 9000,
+      "curr_shares": 1250000,
+      "shares_delta": 1241000,
+      "prev_weight_pct": 0.003,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投",
+      "prev_shares": 3600000,
+      "curr_shares": 4000000,
+      "shares_delta": 400000,
+      "prev_weight_pct": 3.595,
+      "curr_weight_pct": 3.897,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 1080000,
+      "curr_shares": 1150000,
+      "shares_delta": 70000,
+      "prev_weight_pct": 6.39,
+      "curr_weight_pct": 6.777,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6505",
+      "stock_name": "台塑石化",
+      "prev_shares": 13000000,
+      "curr_shares": 8769000,
+      "shares_delta": -4231000,
+      "prev_weight_pct": 2.021,
+      "curr_weight_pct": 1.313,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞光電",
+      "prev_shares": 600000,
+      "curr_shares": 0,
+      "shares_delta": -600000,
+      "prev_weight_pct": 2.007,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2313",
+      "stock_name": "華通電腦",
+      "prev_shares": 1253,
+      "curr_shares": 0,
+      "shares_delta": -1253,
+      "prev_weight_pct": 0.0,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
