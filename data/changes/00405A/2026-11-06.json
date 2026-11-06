@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00405A",
+  "as_of_date": "2026-11-06",
+  "prev_as_of_date": "2026-11-05",
+  "compared_at": "2026-11-07T00:34:10+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投資控股",
+      "prev_shares": 3000,
+      "curr_shares": 503000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 0.0091,
+      "curr_weight_pct": 1.4881,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 294000,
+      "curr_shares": 350000,
+      "shares_delta": 56000,
+      "prev_weight_pct": 5.4154,
+      "curr_weight_pct": 6.661,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

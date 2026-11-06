@@ -1,0 +1,116 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-05",
+  "prev_as_of_date": "2026-11-04",
+  "compared_at": "2026-11-07T00:34:05+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 2,
+    "decrease": 4,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "3697 JP",
+      "stock_name": "SHIFT INC",
+      "prev_shares": 0,
+      "curr_shares": 800000,
+      "shares_delta": 800000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AMZN US",
+      "stock_name": "AMAZON.COM INC(亞馬遜公司)",
+      "prev_shares": 0,
+      "curr_shares": 50000,
+      "shares_delta": 50000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.14,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "NTSK US",
+      "stock_name": "NETSKOPE INC-CL A",
+      "prev_shares": 400000,
+      "curr_shares": 700000,
+      "shares_delta": 300000,
+      "prev_weight_pct": 0.72,
+      "curr_weight_pct": 1.33,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "MSFT US",
+      "stock_name": "MICROSOFT CORP(微軟公司)",
+      "prev_shares": 140000,
+      "curr_shares": 160000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 6.18,
+      "curr_weight_pct": 7.51,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6762 JP",
+      "stock_name": "TDK CORP",
+      "prev_shares": 700000,
+      "curr_shares": 350000,
+      "shares_delta": -350000,
+      "prev_weight_pct": 0.86,
+      "curr_weight_pct": 0.44,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6981 JP",
+      "stock_name": "MURATA MANUFACTURING CO LTD",
+      "prev_shares": 500000,
+      "curr_shares": 250000,
+      "shares_delta": -250000,
+      "prev_weight_pct": 1.51,
+      "curr_weight_pct": 0.7,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "LITE US",
+      "stock_name": "LUMENTUM HOLDINGS INC",
+      "prev_shares": 56000,
+      "curr_shares": 34259,
+      "shares_delta": -21741,
+      "prev_weight_pct": 2.79,
+      "curr_weight_pct": 1.53,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "MU US",
+      "stock_name": "MICRON TECHNOLOGY INC",
+      "prev_shares": 16000,
+      "curr_shares": 15131,
+      "shares_delta": -869,
+      "prev_weight_pct": 1.01,
+      "curr_weight_pct": 0.87,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "6787 JP",
+      "stock_name": "MEIKO ELECTRONICS CO LTD",
+      "prev_shares": 250000,
+      "curr_shares": 0,
+      "shares_delta": -250000,
+      "prev_weight_pct": 0.97,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-11-09",
+  "prev_as_of_date": "2026-11-04",
+  "compared_at": "2026-11-07T00:34:16+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 3,
+    "increase": 6,
+    "decrease": 1,
+    "full_exit": 3
+  },
+  "first_buy": [
+    {
+      "stock_code": "2886",
+      "stock_name": "兆豐金",
+      "prev_shares": 0,
+      "curr_shares": 220000,
+      "shares_delta": 220000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.35,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3105",
+      "stock_name": "穩懋",
+      "prev_shares": 0,
+      "curr_shares": 1000,
+      "shares_delta": 1000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.01,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6526",
+      "stock_name": "達發",
+      "prev_shares": 0,
+      "curr_shares": 1000,
+      "shares_delta": 1000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.02,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2885",
+      "stock_name": "元大金",
+      "prev_shares": 112720,
+      "curr_shares": 292720,
+      "shares_delta": 180000,
+      "prev_weight_pct": 0.2,
+      "curr_weight_pct": 0.58,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 2000,
+      "curr_shares": 6000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 0.48,
+      "curr_weight_pct": 1.35,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞",
+      "prev_shares": 22000,
+      "curr_shares": 26000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 1.25,
+      "curr_weight_pct": 1.35,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 13000,
+      "curr_shares": 16000,
+      "shares_delta": 3000,
+      "prev_weight_pct": 1.67,
+      "curr_weight_pct": 2.13,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 30000,
+      "curr_shares": 33000,
+      "shares_delta": 3000,
+      "prev_weight_pct": 2.05,
+      "curr_weight_pct": 2.27,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 1000,
+      "curr_shares": 2000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.06,
+      "curr_weight_pct": 0.1,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 163000,
+      "curr_shares": 154000,
+      "shares_delta": -9000,
+      "prev_weight_pct": 9.75,
+      "curr_weight_pct": 9.8,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "6147",
+      "stock_name": "頎邦",
+      "prev_shares": 160000,
+      "curr_shares": 0,
+      "shares_delta": -160000,
+      "prev_weight_pct": 0.72,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 9000,
+      "curr_shares": 0,
+      "shares_delta": -9000,
+      "prev_weight_pct": 0.74,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3450",
+      "stock_name": "聯鈞",
+      "prev_shares": 1000,
+      "curr_shares": 0,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
