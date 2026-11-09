@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-11-09",
+  "prev_as_of_date": "2026-11-06",
+  "compared_at": "2026-11-10T03:27:27+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2347",
+      "stock_name": "聯強國際",
+      "prev_shares": 56889000,
+      "curr_shares": 58436000,
+      "shares_delta": 1547000,
+      "prev_weight_pct": 3.297,
+      "curr_weight_pct": 3.143,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2474",
+      "stock_name": "可成科技",
+      "prev_shares": 25351000,
+      "curr_shares": 25796000,
+      "shares_delta": 445000,
+      "prev_weight_pct": 3.194,
+      "curr_weight_pct": 3.165,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 42642000,
+      "curr_shares": 42870000,
+      "shares_delta": 228000,
+      "prev_weight_pct": 3.279,
+      "curr_weight_pct": 3.014,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 43688000,
+      "curr_shares": 43893000,
+      "shares_delta": 205000,
+      "prev_weight_pct": 3.989,
+      "curr_weight_pct": 3.814,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電信",
+      "prev_shares": 32131000,
+      "curr_shares": 32291000,
+      "shares_delta": 160000,
+      "prev_weight_pct": 3.607,
+      "curr_weight_pct": 3.405,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3034",
+      "stock_name": "聯詠科技",
+      "prev_shares": 12323000,
+      "curr_shares": 12437000,
+      "shares_delta": 114000,
+      "prev_weight_pct": 4.192,
+      "curr_weight_pct": 4.013,
+      "streak_days": 5
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

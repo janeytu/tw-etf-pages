@@ -1,0 +1,53 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-11-09",
+  "prev_as_of_date": "2026-11-06",
+  "compared_at": "2026-11-10T03:27:25+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 107143000,
+      "curr_shares": 107443000,
+      "shares_delta": 300000,
+      "prev_weight_pct": 4.51,
+      "curr_weight_pct": 4.39,
+      "streak_days": 5
+    },
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 938397000,
+      "curr_shares": 938577000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 11.76,
+      "curr_weight_pct": 11.86,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2542",
+      "stock_name": "興富發",
+      "prev_shares": 81180000,
+      "curr_shares": 81240000,
+      "shares_delta": 60000,
+      "prev_weight_pct": 0.52,
+      "curr_weight_pct": 0.51,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
