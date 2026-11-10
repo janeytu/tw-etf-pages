@@ -1,0 +1,113 @@
+{
+  "etf_ticker": "00713",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-11T00:45:27+08:00",
+  "source": "yuanta",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 9,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 34838540,
+      "curr_shares": 34168540,
+      "shares_delta": -670000,
+      "prev_weight_pct": 1.31,
+      "curr_weight_pct": 1.28,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2890",
+      "stock_name": "永豐金",
+      "prev_shares": 39254433,
+      "curr_shares": 38606433,
+      "shares_delta": -648000,
+      "prev_weight_pct": 1.56,
+      "curr_weight_pct": 1.54,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2347",
+      "stock_name": "聯強",
+      "prev_shares": 11983000,
+      "curr_shares": 11575000,
+      "shares_delta": -408000,
+      "prev_weight_pct": 0.92,
+      "curr_weight_pct": 0.87,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3036",
+      "stock_name": "文曄",
+      "prev_shares": 3171000,
+      "curr_shares": 2886000,
+      "shares_delta": -285000,
+      "prev_weight_pct": 0.54,
+      "curr_weight_pct": 0.52,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2610",
+      "stock_name": "華航",
+      "prev_shares": 56668000,
+      "curr_shares": 56479000,
+      "shares_delta": -189000,
+      "prev_weight_pct": 1.16,
+      "curr_weight_pct": 1.22,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2880",
+      "stock_name": "華南金",
+      "prev_shares": 103686350,
+      "curr_shares": 103558350,
+      "shares_delta": -128000,
+      "prev_weight_pct": 4.85,
+      "curr_weight_pct": 4.84,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5434",
+      "stock_name": "崇越",
+      "prev_shares": 1840678,
+      "curr_shares": 1768678,
+      "shares_delta": -72000,
+      "prev_weight_pct": 0.82,
+      "curr_weight_pct": 0.84,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5876",
+      "stock_name": "上海商銀",
+      "prev_shares": 73577440,
+      "curr_shares": 73519440,
+      "shares_delta": -58000,
+      "prev_weight_pct": 3.57,
+      "curr_weight_pct": 3.55,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 1053000,
+      "curr_shares": 1025000,
+      "shares_delta": -28000,
+      "prev_weight_pct": 0.85,
+      "curr_weight_pct": 0.86,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

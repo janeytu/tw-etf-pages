@@ -1,0 +1,65 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-11T00:45:08+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 2,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 0,
+      "curr_shares": 130000,
+      "shares_delta": 130000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.9979,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 259000,
+      "curr_shares": 369000,
+      "shares_delta": 110000,
+      "prev_weight_pct": 2.356,
+      "curr_weight_pct": 3.1723,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策",
+      "prev_shares": 69000,
+      "curr_shares": 141000,
+      "shares_delta": 72000,
+      "prev_weight_pct": 0.9495,
+      "curr_weight_pct": 1.8325,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6584",
+      "stock_name": "南俊國際",
+      "prev_shares": 1069000,
+      "curr_shares": 706000,
+      "shares_delta": -363000,
+      "prev_weight_pct": 0.804,
+      "curr_weight_pct": 0.4984,
+      "streak_days": 5
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,53 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-09",
+  "prev_as_of_date": "2026-11-06",
+  "compared_at": "2026-11-11T00:45:05+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 320000,
+      "curr_shares": 480000,
+      "shares_delta": 160000,
+      "prev_weight_pct": 1.84,
+      "curr_weight_pct": 2.73,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 180000,
+      "curr_shares": 210000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 3.0,
+      "curr_weight_pct": 3.58,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AMZN US",
+      "stock_name": "AMAZON.COM INC(亞馬遜公司)",
+      "prev_shares": 70000,
+      "curr_shares": 100000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 1.59,
+      "curr_weight_pct": 2.24,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

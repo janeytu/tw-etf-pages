@@ -1,0 +1,94 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-11T00:45:03+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "4551",
+      "stock_name": "智伸科",
+      "prev_shares": 0,
+      "curr_shares": 40000,
+      "shares_delta": 40000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "1802",
+      "stock_name": "台玻",
+      "prev_shares": 8479000,
+      "curr_shares": 9679000,
+      "shares_delta": 1200000,
+      "prev_weight_pct": 0.21,
+      "curr_weight_pct": 0.25,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦",
+      "prev_shares": 6331000,
+      "curr_shares": 7013000,
+      "shares_delta": 682000,
+      "prev_weight_pct": 3.5,
+      "curr_weight_pct": 4.01,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 16905000,
+      "curr_shares": 17522000,
+      "shares_delta": 617000,
+      "prev_weight_pct": 3.73,
+      "curr_weight_pct": 3.92,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 7708000,
+      "curr_shares": 7928000,
+      "shares_delta": 220000,
+      "prev_weight_pct": 2.71,
+      "curr_weight_pct": 2.88,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 6655000,
+      "curr_shares": 6855000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 6.65,
+      "curr_weight_pct": 7.08,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 1448000,
+      "curr_shares": 1578000,
+      "shares_delta": 130000,
+      "prev_weight_pct": 1.06,
+      "curr_weight_pct": 1.16,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

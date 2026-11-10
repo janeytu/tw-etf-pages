@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "009816",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-11T00:45:44+08:00",
+  "source": "kgi",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 39002000,
+      "curr_shares": 39182000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 40.99,
+      "curr_weight_pct": 41.03,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2892",
+      "stock_name": "第一金",
+      "prev_shares": 79983000,
+      "curr_shares": 80163000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 1.54,
+      "curr_weight_pct": 1.51,
+      "streak_days": 19
+    },
+    {
+      "stock_code": "5880",
+      "stock_name": "合庫金",
+      "prev_shares": 79458175,
+      "curr_shares": 79618175,
+      "shares_delta": 160000,
+      "prev_weight_pct": 1.04,
+      "curr_weight_pct": 1.01,
+      "streak_days": 15
+    },
+    {
+      "stock_code": "2880",
+      "stock_name": "華南金",
+      "prev_shares": 72418880,
+      "curr_shares": 72553880,
+      "shares_delta": 135000,
+      "prev_weight_pct": 1.69,
+      "curr_weight_pct": 1.64,
+      "streak_days": 15
+    },
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電",
+      "prev_shares": 34628000,
+      "curr_shares": 34718000,
+      "shares_delta": 90000,
+      "prev_weight_pct": 2.59,
+      "curr_weight_pct": 2.54,
+      "streak_days": 19
+    },
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 11674000,
+      "curr_shares": 11683000,
+      "shares_delta": 9000,
+      "prev_weight_pct": 1.44,
+      "curr_weight_pct": 1.55,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

@@ -1,0 +1,96 @@
+{
+  "etf_ticker": "00994A",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-11T00:45:17+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "2301",
+      "stock_name": "光寶科技",
+      "prev_shares": 0,
+      "curr_shares": 50000,
+      "shares_delta": 50000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.36,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 72000,
+      "curr_shares": 97000,
+      "shares_delta": 25000,
+      "prev_weight_pct": 2.1,
+      "curr_weight_pct": 2.96,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 4000,
+      "curr_shares": 8000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 0.33,
+      "curr_weight_pct": 0.69,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 55101,
+      "curr_shares": 58101,
+      "shares_delta": 3000,
+      "prev_weight_pct": 6.69,
+      "curr_weight_pct": 6.91,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策",
+      "prev_shares": 27000,
+      "curr_shares": 29000,
+      "shares_delta": 2000,
+      "prev_weight_pct": 4.96,
+      "curr_weight_pct": 5.21,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 5000,
+      "curr_shares": 1000,
+      "shares_delta": -4000,
+      "prev_weight_pct": 0.66,
+      "curr_weight_pct": 0.13,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "5274",
+      "stock_name": "信驊科技",
+      "prev_shares": 6420,
+      "curr_shares": 0,
+      "shares_delta": -6420,
+      "prev_weight_pct": 2.45,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

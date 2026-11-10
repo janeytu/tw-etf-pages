@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-11T00:45:16+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2301",
+      "stock_name": "光寶科技",
+      "prev_shares": 0,
+      "curr_shares": 27000,
+      "shares_delta": 27000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.49,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 63000,
+      "curr_shares": 67000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 4.55,
+      "curr_weight_pct": 5.12,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 13999,
+      "curr_shares": 16999,
+      "shares_delta": 3000,
+      "prev_weight_pct": 4.21,
+      "curr_weight_pct": 5.07,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3653",
+      "stock_name": "健策",
+      "prev_shares": 7800,
+      "curr_shares": 9800,
+      "shares_delta": 2000,
+      "prev_weight_pct": 3.55,
+      "curr_weight_pct": 4.42,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 2000,
+      "curr_shares": 4000,
+      "shares_delta": 2000,
+      "prev_weight_pct": 0.41,
+      "curr_weight_pct": 0.87,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 2500,
+      "curr_shares": 1500,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.82,
+      "curr_weight_pct": 0.49,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
