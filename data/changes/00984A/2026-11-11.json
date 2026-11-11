@@ -1,0 +1,175 @@
+{
+  "etf_ticker": "00984A",
+  "as_of_date": "2026-11-11",
+  "prev_as_of_date": "2026-11-10",
+  "compared_at": "2026-11-12T00:54:10+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 8,
+    "decrease": 6,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2466",
+      "stock_name": "冠西",
+      "prev_shares": 0,
+      "curr_shares": 84000,
+      "shares_delta": 84000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.34,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 789000,
+      "curr_shares": 1112000,
+      "shares_delta": 323000,
+      "prev_weight_pct": 2.41,
+      "curr_weight_pct": 3.56,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3265",
+      "stock_name": "台星科股份有限公司",
+      "prev_shares": 148000,
+      "curr_shares": 442000,
+      "shares_delta": 294000,
+      "prev_weight_pct": 0.25,
+      "curr_weight_pct": 0.75,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3605",
+      "stock_name": "宏致",
+      "prev_shares": 409000,
+      "curr_shares": 536000,
+      "shares_delta": 127000,
+      "prev_weight_pct": 0.56,
+      "curr_weight_pct": 0.75,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 99000,
+      "curr_shares": 162000,
+      "shares_delta": 63000,
+      "prev_weight_pct": 1.07,
+      "curr_weight_pct": 1.68,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投資控股",
+      "prev_shares": 307000,
+      "curr_shares": 362000,
+      "shares_delta": 55000,
+      "prev_weight_pct": 1.96,
+      "curr_weight_pct": 2.28,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2301",
+      "stock_name": "光寶科技",
+      "prev_shares": 299000,
+      "curr_shares": 348000,
+      "shares_delta": 49000,
+      "prev_weight_pct": 0.74,
+      "curr_weight_pct": 0.85,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3037",
+      "stock_name": "欣興",
+      "prev_shares": 154000,
+      "curr_shares": 183000,
+      "shares_delta": 29000,
+      "prev_weight_pct": 1.35,
+      "curr_weight_pct": 1.62,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3450",
+      "stock_name": "聯鈞",
+      "prev_shares": 57000,
+      "curr_shares": 68000,
+      "shares_delta": 11000,
+      "prev_weight_pct": 0.22,
+      "curr_weight_pct": 0.26,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2618",
+      "stock_name": "長榮航",
+      "prev_shares": 2463000,
+      "curr_shares": 1324000,
+      "shares_delta": -1139000,
+      "prev_weight_pct": 1.2,
+      "curr_weight_pct": 0.64,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2637",
+      "stock_name": "慧洋-KY",
+      "prev_shares": 1046000,
+      "curr_shares": 591000,
+      "shares_delta": -455000,
+      "prev_weight_pct": 1.09,
+      "curr_weight_pct": 0.59,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6505",
+      "stock_name": "台塑石化",
+      "prev_shares": 3842000,
+      "curr_shares": 3582000,
+      "shares_delta": -260000,
+      "prev_weight_pct": 3.63,
+      "curr_weight_pct": 3.34,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2615",
+      "stock_name": "萬海",
+      "prev_shares": 1427000,
+      "curr_shares": 1243000,
+      "shares_delta": -184000,
+      "prev_weight_pct": 1.68,
+      "curr_weight_pct": 1.41,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 114000,
+      "curr_shares": 93000,
+      "shares_delta": -21000,
+      "prev_weight_pct": 2.75,
+      "curr_weight_pct": 2.28,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐科技",
+      "prev_shares": 125000,
+      "curr_shares": 120000,
+      "shares_delta": -5000,
+      "prev_weight_pct": 3.67,
+      "curr_weight_pct": 3.68,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

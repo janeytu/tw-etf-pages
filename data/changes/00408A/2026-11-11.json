@@ -1,0 +1,115 @@
+{
+  "etf_ticker": "00408A",
+  "as_of_date": "2026-11-11",
+  "prev_as_of_date": "2026-11-10",
+  "compared_at": "2026-11-12T00:54:13+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 6,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3081",
+      "stock_name": "聯亞",
+      "prev_shares": 0,
+      "curr_shares": 3000,
+      "shares_delta": 3000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 0,
+      "curr_shares": 3000,
+      "shares_delta": 3000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.82,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 180000,
+      "curr_shares": 198000,
+      "shares_delta": 18000,
+      "prev_weight_pct": 4.05,
+      "curr_weight_pct": 4.66,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8046",
+      "stock_name": "南電",
+      "prev_shares": 7000,
+      "curr_shares": 20000,
+      "shares_delta": 13000,
+      "prev_weight_pct": 0.55,
+      "curr_weight_pct": 1.62,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3026",
+      "stock_name": "禾伸堂",
+      "prev_shares": 26000,
+      "curr_shares": 34000,
+      "shares_delta": 8000,
+      "prev_weight_pct": 1.03,
+      "curr_weight_pct": 1.43,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 67000,
+      "curr_shares": 72000,
+      "shares_delta": 5000,
+      "prev_weight_pct": 5.12,
+      "curr_weight_pct": 5.68,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐科技",
+      "prev_shares": 12900,
+      "curr_shares": 16900,
+      "shares_delta": 4000,
+      "prev_weight_pct": 2.8,
+      "curr_weight_pct": 3.86,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6510",
+      "stock_name": "精測",
+      "prev_shares": 4000,
+      "curr_shares": 5000,
+      "shares_delta": 1000,
+      "prev_weight_pct": 0.87,
+      "curr_weight_pct": 1.15,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2880",
+      "stock_name": "華南金控",
+      "prev_shares": 350000,
+      "curr_shares": 340000,
+      "shares_delta": -10000,
+      "prev_weight_pct": 1.34,
+      "curr_weight_pct": 1.29,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

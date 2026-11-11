@@ -1,0 +1,123 @@
+{
+  "etf_ticker": "00940",
+  "as_of_date": "2026-11-11",
+  "prev_as_of_date": "2026-11-10",
+  "compared_at": "2026-11-12T00:54:35+08:00",
+  "source": "yuanta",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 10,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2892",
+      "stock_name": "第一金",
+      "prev_shares": 46317944,
+      "curr_shares": 45868944,
+      "shares_delta": -449000,
+      "prev_weight_pct": 3.14,
+      "curr_weight_pct": 3.13,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2615",
+      "stock_name": "萬海",
+      "prev_shares": 14759000,
+      "curr_shares": 14423000,
+      "shares_delta": -336000,
+      "prev_weight_pct": 2.72,
+      "curr_weight_pct": 2.59,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2801",
+      "stock_name": "彰銀",
+      "prev_shares": 53297425,
+      "curr_shares": 53000425,
+      "shares_delta": -297000,
+      "prev_weight_pct": 2.43,
+      "curr_weight_pct": 2.43,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5469",
+      "stock_name": "瀚宇博",
+      "prev_shares": 3665000,
+      "curr_shares": 3376000,
+      "shares_delta": -289000,
+      "prev_weight_pct": 0.44,
+      "curr_weight_pct": 0.42,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "6278",
+      "stock_name": "台表科",
+      "prev_shares": 3759000,
+      "curr_shares": 3642000,
+      "shares_delta": -117000,
+      "prev_weight_pct": 1.35,
+      "curr_weight_pct": 1.41,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2610",
+      "stock_name": "華航",
+      "prev_shares": 73041000,
+      "curr_shares": 72935000,
+      "shares_delta": -106000,
+      "prev_weight_pct": 2.75,
+      "curr_weight_pct": 2.77,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "2881",
+      "stock_name": "富邦金",
+      "prev_shares": 14391900,
+      "curr_shares": 14294900,
+      "shares_delta": -97000,
+      "prev_weight_pct": 3.64,
+      "curr_weight_pct": 3.69,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱",
+      "prev_shares": 2528000,
+      "curr_shares": 2495000,
+      "shares_delta": -33000,
+      "prev_weight_pct": 3.11,
+      "curr_weight_pct": 3.08,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3044",
+      "stock_name": "健鼎",
+      "prev_shares": 1720000,
+      "curr_shares": 1696000,
+      "shares_delta": -24000,
+      "prev_weight_pct": 1.35,
+      "curr_weight_pct": 1.43,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 3416000,
+      "curr_shares": 3404000,
+      "shares_delta": -12000,
+      "prev_weight_pct": 4.99,
+      "curr_weight_pct": 4.97,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": []
+}

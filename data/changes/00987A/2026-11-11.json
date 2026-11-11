@@ -1,0 +1,53 @@
+{
+  "etf_ticker": "00987A",
+  "as_of_date": "2026-11-11",
+  "prev_as_of_date": "2026-11-10",
+  "compared_at": "2026-11-12T00:54:13+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1815",
+      "stock_name": "富喬工業",
+      "prev_shares": 475000,
+      "curr_shares": 580000,
+      "shares_delta": 105000,
+      "prev_weight_pct": 2.8702,
+      "curr_weight_pct": 3.6464,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "8358",
+      "stock_name": "金居",
+      "prev_shares": 84000,
+      "curr_shares": 180000,
+      "shares_delta": 96000,
+      "prev_weight_pct": 1.4513,
+      "curr_weight_pct": 3.1292,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 11000,
+      "curr_shares": 15000,
+      "shares_delta": 4000,
+      "prev_weight_pct": 2.6301,
+      "curr_weight_pct": 3.5742,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

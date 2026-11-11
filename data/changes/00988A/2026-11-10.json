@@ -1,0 +1,96 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-10",
+  "prev_as_of_date": "2026-11-09",
+  "compared_at": "2026-11-12T00:54:03+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "MRNA US",
+      "stock_name": "MODERNA INC",
+      "prev_shares": 0,
+      "curr_shares": 30000,
+      "shares_delta": 30000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.62,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 670000,
+      "curr_shares": 1270000,
+      "shares_delta": 600000,
+      "prev_weight_pct": 0.96,
+      "curr_weight_pct": 1.94,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AMZN US",
+      "stock_name": "AMAZON.COM INC(亞馬遜公司)",
+      "prev_shares": 100000,
+      "curr_shares": 130000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 2.24,
+      "curr_weight_pct": 2.92,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 210000,
+      "curr_shares": 229000,
+      "shares_delta": 19000,
+      "prev_weight_pct": 3.58,
+      "curr_weight_pct": 4.14,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "AMD US",
+      "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "prev_shares": 130000,
+      "curr_shares": 140000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 5.54,
+      "curr_weight_pct": 5.99,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "NVDA US",
+      "stock_name": "NVIDIA CORP(輝達公司)",
+      "prev_shares": 320000,
+      "curr_shares": 304000,
+      "shares_delta": -16000,
+      "prev_weight_pct": 4.79,
+      "curr_weight_pct": 4.26,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "NOW US",
+      "stock_name": "SERVICENOW INC",
+      "prev_shares": 86000,
+      "curr_shares": 0,
+      "shares_delta": -86000,
+      "prev_weight_pct": 0.74,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
