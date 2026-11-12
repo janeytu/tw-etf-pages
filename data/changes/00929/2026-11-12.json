@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-11-12",
+  "prev_as_of_date": "2026-11-11",
+  "compared_at": "2026-11-13T01:19:25+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3702",
+      "stock_name": "大聯大控",
+      "prev_shares": 37610000,
+      "curr_shares": 39255000,
+      "shares_delta": 1645000,
+      "prev_weight_pct": 2.208,
+      "curr_weight_pct": 2.241,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2382",
+      "stock_name": "廣達電腦",
+      "prev_shares": 13965000,
+      "curr_shares": 14880000,
+      "shares_delta": 915000,
+      "prev_weight_pct": 2.664,
+      "curr_weight_pct": 2.722,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2376",
+      "stock_name": "技嘉科技",
+      "prev_shares": 10915000,
+      "curr_shares": 11476000,
+      "shares_delta": 561000,
+      "prev_weight_pct": 2.131,
+      "curr_weight_pct": 2.182,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3034",
+      "stock_name": "聯詠科技",
+      "prev_shares": 12437000,
+      "curr_shares": 12565000,
+      "shares_delta": 128000,
+      "prev_weight_pct": 3.829,
+      "curr_weight_pct": 3.813,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩電腦",
+      "prev_shares": 7141000,
+      "curr_shares": 7245000,
+      "shares_delta": 104000,
+      "prev_weight_pct": 4.123,
+      "curr_weight_pct": 4.236,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

@@ -1,0 +1,114 @@
+{
+  "etf_ticker": "009816",
+  "as_of_date": "2026-11-12",
+  "prev_as_of_date": "2026-11-11",
+  "compared_at": "2026-11-13T01:19:36+08:00",
+  "source": "kgi",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 5,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 51728000,
+      "curr_shares": 62728000,
+      "shares_delta": 11000000,
+      "prev_weight_pct": 1.7,
+      "curr_weight_pct": 2.13,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2881",
+      "stock_name": "富邦金",
+      "prev_shares": 27120000,
+      "curr_shares": 33120000,
+      "shares_delta": 6000000,
+      "prev_weight_pct": 1.9,
+      "curr_weight_pct": 2.37,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2882",
+      "stock_name": "國泰金",
+      "prev_shares": 25706000,
+      "curr_shares": 31706000,
+      "shares_delta": 6000000,
+      "prev_weight_pct": 1.28,
+      "curr_weight_pct": 1.6,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "1216",
+      "stock_name": "統一",
+      "prev_shares": 12633000,
+      "curr_shares": 15633000,
+      "shares_delta": 3000000,
+      "prev_weight_pct": 0.43,
+      "curr_weight_pct": 0.55,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 150542350,
+      "curr_shares": 134542350,
+      "shares_delta": -16000000,
+      "prev_weight_pct": 2.67,
+      "curr_weight_pct": 2.41,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2883",
+      "stock_name": "凱基金",
+      "prev_shares": 104692000,
+      "curr_shares": 93692000,
+      "shares_delta": -11000000,
+      "prev_weight_pct": 1.65,
+      "curr_weight_pct": 1.49,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2884",
+      "stock_name": "玉山金",
+      "prev_shares": 99989000,
+      "curr_shares": 89989000,
+      "shares_delta": -10000000,
+      "prev_weight_pct": 2.09,
+      "curr_weight_pct": 1.91,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2885",
+      "stock_name": "元大金",
+      "prev_shares": 82608320,
+      "curr_shares": 73608320,
+      "shares_delta": -9000000,
+      "prev_weight_pct": 2.58,
+      "curr_weight_pct": 2.38,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2886",
+      "stock_name": "兆豐金",
+      "prev_shares": 72952000,
+      "curr_shares": 64952000,
+      "shares_delta": -8000000,
+      "prev_weight_pct": 1.74,
+      "curr_weight_pct": 1.59,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": []
+}

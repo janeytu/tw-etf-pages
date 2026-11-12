@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-11-12",
+  "prev_as_of_date": "2026-11-11",
+  "compared_at": "2026-11-13T01:19:24+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2883",
+      "stock_name": "凱基金",
+      "prev_shares": 885810000,
+      "curr_shares": 886760000,
+      "shares_delta": 950000,
+      "prev_weight_pct": 5.18,
+      "curr_weight_pct": 5.19,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "5522",
+      "stock_name": "遠雄",
+      "prev_shares": 70789000,
+      "curr_shares": 71389000,
+      "shares_delta": 600000,
+      "prev_weight_pct": 0.65,
+      "curr_weight_pct": 0.68,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4938",
+      "stock_name": "和碩",
+      "prev_shares": 153260000,
+      "curr_shares": 153760000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 2.4,
+      "curr_weight_pct": 2.35,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "6890",
+      "stock_name": "來億-KY",
+      "prev_shares": 13570000,
+      "curr_shares": 13750000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 0.3,
+      "curr_weight_pct": 0.33,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2597",
+      "stock_name": "潤弘",
+      "prev_shares": 14390000,
+      "curr_shares": 14540000,
+      "shares_delta": 150000,
+      "prev_weight_pct": 0.39,
+      "curr_weight_pct": 0.41,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

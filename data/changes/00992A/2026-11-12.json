@@ -1,0 +1,54 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-11-12",
+  "prev_as_of_date": "2026-11-11",
+  "compared_at": "2026-11-13T01:18:56+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 0,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2408",
+      "stock_name": "南亞科技",
+      "prev_shares": 0,
+      "curr_shares": 1296000,
+      "shares_delta": 1296000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.106,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8210",
+      "stock_name": "勤誠興業",
+      "prev_shares": 0,
+      "curr_shares": 650000,
+      "shares_delta": 650000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.8785,
+      "streak_days": 1
+    }
+  ],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "6584",
+      "stock_name": "南俊國際",
+      "prev_shares": 562000,
+      "curr_shares": 346000,
+      "shares_delta": -216000,
+      "prev_weight_pct": 0.3898,
+      "curr_weight_pct": 0.2361,
+      "streak_days": 7
+    }
+  ],
+  "full_exit": []
+}

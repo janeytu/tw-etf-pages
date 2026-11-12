@@ -1,0 +1,75 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-11-12",
+  "prev_as_of_date": "2026-11-11",
+  "compared_at": "2026-11-13T01:18:50+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 3,
+    "decrease": 1,
+    "full_exit": 1
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "6271",
+      "stock_name": "同欣電",
+      "prev_shares": 2640000,
+      "curr_shares": 2940000,
+      "shares_delta": 300000,
+      "prev_weight_pct": 0.2,
+      "curr_weight_pct": 0.23,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 2887848,
+      "curr_shares": 3067848,
+      "shares_delta": 180000,
+      "prev_weight_pct": 1.61,
+      "curr_weight_pct": 1.72,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽",
+      "prev_shares": 2504000,
+      "curr_shares": 2657000,
+      "shares_delta": 153000,
+      "prev_weight_pct": 3.97,
+      "curr_weight_pct": 4.59,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 79618000,
+      "curr_shares": 74802000,
+      "shares_delta": -4816000,
+      "prev_weight_pct": 2.93,
+      "curr_weight_pct": 2.8,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "6278",
+      "stock_name": "台表科",
+      "prev_shares": 829000,
+      "curr_shares": 0,
+      "shares_delta": -829000,
+      "prev_weight_pct": 0.07,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

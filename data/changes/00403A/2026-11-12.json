@@ -1,0 +1,65 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-11-12",
+  "prev_as_of_date": "2026-11-11",
+  "compared_at": "2026-11-13T01:18:56+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 2,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴",
+      "prev_shares": 0,
+      "curr_shares": 30000,
+      "shares_delta": 30000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.1,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 1830000,
+      "curr_shares": 1880000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 5.77,
+      "curr_weight_pct": 5.97,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 727000,
+      "curr_shares": 750000,
+      "shares_delta": 23000,
+      "prev_weight_pct": 4.53,
+      "curr_weight_pct": 4.86,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 1750000,
+      "curr_shares": 1600000,
+      "shares_delta": -150000,
+      "prev_weight_pct": 1.47,
+      "curr_weight_pct": 1.26,
+      "streak_days": 3
+    }
+  ],
+  "full_exit": []
+}
