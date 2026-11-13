@@ -1,0 +1,125 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-13",
+  "prev_as_of_date": "2026-11-12",
+  "compared_at": "2026-11-14T00:54:35+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 8,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 0,
+      "curr_shares": 210000,
+      "shares_delta": 210000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.507,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "4958",
+      "stock_name": "臻鼎-KY",
+      "prev_shares": 1400000,
+      "curr_shares": 1500000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 0.972,
+      "curr_weight_pct": 1.049,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦科技",
+      "prev_shares": 390000,
+      "curr_shares": 440000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 0.961,
+      "curr_weight_pct": 1.063,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電子",
+      "prev_shares": 600000,
+      "curr_shares": 650000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 0.945,
+      "curr_weight_pct": 1.064,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電子",
+      "prev_shares": 470000,
+      "curr_shares": 510000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 0.941,
+      "curr_weight_pct": 1.005,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽科技",
+      "prev_shares": 148000,
+      "curr_shares": 160000,
+      "shares_delta": 12000,
+      "prev_weight_pct": 1.113,
+      "curr_weight_pct": 1.187,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電子",
+      "prev_shares": 1365000,
+      "curr_shares": 1375000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 9.05,
+      "curr_weight_pct": 9.21,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 510000,
+      "curr_shares": 515000,
+      "shares_delta": 5000,
+      "prev_weight_pct": 6.725,
+      "curr_weight_pct": 6.449,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5274",
+      "stock_name": "信驊科技",
+      "prev_shares": 135500,
+      "curr_shares": 140500,
+      "shares_delta": 5000,
+      "prev_weight_pct": 2.616,
+      "curr_weight_pct": 2.679,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2408",
+      "stock_name": "南亞科技",
+      "prev_shares": 6500000,
+      "curr_shares": 4200000,
+      "shares_delta": -2300000,
+      "prev_weight_pct": 3.984,
+      "curr_weight_pct": 2.516,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

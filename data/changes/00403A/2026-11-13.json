@@ -1,0 +1,84 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-11-13",
+  "prev_as_of_date": "2026-11-12",
+  "compared_at": "2026-11-14T00:54:38+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 2530000,
+      "curr_shares": 2850000,
+      "shares_delta": 320000,
+      "prev_weight_pct": 1.22,
+      "curr_weight_pct": 1.38,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴",
+      "prev_shares": 30000,
+      "curr_shares": 90000,
+      "shares_delta": 60000,
+      "prev_weight_pct": 0.1,
+      "curr_weight_pct": 0.3,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 2500000,
+      "curr_shares": 2550000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 5.73,
+      "curr_weight_pct": 6.27,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 1880000,
+      "curr_shares": 1910000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 5.97,
+      "curr_weight_pct": 6.36,
+      "streak_days": 4
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 750000,
+      "curr_shares": 780000,
+      "shares_delta": 30000,
+      "prev_weight_pct": 4.86,
+      "curr_weight_pct": 5.43,
+      "streak_days": 3
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 1600000,
+      "curr_shares": 900000,
+      "shares_delta": -700000,
+      "prev_weight_pct": 1.26,
+      "curr_weight_pct": 0.71,
+      "streak_days": 4
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,44 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-11-16",
+  "prev_as_of_date": "2026-11-13",
+  "compared_at": "2026-11-14T00:54:46+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 0,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2610",
+      "stock_name": "華航",
+      "prev_shares": 0,
+      "curr_shares": 848000,
+      "shares_delta": 848000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    }
+  ],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2449",
+      "stock_name": "京元電子",
+      "prev_shares": 170850,
+      "curr_shares": 70850,
+      "shares_delta": -100000,
+      "prev_weight_pct": 0.94,
+      "curr_weight_pct": 0.38,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

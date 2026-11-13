@@ -1,0 +1,113 @@
+{
+  "etf_ticker": "00929",
+  "as_of_date": "2026-11-13",
+  "prev_as_of_date": "2026-11-12",
+  "compared_at": "2026-11-14T00:56:03+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 9,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3706",
+      "stock_name": "神達控股",
+      "prev_shares": 45440500,
+      "curr_shares": 47143500,
+      "shares_delta": 1703000,
+      "prev_weight_pct": 1.949,
+      "curr_weight_pct": 2.027,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創資通",
+      "prev_shares": 24519000,
+      "curr_shares": 25125000,
+      "shares_delta": 606000,
+      "prev_weight_pct": 2.738,
+      "curr_weight_pct": 2.777,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2317",
+      "stock_name": "鴻海精密",
+      "prev_shares": 11346000,
+      "curr_shares": 11827000,
+      "shares_delta": 481000,
+      "prev_weight_pct": 1.789,
+      "curr_weight_pct": 1.843,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3045",
+      "stock_name": "台灣大哥",
+      "prev_shares": 43893000,
+      "curr_shares": 44354000,
+      "shares_delta": 461000,
+      "prev_weight_pct": 3.748,
+      "curr_weight_pct": 3.756,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4904",
+      "stock_name": "遠傳電信",
+      "prev_shares": 42870000,
+      "curr_shares": 43291000,
+      "shares_delta": 421000,
+      "prev_weight_pct": 3.041,
+      "curr_weight_pct": 3.064,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6121",
+      "stock_name": "新普科技",
+      "prev_shares": 7249000,
+      "curr_shares": 7595000,
+      "shares_delta": 346000,
+      "prev_weight_pct": 1.457,
+      "curr_weight_pct": 1.532,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電信",
+      "prev_shares": 32291000,
+      "curr_shares": 32620000,
+      "shares_delta": 329000,
+      "prev_weight_pct": 3.436,
+      "curr_weight_pct": 3.479,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2376",
+      "stock_name": "技嘉科技",
+      "prev_shares": 11476000,
+      "curr_shares": 11777000,
+      "shares_delta": 301000,
+      "prev_weight_pct": 2.182,
+      "curr_weight_pct": 2.162,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩電腦",
+      "prev_shares": 7245000,
+      "curr_shares": 7335000,
+      "shares_delta": 90000,
+      "prev_weight_pct": 4.236,
+      "curr_weight_pct": 4.182,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
