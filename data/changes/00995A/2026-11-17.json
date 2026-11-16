@@ -1,0 +1,64 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-11-17",
+  "prev_as_of_date": "2026-11-16",
+  "compared_at": "2026-11-17T03:12:56+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2610",
+      "stock_name": "華航",
+      "prev_shares": 848000,
+      "curr_shares": 1178000,
+      "shares_delta": 330000,
+      "prev_weight_pct": 0.5,
+      "curr_weight_pct": 0.74,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2886",
+      "stock_name": "兆豐金",
+      "prev_shares": 220000,
+      "curr_shares": 352000,
+      "shares_delta": 132000,
+      "prev_weight_pct": 0.31,
+      "curr_weight_pct": 0.53,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2449",
+      "stock_name": "京元電子",
+      "prev_shares": 70850,
+      "curr_shares": 45000,
+      "shares_delta": -25850,
+      "prev_weight_pct": 0.38,
+      "curr_weight_pct": 0.24,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "8358",
+      "stock_name": "金居",
+      "prev_shares": 20000,
+      "curr_shares": 14000,
+      "shares_delta": -6000,
+      "prev_weight_pct": 0.19,
+      "curr_weight_pct": 0.13,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
