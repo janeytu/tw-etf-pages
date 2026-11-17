@@ -1,0 +1,63 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-17",
+  "prev_as_of_date": "2026-11-16",
+  "compared_at": "2026-11-18T02:05:42+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "4958",
+      "stock_name": "臻鼎-KY",
+      "prev_shares": 1500000,
+      "curr_shares": 1600000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 1.035,
+      "curr_weight_pct": 1.097,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電子",
+      "prev_shares": 650000,
+      "curr_shares": 690000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 1.05,
+      "curr_weight_pct": 1.066,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 210000,
+      "curr_shares": 250000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 0.538,
+      "curr_weight_pct": 0.652,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽科技",
+      "prev_shares": 160000,
+      "curr_shares": 170000,
+      "shares_delta": 10000,
+      "prev_weight_pct": 1.2,
+      "curr_weight_pct": 1.256,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

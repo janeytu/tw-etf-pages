@@ -1,0 +1,105 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-11-17",
+  "prev_as_of_date": "2026-11-16",
+  "compared_at": "2026-11-18T02:05:45+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 3,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 0,
+      "curr_shares": 50000,
+      "shares_delta": 50000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.16,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2882",
+      "stock_name": "國泰金",
+      "prev_shares": 6000000,
+      "curr_shares": 6800000,
+      "shares_delta": 800000,
+      "prev_weight_pct": 0.58,
+      "curr_weight_pct": 0.69,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 14600000,
+      "curr_shares": 15100000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 3.49,
+      "curr_weight_pct": 3.61,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 8250000,
+      "curr_shares": 8300000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 15.94,
+      "curr_weight_pct": 16.48,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 1910000,
+      "curr_shares": 1950000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 6.32,
+      "curr_weight_pct": 6.85,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3211",
+      "stock_name": "順達",
+      "prev_shares": 1030000,
+      "curr_shares": 350000,
+      "shares_delta": -680000,
+      "prev_weight_pct": 0.21,
+      "curr_weight_pct": 0.07,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 750000,
+      "curr_shares": 500000,
+      "shares_delta": -250000,
+      "prev_weight_pct": 0.57,
+      "curr_weight_pct": 0.36,
+      "streak_days": 6
+    },
+    {
+      "stock_code": "3583",
+      "stock_name": "辛耘",
+      "prev_shares": 580000,
+      "curr_shares": 480000,
+      "shares_delta": -100000,
+      "prev_weight_pct": 0.23,
+      "curr_weight_pct": 0.19,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

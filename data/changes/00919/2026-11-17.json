@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-11-17",
+  "prev_as_of_date": "2026-11-16",
+  "compared_at": "2026-11-18T02:06:16+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2883",
+      "stock_name": "凱基金",
+      "prev_shares": 886760000,
+      "curr_shares": 888760000,
+      "shares_delta": 2000000,
+      "prev_weight_pct": 5.17,
+      "curr_weight_pct": 5.13,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2382",
+      "stock_name": "廣達",
+      "prev_shares": 195940000,
+      "curr_shares": 196640000,
+      "shares_delta": 700000,
+      "prev_weight_pct": 8.75,
+      "curr_weight_pct": 8.72,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "4938",
+      "stock_name": "和碩",
+      "prev_shares": 153760000,
+      "curr_shares": 154260000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 2.23,
+      "curr_weight_pct": 2.18,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2855",
+      "stock_name": "統一證",
+      "prev_shares": 106380000,
+      "curr_shares": 106580000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 0.88,
+      "curr_weight_pct": 0.86,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5522",
+      "stock_name": "遠雄",
+      "prev_shares": 72509000,
+      "curr_shares": 72689000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 0.73,
+      "curr_weight_pct": 0.75,
+      "streak_days": 4
+    },
+    {
+      "stock_code": "2357",
+      "stock_name": "華碩",
+      "prev_shares": 38750000,
+      "curr_shares": 38830000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 5.47,
+      "curr_weight_pct": 5.42,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

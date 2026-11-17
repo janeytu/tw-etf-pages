@@ -1,0 +1,94 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-16",
+  "prev_as_of_date": "2026-11-13",
+  "compared_at": "2026-11-18T02:05:41+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 5,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "SPCX US",
+      "stock_name": "SPACE EXPLORATION TECHN-CL A",
+      "prev_shares": 580000,
+      "curr_shares": 630000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 6.62,
+      "curr_weight_pct": 7.53,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "AMZN US",
+      "stock_name": "AMAZON.COM INC(亞馬遜公司)",
+      "prev_shares": 150000,
+      "curr_shares": 170000,
+      "shares_delta": 20000,
+      "prev_weight_pct": 3.28,
+      "curr_weight_pct": 3.81,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "IFX GY",
+      "stock_name": "INFINEON TECHNOLOGIES AG",
+      "prev_shares": 100000,
+      "curr_shares": 50000,
+      "shares_delta": -50000,
+      "prev_weight_pct": 0.45,
+      "curr_weight_pct": 0.24,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "PANW US",
+      "stock_name": "PALO ALTO NETWORKS INC",
+      "prev_shares": 150000,
+      "curr_shares": 125000,
+      "shares_delta": -25000,
+      "prev_weight_pct": 3.97,
+      "curr_weight_pct": 3.44,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "TWLO US",
+      "stock_name": "TWILIO INC - A",
+      "prev_shares": 30000,
+      "curr_shares": 15036,
+      "shares_delta": -14964,
+      "prev_weight_pct": 0.52,
+      "curr_weight_pct": 0.26,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "009150 KS",
+      "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+      "prev_shares": 40000,
+      "curr_shares": 31020,
+      "shares_delta": -8980,
+      "prev_weight_pct": 2.1,
+      "curr_weight_pct": 1.59,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "MU US",
+      "stock_name": "MICRON TECHNOLOGY INC",
+      "prev_shares": 15131,
+      "curr_shares": 7500,
+      "shares_delta": -7631,
+      "prev_weight_pct": 0.97,
+      "curr_weight_pct": 0.47,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
