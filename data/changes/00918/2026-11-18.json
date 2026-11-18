@@ -1,0 +1,63 @@
+{
+  "etf_ticker": "00918",
+  "as_of_date": "2026-11-18",
+  "prev_as_of_date": "2026-11-17",
+  "compared_at": "2026-11-19T01:47:28+08:00",
+  "source": "uobam",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 4,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2618",
+      "stock_name": "長榮航",
+      "prev_shares": 167716000,
+      "curr_shares": 169947000,
+      "shares_delta": 2231000,
+      "prev_weight_pct": 5.31,
+      "curr_weight_pct": 5.32,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2610",
+      "stock_name": "華航",
+      "prev_shares": 233464000,
+      "curr_shares": 235118000,
+      "shares_delta": 1654000,
+      "prev_weight_pct": 3.55,
+      "curr_weight_pct": 3.6,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2884",
+      "stock_name": "玉山金",
+      "prev_shares": 212581000,
+      "curr_shares": 213816000,
+      "shares_delta": 1235000,
+      "prev_weight_pct": 6.53,
+      "curr_weight_pct": 6.02,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 132656000,
+      "curr_shares": 132887000,
+      "shares_delta": 231000,
+      "prev_weight_pct": 6.77,
+      "curr_weight_pct": 6.52,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

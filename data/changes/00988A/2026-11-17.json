@@ -1,0 +1,65 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-17",
+  "prev_as_of_date": "2026-11-16",
+  "compared_at": "2026-11-19T01:45:09+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 0,
+    "decrease": 2,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "APP US",
+      "stock_name": "APPLOVIN CORP-CLASS A",
+      "prev_shares": 0,
+      "curr_shares": 13000,
+      "shares_delta": 13000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.47,
+      "streak_days": 1
+    }
+  ],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電",
+      "prev_shares": 250000,
+      "curr_shares": 200000,
+      "shares_delta": -50000,
+      "prev_weight_pct": 2.51,
+      "curr_weight_pct": 1.93,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "009150 KS",
+      "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+      "prev_shares": 31020,
+      "curr_shares": 20000,
+      "shares_delta": -11020,
+      "prev_weight_pct": 1.59,
+      "curr_weight_pct": 1.01,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "TWLO US",
+      "stock_name": "TWILIO INC - A",
+      "prev_shares": 15036,
+      "curr_shares": 0,
+      "shares_delta": -15036,
+      "prev_weight_pct": 0.26,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

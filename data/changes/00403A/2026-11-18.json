@@ -1,0 +1,86 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-11-18",
+  "prev_as_of_date": "2026-11-17",
+  "compared_at": "2026-11-19T01:45:12+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 2,
+    "decrease": 1,
+    "full_exit": 2
+  },
+  "first_buy": [
+    {
+      "stock_code": "2379",
+      "stock_name": "瑞昱",
+      "prev_shares": 0,
+      "curr_shares": 100000,
+      "shares_delta": 100000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.07,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 2850000,
+      "curr_shares": 3300000,
+      "shares_delta": 450000,
+      "prev_weight_pct": 1.36,
+      "curr_weight_pct": 1.63,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 50000,
+      "curr_shares": 71000,
+      "shares_delta": 21000,
+      "prev_weight_pct": 0.16,
+      "curr_weight_pct": 0.25,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2481",
+      "stock_name": "強茂",
+      "prev_shares": 350000,
+      "curr_shares": 280000,
+      "shares_delta": -70000,
+      "prev_weight_pct": 0.03,
+      "curr_weight_pct": 0.03,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "prev_shares": 500000,
+      "curr_shares": 0,
+      "shares_delta": -500000,
+      "prev_weight_pct": 0.36,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3211",
+      "stock_name": "順達",
+      "prev_shares": 350000,
+      "curr_shares": 0,
+      "shares_delta": -350000,
+      "prev_weight_pct": 0.07,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

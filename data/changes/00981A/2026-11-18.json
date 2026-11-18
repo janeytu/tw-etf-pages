@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-11-18",
+  "prev_as_of_date": "2026-11-17",
+  "compared_at": "2026-11-19T01:45:07+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 17522000,
+      "curr_shares": 17940000,
+      "shares_delta": 418000,
+      "prev_weight_pct": 3.79,
+      "curr_weight_pct": 3.95,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 3067848,
+      "curr_shares": 3223848,
+      "shares_delta": 156000,
+      "prev_weight_pct": 1.8,
+      "curr_weight_pct": 2.01,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 6965000,
+      "curr_shares": 7078000,
+      "shares_delta": 113000,
+      "prev_weight_pct": 7.16,
+      "curr_weight_pct": 7.72,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意",
+      "prev_shares": 1015000,
+      "curr_shares": 1052000,
+      "shares_delta": 37000,
+      "prev_weight_pct": 2.95,
+      "curr_weight_pct": 2.82,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "prev_shares": 5833000,
+      "curr_shares": 5861000,
+      "shares_delta": 28000,
+      "prev_weight_pct": 9.33,
+      "curr_weight_pct": 9.28,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽",
+      "prev_shares": 2657000,
+      "curr_shares": 2683000,
+      "shares_delta": 26000,
+      "prev_weight_pct": 4.42,
+      "curr_weight_pct": 4.73,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
