@@ -1,6 +1,7 @@
 {
   "etf_ticker": "00878",
   "dates": [
+    "2026-11-19",
     "2026-11-18",
     "2026-11-17",
     "2026-11-16",
@@ -9,10 +10,870 @@
     "2026-11-11",
     "2026-11-10",
     "2026-11-09",
-    "2026-11-06",
-    "2026-11-05"
+    "2026-11-06"
   ],
   "history": [
+    {
+      "as_of_date": "2026-11-19",
+      "prev_as_of_date": "2026-11-18",
+      "source": "cathay",
+      "summary": {
+        "first_buy": 0,
+        "increase": 14,
+        "decrease": 15,
+        "full_exit": 0
+      },
+      "changed_count": 29,
+      "rows": [
+        {
+          "stock_code": "2891",
+          "stock_name": "中信金",
+          "curr_shares": 11720000,
+          "prev_shares": 11480000,
+          "shares_delta": 240000,
+          "curr_weight_pct": 11.72,
+          "prev_weight_pct": 11.48,
+          "weight_delta": 0.2400000000000002,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +240張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "2880",
+          "stock_name": "華南金",
+          "curr_shares": 3790000,
+          "prev_shares": 3640000,
+          "shares_delta": 150000,
+          "curr_weight_pct": 3.79,
+          "prev_weight_pct": 3.64,
+          "weight_delta": 0.1499999999999999,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +150張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "2382",
+          "stock_name": "廣達",
+          "curr_shares": 8040000,
+          "prev_shares": 7920000,
+          "shares_delta": 120000,
+          "curr_weight_pct": 8.04,
+          "prev_weight_pct": 7.92,
+          "weight_delta": 0.11999999999999922,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連3天 / +120張)",
+            "short": "加碼(連3天)",
+            "streak_text": "連3買"
+          }
+        },
+        {
+          "stock_code": "2886",
+          "stock_name": "兆豐金",
+          "curr_shares": 3260000,
+          "prev_shares": 3140000,
+          "shares_delta": 120000,
+          "curr_weight_pct": 3.26,
+          "prev_weight_pct": 3.14,
+          "weight_delta": 0.11999999999999966,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +120張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "2412",
+          "stock_name": "中華電",
+          "curr_shares": 2940000,
+          "prev_shares": 2850000,
+          "shares_delta": 90000,
+          "curr_weight_pct": 2.94,
+          "prev_weight_pct": 2.85,
+          "weight_delta": 0.08999999999999986,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連4天 / +90張)",
+            "short": "加碼(連4天)",
+            "streak_text": "連4買"
+          }
+        },
+        {
+          "stock_code": "5876",
+          "stock_name": "上海商銀",
+          "curr_shares": 2300000,
+          "prev_shares": 2220000,
+          "shares_delta": 80000,
+          "curr_weight_pct": 2.3,
+          "prev_weight_pct": 2.22,
+          "weight_delta": 0.07999999999999963,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +80張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "3045",
+          "stock_name": "台灣大",
+          "curr_shares": 2980000,
+          "prev_shares": 2910000,
+          "shares_delta": 70000,
+          "curr_weight_pct": 2.98,
+          "prev_weight_pct": 2.91,
+          "weight_delta": 0.06999999999999984,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連4天 / +70張)",
+            "short": "加碼(連4天)",
+            "streak_text": "連4買"
+          }
+        },
+        {
+          "stock_code": "1216",
+          "stock_name": "統一",
+          "curr_shares": 2590000,
+          "prev_shares": 2530000,
+          "shares_delta": 60000,
+          "curr_weight_pct": 2.59,
+          "prev_weight_pct": 2.53,
+          "weight_delta": 0.06000000000000005,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +60張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "2881",
+          "stock_name": "富邦金",
+          "curr_shares": 3480000,
+          "prev_shares": 3420000,
+          "shares_delta": 60000,
+          "curr_weight_pct": 3.48,
+          "prev_weight_pct": 3.42,
+          "weight_delta": 0.06000000000000005,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +60張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "2379",
+          "stock_name": "瑞昱",
+          "curr_shares": 3410000,
+          "prev_shares": 3360000,
+          "shares_delta": 50000,
+          "curr_weight_pct": 3.41,
+          "prev_weight_pct": 3.36,
+          "weight_delta": 0.050000000000000266,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連3天 / +50張)",
+            "short": "加碼(連3天)",
+            "streak_text": "連3買"
+          }
+        },
+        {
+          "stock_code": "2618",
+          "stock_name": "長榮航",
+          "curr_shares": 2170000,
+          "prev_shares": 2130000,
+          "shares_delta": 40000,
+          "curr_weight_pct": 2.17,
+          "prev_weight_pct": 2.13,
+          "weight_delta": 0.040000000000000036,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +40張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "4904",
+          "stock_name": "遠傳",
+          "curr_shares": 2800000,
+          "prev_shares": 2760000,
+          "shares_delta": 40000,
+          "curr_weight_pct": 2.8,
+          "prev_weight_pct": 2.76,
+          "weight_delta": 0.040000000000000036,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連4天 / +40張)",
+            "short": "加碼(連4天)",
+            "streak_text": "連4買"
+          }
+        },
+        {
+          "stock_code": "5871",
+          "stock_name": "中租-KY",
+          "curr_shares": 1530000,
+          "prev_shares": 1490000,
+          "shares_delta": 40000,
+          "curr_weight_pct": 1.53,
+          "prev_weight_pct": 1.49,
+          "weight_delta": 0.040000000000000036,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連4天 / +40張)",
+            "short": "加碼(連4天)",
+            "streak_text": "連4買"
+          }
+        },
+        {
+          "stock_code": "2912",
+          "stock_name": "統一超",
+          "curr_shares": 1880000,
+          "prev_shares": 1870000,
+          "shares_delta": 10000,
+          "curr_weight_pct": 1.88,
+          "prev_weight_pct": 1.87,
+          "weight_delta": 0.009999999999999787,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連4天 / +10張)",
+            "short": "加碼(連4天)",
+            "streak_text": "連4買"
+          }
+        },
+        {
+          "stock_code": "2882",
+          "stock_name": "國泰金",
+          "curr_shares": 6810000,
+          "prev_shares": 7060000,
+          "shares_delta": -250000,
+          "curr_weight_pct": 6.81,
+          "prev_weight_pct": 7.06,
+          "weight_delta": -0.25,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連2天 / -250張)",
+            "short": "減碼(連2天)",
+            "streak_text": "連2賣"
+          }
+        },
+        {
+          "stock_code": "3711",
+          "stock_name": "日月光投控",
+          "curr_shares": 2280000,
+          "prev_shares": 2420000,
+          "shares_delta": -140000,
+          "curr_weight_pct": 2.28,
+          "prev_weight_pct": 2.42,
+          "weight_delta": -0.14000000000000012,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -140張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "4958",
+          "stock_name": "臻鼎-KY",
+          "curr_shares": 1720000,
+          "prev_shares": 1860000,
+          "shares_delta": -140000,
+          "curr_weight_pct": 1.72,
+          "prev_weight_pct": 1.86,
+          "weight_delta": -0.14000000000000012,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -140張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2357",
+          "stock_name": "華碩",
+          "curr_shares": 5410000,
+          "prev_shares": 5540000,
+          "shares_delta": -130000,
+          "curr_weight_pct": 5.41,
+          "prev_weight_pct": 5.54,
+          "weight_delta": -0.1299999999999999,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -130張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2454",
+          "stock_name": "聯發科",
+          "curr_shares": 3250000,
+          "prev_shares": 3360000,
+          "shares_delta": -110000,
+          "curr_weight_pct": 3.25,
+          "prev_weight_pct": 3.36,
+          "weight_delta": -0.10999999999999988,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -110張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2301",
+          "stock_name": "光寶科",
+          "curr_shares": 2120000,
+          "prev_shares": 2220000,
+          "shares_delta": -100000,
+          "curr_weight_pct": 2.12,
+          "prev_weight_pct": 2.22,
+          "weight_delta": -0.10000000000000009,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -100張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2303",
+          "stock_name": "聯電",
+          "curr_shares": 2850000,
+          "prev_shares": 2940000,
+          "shares_delta": -90000,
+          "curr_weight_pct": 2.85,
+          "prev_weight_pct": 2.94,
+          "weight_delta": -0.08999999999999986,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -90張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2603",
+          "stock_name": "長榮",
+          "curr_shares": 4740000,
+          "prev_shares": 4820000,
+          "shares_delta": -80000,
+          "curr_weight_pct": 4.74,
+          "prev_weight_pct": 4.82,
+          "weight_delta": -0.08000000000000007,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -80張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "5347",
+          "stock_name": "世界先進",
+          "curr_shares": 1980000,
+          "prev_shares": 2060000,
+          "shares_delta": -80000,
+          "curr_weight_pct": 1.98,
+          "prev_weight_pct": 2.06,
+          "weight_delta": -0.08000000000000007,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連2天 / -80張)",
+            "short": "減碼(連2天)",
+            "streak_text": "連2賣"
+          }
+        },
+        {
+          "stock_code": "2376",
+          "stock_name": "技嘉",
+          "curr_shares": 1580000,
+          "prev_shares": 1640000,
+          "shares_delta": -60000,
+          "curr_weight_pct": 1.58,
+          "prev_weight_pct": 1.64,
+          "weight_delta": -0.05999999999999983,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -60張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2887",
+          "stock_name": "台新新光金",
+          "curr_shares": 3740000,
+          "prev_shares": 3790000,
+          "shares_delta": -50000,
+          "curr_weight_pct": 3.74,
+          "prev_weight_pct": 3.79,
+          "weight_delta": -0.04999999999999982,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連2天 / -50張)",
+            "short": "減碼(連2天)",
+            "streak_text": "連2賣"
+          }
+        },
+        {
+          "stock_code": "3034",
+          "stock_name": "聯詠",
+          "curr_shares": 2420000,
+          "prev_shares": 2470000,
+          "shares_delta": -50000,
+          "curr_weight_pct": 2.42,
+          "prev_weight_pct": 2.47,
+          "weight_delta": -0.050000000000000266,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -50張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2356",
+          "stock_name": "英業達",
+          "curr_shares": 1320000,
+          "prev_shares": 1350000,
+          "shares_delta": -30000,
+          "curr_weight_pct": 1.32,
+          "prev_weight_pct": 1.35,
+          "weight_delta": -0.030000000000000027,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -30張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "3231",
+          "stock_name": "緯創",
+          "curr_shares": 2240000,
+          "prev_shares": 2270000,
+          "shares_delta": -30000,
+          "curr_weight_pct": 2.24,
+          "prev_weight_pct": 2.27,
+          "weight_delta": -0.029999999999999805,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -30張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "2885",
+          "stock_name": "元大金",
+          "curr_shares": 2570000,
+          "prev_shares": 2580000,
+          "shares_delta": -10000,
+          "curr_weight_pct": 2.57,
+          "prev_weight_pct": 2.58,
+          "weight_delta": -0.010000000000000231,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連2天 / -10張)",
+            "short": "減碼(連2天)",
+            "streak_text": "連2賣"
+          }
+        }
+      ],
+      "first_buy": [],
+      "increase": [
+        {
+          "stock_code": "2891",
+          "stock_name": "中信金",
+          "prev_shares": 11480000,
+          "curr_shares": 11720000,
+          "shares_delta": 240000,
+          "prev_weight_pct": 11.48,
+          "curr_weight_pct": 11.72,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2880",
+          "stock_name": "華南金",
+          "prev_shares": 3640000,
+          "curr_shares": 3790000,
+          "shares_delta": 150000,
+          "prev_weight_pct": 3.64,
+          "curr_weight_pct": 3.79,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2382",
+          "stock_name": "廣達",
+          "prev_shares": 7920000,
+          "curr_shares": 8040000,
+          "shares_delta": 120000,
+          "prev_weight_pct": 7.92,
+          "curr_weight_pct": 8.04,
+          "streak_days": 3
+        },
+        {
+          "stock_code": "2886",
+          "stock_name": "兆豐金",
+          "prev_shares": 3140000,
+          "curr_shares": 3260000,
+          "shares_delta": 120000,
+          "prev_weight_pct": 3.14,
+          "curr_weight_pct": 3.26,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2412",
+          "stock_name": "中華電",
+          "prev_shares": 2850000,
+          "curr_shares": 2940000,
+          "shares_delta": 90000,
+          "prev_weight_pct": 2.85,
+          "curr_weight_pct": 2.94,
+          "streak_days": 4
+        },
+        {
+          "stock_code": "5876",
+          "stock_name": "上海商銀",
+          "prev_shares": 2220000,
+          "curr_shares": 2300000,
+          "shares_delta": 80000,
+          "prev_weight_pct": 2.22,
+          "curr_weight_pct": 2.3,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "3045",
+          "stock_name": "台灣大",
+          "prev_shares": 2910000,
+          "curr_shares": 2980000,
+          "shares_delta": 70000,
+          "prev_weight_pct": 2.91,
+          "curr_weight_pct": 2.98,
+          "streak_days": 4
+        },
+        {
+          "stock_code": "1216",
+          "stock_name": "統一",
+          "prev_shares": 2530000,
+          "curr_shares": 2590000,
+          "shares_delta": 60000,
+          "prev_weight_pct": 2.53,
+          "curr_weight_pct": 2.59,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2881",
+          "stock_name": "富邦金",
+          "prev_shares": 3420000,
+          "curr_shares": 3480000,
+          "shares_delta": 60000,
+          "prev_weight_pct": 3.42,
+          "curr_weight_pct": 3.48,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2379",
+          "stock_name": "瑞昱",
+          "prev_shares": 3360000,
+          "curr_shares": 3410000,
+          "shares_delta": 50000,
+          "prev_weight_pct": 3.36,
+          "curr_weight_pct": 3.41,
+          "streak_days": 3
+        },
+        {
+          "stock_code": "2618",
+          "stock_name": "長榮航",
+          "prev_shares": 2130000,
+          "curr_shares": 2170000,
+          "shares_delta": 40000,
+          "prev_weight_pct": 2.13,
+          "curr_weight_pct": 2.17,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "4904",
+          "stock_name": "遠傳",
+          "prev_shares": 2760000,
+          "curr_shares": 2800000,
+          "shares_delta": 40000,
+          "prev_weight_pct": 2.76,
+          "curr_weight_pct": 2.8,
+          "streak_days": 4
+        },
+        {
+          "stock_code": "5871",
+          "stock_name": "中租-KY",
+          "prev_shares": 1490000,
+          "curr_shares": 1530000,
+          "shares_delta": 40000,
+          "prev_weight_pct": 1.49,
+          "curr_weight_pct": 1.53,
+          "streak_days": 4
+        },
+        {
+          "stock_code": "2912",
+          "stock_name": "統一超",
+          "prev_shares": 1870000,
+          "curr_shares": 1880000,
+          "shares_delta": 10000,
+          "prev_weight_pct": 1.87,
+          "curr_weight_pct": 1.88,
+          "streak_days": 4
+        }
+      ],
+      "decrease": [
+        {
+          "stock_code": "2882",
+          "stock_name": "國泰金",
+          "prev_shares": 7060000,
+          "curr_shares": 6810000,
+          "shares_delta": -250000,
+          "prev_weight_pct": 7.06,
+          "curr_weight_pct": 6.81,
+          "streak_days": 2
+        },
+        {
+          "stock_code": "3711",
+          "stock_name": "日月光投控",
+          "prev_shares": 2420000,
+          "curr_shares": 2280000,
+          "shares_delta": -140000,
+          "prev_weight_pct": 2.42,
+          "curr_weight_pct": 2.28,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "4958",
+          "stock_name": "臻鼎-KY",
+          "prev_shares": 1860000,
+          "curr_shares": 1720000,
+          "shares_delta": -140000,
+          "prev_weight_pct": 1.86,
+          "curr_weight_pct": 1.72,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2357",
+          "stock_name": "華碩",
+          "prev_shares": 5540000,
+          "curr_shares": 5410000,
+          "shares_delta": -130000,
+          "prev_weight_pct": 5.54,
+          "curr_weight_pct": 5.41,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2454",
+          "stock_name": "聯發科",
+          "prev_shares": 3360000,
+          "curr_shares": 3250000,
+          "shares_delta": -110000,
+          "prev_weight_pct": 3.36,
+          "curr_weight_pct": 3.25,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2301",
+          "stock_name": "光寶科",
+          "prev_shares": 2220000,
+          "curr_shares": 2120000,
+          "shares_delta": -100000,
+          "prev_weight_pct": 2.22,
+          "curr_weight_pct": 2.12,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2303",
+          "stock_name": "聯電",
+          "prev_shares": 2940000,
+          "curr_shares": 2850000,
+          "shares_delta": -90000,
+          "prev_weight_pct": 2.94,
+          "curr_weight_pct": 2.85,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2603",
+          "stock_name": "長榮",
+          "prev_shares": 4820000,
+          "curr_shares": 4740000,
+          "shares_delta": -80000,
+          "prev_weight_pct": 4.82,
+          "curr_weight_pct": 4.74,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "5347",
+          "stock_name": "世界先進",
+          "prev_shares": 2060000,
+          "curr_shares": 1980000,
+          "shares_delta": -80000,
+          "prev_weight_pct": 2.06,
+          "curr_weight_pct": 1.98,
+          "streak_days": 2
+        },
+        {
+          "stock_code": "2376",
+          "stock_name": "技嘉",
+          "prev_shares": 1640000,
+          "curr_shares": 1580000,
+          "shares_delta": -60000,
+          "prev_weight_pct": 1.64,
+          "curr_weight_pct": 1.58,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2887",
+          "stock_name": "台新新光金",
+          "prev_shares": 3790000,
+          "curr_shares": 3740000,
+          "shares_delta": -50000,
+          "prev_weight_pct": 3.79,
+          "curr_weight_pct": 3.74,
+          "streak_days": 2
+        },
+        {
+          "stock_code": "3034",
+          "stock_name": "聯詠",
+          "prev_shares": 2470000,
+          "curr_shares": 2420000,
+          "shares_delta": -50000,
+          "prev_weight_pct": 2.47,
+          "curr_weight_pct": 2.42,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2356",
+          "stock_name": "英業達",
+          "prev_shares": 1350000,
+          "curr_shares": 1320000,
+          "shares_delta": -30000,
+          "prev_weight_pct": 1.35,
+          "curr_weight_pct": 1.32,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "3231",
+          "stock_name": "緯創",
+          "prev_shares": 2270000,
+          "curr_shares": 2240000,
+          "shares_delta": -30000,
+          "prev_weight_pct": 2.27,
+          "curr_weight_pct": 2.24,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "2885",
+          "stock_name": "元大金",
+          "prev_shares": 2580000,
+          "curr_shares": 2570000,
+          "shares_delta": -10000,
+          "prev_weight_pct": 2.58,
+          "curr_weight_pct": 2.57,
+          "streak_days": 2
+        }
+      ],
+      "full_exit": []
+    },
     {
       "as_of_date": "2026-11-18",
       "prev_as_of_date": "2026-11-17",
@@ -7592,856 +8453,6 @@
           "shares_delta": -10000,
           "prev_weight_pct": 1.96,
           "curr_weight_pct": 1.95,
-          "streak_days": 1
-        }
-      ],
-      "full_exit": []
-    },
-    {
-      "as_of_date": "2026-11-05",
-      "prev_as_of_date": "2026-11-04",
-      "source": "cathay",
-      "summary": {
-        "first_buy": 0,
-        "increase": 16,
-        "decrease": 12,
-        "full_exit": 0
-      },
-      "changed_count": 28,
-      "rows": [
-        {
-          "stock_code": "2891",
-          "stock_name": "中信金",
-          "curr_shares": 11170000,
-          "prev_shares": 10730000,
-          "shares_delta": 440000,
-          "curr_weight_pct": 11.17,
-          "prev_weight_pct": 10.73,
-          "weight_delta": 0.4399999999999995,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +440張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "2882",
-          "stock_name": "國泰金",
-          "curr_shares": 6850000,
-          "prev_shares": 6670000,
-          "shares_delta": 180000,
-          "curr_weight_pct": 6.85,
-          "prev_weight_pct": 6.67,
-          "weight_delta": 0.17999999999999972,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +180張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "2618",
-          "stock_name": "長榮航",
-          "curr_shares": 1960000,
-          "prev_shares": 1870000,
-          "shares_delta": 90000,
-          "curr_weight_pct": 1.96,
-          "prev_weight_pct": 1.87,
-          "weight_delta": 0.08999999999999986,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +90張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "2880",
-          "stock_name": "華南金",
-          "curr_shares": 3530000,
-          "prev_shares": 3440000,
-          "shares_delta": 90000,
-          "curr_weight_pct": 3.53,
-          "prev_weight_pct": 3.44,
-          "weight_delta": 0.08999999999999986,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連3天 / +90張)",
-            "short": "加碼(連3天)",
-            "streak_text": "連3買"
-          }
-        },
-        {
-          "stock_code": "2881",
-          "stock_name": "富邦金",
-          "curr_shares": 3360000,
-          "prev_shares": 3270000,
-          "shares_delta": 90000,
-          "curr_weight_pct": 3.36,
-          "prev_weight_pct": 3.27,
-          "weight_delta": 0.08999999999999986,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連2天 / +90張)",
-            "short": "加碼(連2天)",
-            "streak_text": "連2買"
-          }
-        },
-        {
-          "stock_code": "2382",
-          "stock_name": "廣達",
-          "curr_shares": 8670000,
-          "prev_shares": 8600000,
-          "shares_delta": 70000,
-          "curr_weight_pct": 8.67,
-          "prev_weight_pct": 8.6,
-          "weight_delta": 0.07000000000000028,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +70張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "2886",
-          "stock_name": "兆豐金",
-          "curr_shares": 3030000,
-          "prev_shares": 2960000,
-          "shares_delta": 70000,
-          "curr_weight_pct": 3.03,
-          "prev_weight_pct": 2.96,
-          "weight_delta": 0.06999999999999984,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連3天 / +70張)",
-            "short": "加碼(連3天)",
-            "streak_text": "連3買"
-          }
-        },
-        {
-          "stock_code": "2887",
-          "stock_name": "台新新光金",
-          "curr_shares": 3920000,
-          "prev_shares": 3850000,
-          "shares_delta": 70000,
-          "curr_weight_pct": 3.92,
-          "prev_weight_pct": 3.85,
-          "weight_delta": 0.06999999999999984,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +70張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "2412",
-          "stock_name": "中華電",
-          "curr_shares": 2620000,
-          "prev_shares": 2560000,
-          "shares_delta": 60000,
-          "curr_weight_pct": 2.62,
-          "prev_weight_pct": 2.56,
-          "weight_delta": 0.06000000000000005,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連3天 / +60張)",
-            "short": "加碼(連3天)",
-            "streak_text": "連3買"
-          }
-        },
-        {
-          "stock_code": "2885",
-          "stock_name": "元大金",
-          "curr_shares": 2580000,
-          "prev_shares": 2540000,
-          "shares_delta": 40000,
-          "curr_weight_pct": 2.58,
-          "prev_weight_pct": 2.54,
-          "weight_delta": 0.040000000000000036,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連2天 / +40張)",
-            "short": "加碼(連2天)",
-            "streak_text": "連2買"
-          }
-        },
-        {
-          "stock_code": "1216",
-          "stock_name": "統一",
-          "curr_shares": 2480000,
-          "prev_shares": 2450000,
-          "shares_delta": 30000,
-          "curr_weight_pct": 2.48,
-          "prev_weight_pct": 2.45,
-          "weight_delta": 0.029999999999999805,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +30張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "2357",
-          "stock_name": "華碩",
-          "curr_shares": 5470000,
-          "prev_shares": 5440000,
-          "shares_delta": 30000,
-          "curr_weight_pct": 5.47,
-          "prev_weight_pct": 5.44,
-          "weight_delta": 0.02999999999999936,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +30張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "5876",
-          "stock_name": "上海商銀",
-          "curr_shares": 2070000,
-          "prev_shares": 2040000,
-          "shares_delta": 30000,
-          "curr_weight_pct": 2.07,
-          "prev_weight_pct": 2.04,
-          "weight_delta": 0.029999999999999805,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +30張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "4904",
-          "stock_name": "遠傳",
-          "curr_shares": 2650000,
-          "prev_shares": 2630000,
-          "shares_delta": 20000,
-          "curr_weight_pct": 2.65,
-          "prev_weight_pct": 2.63,
-          "weight_delta": 0.020000000000000018,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連3天 / +20張)",
-            "short": "加碼(連3天)",
-            "streak_text": "連3買"
-          }
-        },
-        {
-          "stock_code": "5871",
-          "stock_name": "中租-KY",
-          "curr_shares": 1480000,
-          "prev_shares": 1460000,
-          "shares_delta": 20000,
-          "curr_weight_pct": 1.48,
-          "prev_weight_pct": 1.46,
-          "weight_delta": 0.020000000000000018,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +20張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "3045",
-          "stock_name": "台灣大",
-          "curr_shares": 2820000,
-          "prev_shares": 2810000,
-          "shares_delta": 10000,
-          "curr_weight_pct": 2.82,
-          "prev_weight_pct": 2.81,
-          "weight_delta": 0.009999999999999787,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連3天 / +10張)",
-            "short": "加碼(連3天)",
-            "streak_text": "連3買"
-          }
-        },
-        {
-          "stock_code": "3711",
-          "stock_name": "日月光投控",
-          "curr_shares": 2450000,
-          "prev_shares": 2640000,
-          "shares_delta": -190000,
-          "curr_weight_pct": 2.45,
-          "prev_weight_pct": 2.64,
-          "weight_delta": -0.18999999999999995,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -190張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2303",
-          "stock_name": "聯電",
-          "curr_shares": 2990000,
-          "prev_shares": 3150000,
-          "shares_delta": -160000,
-          "curr_weight_pct": 2.99,
-          "prev_weight_pct": 3.15,
-          "weight_delta": -0.1599999999999997,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -160張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2454",
-          "stock_name": "聯發科",
-          "curr_shares": 2870000,
-          "prev_shares": 3030000,
-          "shares_delta": -160000,
-          "curr_weight_pct": 2.87,
-          "prev_weight_pct": 3.03,
-          "weight_delta": -0.1599999999999997,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -160張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "4958",
-          "stock_name": "臻鼎-KY",
-          "curr_shares": 1850000,
-          "prev_shares": 2000000,
-          "shares_delta": -150000,
-          "curr_weight_pct": 1.85,
-          "prev_weight_pct": 2.0,
-          "weight_delta": -0.1499999999999999,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連3天 / -150張)",
-            "short": "減碼(連3天)",
-            "streak_text": "連3賣"
-          }
-        },
-        {
-          "stock_code": "5347",
-          "stock_name": "世界先進",
-          "curr_shares": 2010000,
-          "prev_shares": 2150000,
-          "shares_delta": -140000,
-          "curr_weight_pct": 2.01,
-          "prev_weight_pct": 2.15,
-          "weight_delta": -0.14000000000000012,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -140張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2301",
-          "stock_name": "光寶科",
-          "curr_shares": 2180000,
-          "prev_shares": 2290000,
-          "shares_delta": -110000,
-          "curr_weight_pct": 2.18,
-          "prev_weight_pct": 2.29,
-          "weight_delta": -0.10999999999999988,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連3天 / -110張)",
-            "short": "減碼(連3天)",
-            "streak_text": "連3賣"
-          }
-        },
-        {
-          "stock_code": "2603",
-          "stock_name": "長榮",
-          "curr_shares": 4640000,
-          "prev_shares": 4740000,
-          "shares_delta": -100000,
-          "curr_weight_pct": 4.64,
-          "prev_weight_pct": 4.74,
-          "weight_delta": -0.10000000000000053,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -100張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2379",
-          "stock_name": "瑞昱",
-          "curr_shares": 3170000,
-          "prev_shares": 3240000,
-          "shares_delta": -70000,
-          "curr_weight_pct": 3.17,
-          "prev_weight_pct": 3.24,
-          "weight_delta": -0.07000000000000028,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連4天 / -70張)",
-            "short": "減碼(連4天)",
-            "streak_text": "連4賣"
-          }
-        },
-        {
-          "stock_code": "3034",
-          "stock_name": "聯詠",
-          "curr_shares": 2640000,
-          "prev_shares": 2710000,
-          "shares_delta": -70000,
-          "curr_weight_pct": 2.64,
-          "prev_weight_pct": 2.71,
-          "weight_delta": -0.06999999999999984,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連5天 / -70張)",
-            "short": "減碼(連5天)",
-            "streak_text": "連5賣"
-          }
-        },
-        {
-          "stock_code": "3231",
-          "stock_name": "緯創",
-          "curr_shares": 2270000,
-          "prev_shares": 2330000,
-          "shares_delta": -60000,
-          "curr_weight_pct": 2.27,
-          "prev_weight_pct": 2.33,
-          "weight_delta": -0.06000000000000005,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -60張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2376",
-          "stock_name": "技嘉",
-          "curr_shares": 1800000,
-          "prev_shares": 1840000,
-          "shares_delta": -40000,
-          "curr_weight_pct": 1.8,
-          "prev_weight_pct": 1.84,
-          "weight_delta": -0.040000000000000036,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -40張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2356",
-          "stock_name": "英業達",
-          "curr_shares": 1690000,
-          "prev_shares": 1700000,
-          "shares_delta": -10000,
-          "curr_weight_pct": 1.69,
-          "prev_weight_pct": 1.7,
-          "weight_delta": -0.010000000000000009,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -10張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "2912",
-          "stock_name": "統一超",
-          "curr_shares": 1790000,
-          "prev_shares": 1790000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.79,
-          "prev_weight_pct": 1.79,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        }
-      ],
-      "first_buy": [],
-      "increase": [
-        {
-          "stock_code": "2891",
-          "stock_name": "中信金",
-          "prev_shares": 10730000,
-          "curr_shares": 11170000,
-          "shares_delta": 440000,
-          "prev_weight_pct": 10.73,
-          "curr_weight_pct": 11.17,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2882",
-          "stock_name": "國泰金",
-          "prev_shares": 6670000,
-          "curr_shares": 6850000,
-          "shares_delta": 180000,
-          "prev_weight_pct": 6.67,
-          "curr_weight_pct": 6.85,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2618",
-          "stock_name": "長榮航",
-          "prev_shares": 1870000,
-          "curr_shares": 1960000,
-          "shares_delta": 90000,
-          "prev_weight_pct": 1.87,
-          "curr_weight_pct": 1.96,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2880",
-          "stock_name": "華南金",
-          "prev_shares": 3440000,
-          "curr_shares": 3530000,
-          "shares_delta": 90000,
-          "prev_weight_pct": 3.44,
-          "curr_weight_pct": 3.53,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "2881",
-          "stock_name": "富邦金",
-          "prev_shares": 3270000,
-          "curr_shares": 3360000,
-          "shares_delta": 90000,
-          "prev_weight_pct": 3.27,
-          "curr_weight_pct": 3.36,
-          "streak_days": 2
-        },
-        {
-          "stock_code": "2382",
-          "stock_name": "廣達",
-          "prev_shares": 8600000,
-          "curr_shares": 8670000,
-          "shares_delta": 70000,
-          "prev_weight_pct": 8.6,
-          "curr_weight_pct": 8.67,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2886",
-          "stock_name": "兆豐金",
-          "prev_shares": 2960000,
-          "curr_shares": 3030000,
-          "shares_delta": 70000,
-          "prev_weight_pct": 2.96,
-          "curr_weight_pct": 3.03,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "2887",
-          "stock_name": "台新新光金",
-          "prev_shares": 3850000,
-          "curr_shares": 3920000,
-          "shares_delta": 70000,
-          "prev_weight_pct": 3.85,
-          "curr_weight_pct": 3.92,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2412",
-          "stock_name": "中華電",
-          "prev_shares": 2560000,
-          "curr_shares": 2620000,
-          "shares_delta": 60000,
-          "prev_weight_pct": 2.56,
-          "curr_weight_pct": 2.62,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "2885",
-          "stock_name": "元大金",
-          "prev_shares": 2540000,
-          "curr_shares": 2580000,
-          "shares_delta": 40000,
-          "prev_weight_pct": 2.54,
-          "curr_weight_pct": 2.58,
-          "streak_days": 2
-        },
-        {
-          "stock_code": "1216",
-          "stock_name": "統一",
-          "prev_shares": 2450000,
-          "curr_shares": 2480000,
-          "shares_delta": 30000,
-          "prev_weight_pct": 2.45,
-          "curr_weight_pct": 2.48,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2357",
-          "stock_name": "華碩",
-          "prev_shares": 5440000,
-          "curr_shares": 5470000,
-          "shares_delta": 30000,
-          "prev_weight_pct": 5.44,
-          "curr_weight_pct": 5.47,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "5876",
-          "stock_name": "上海商銀",
-          "prev_shares": 2040000,
-          "curr_shares": 2070000,
-          "shares_delta": 30000,
-          "prev_weight_pct": 2.04,
-          "curr_weight_pct": 2.07,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "4904",
-          "stock_name": "遠傳",
-          "prev_shares": 2630000,
-          "curr_shares": 2650000,
-          "shares_delta": 20000,
-          "prev_weight_pct": 2.63,
-          "curr_weight_pct": 2.65,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "5871",
-          "stock_name": "中租-KY",
-          "prev_shares": 1460000,
-          "curr_shares": 1480000,
-          "shares_delta": 20000,
-          "prev_weight_pct": 1.46,
-          "curr_weight_pct": 1.48,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "3045",
-          "stock_name": "台灣大",
-          "prev_shares": 2810000,
-          "curr_shares": 2820000,
-          "shares_delta": 10000,
-          "prev_weight_pct": 2.81,
-          "curr_weight_pct": 2.82,
-          "streak_days": 3
-        }
-      ],
-      "decrease": [
-        {
-          "stock_code": "3711",
-          "stock_name": "日月光投控",
-          "prev_shares": 2640000,
-          "curr_shares": 2450000,
-          "shares_delta": -190000,
-          "prev_weight_pct": 2.64,
-          "curr_weight_pct": 2.45,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2303",
-          "stock_name": "聯電",
-          "prev_shares": 3150000,
-          "curr_shares": 2990000,
-          "shares_delta": -160000,
-          "prev_weight_pct": 3.15,
-          "curr_weight_pct": 2.99,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2454",
-          "stock_name": "聯發科",
-          "prev_shares": 3030000,
-          "curr_shares": 2870000,
-          "shares_delta": -160000,
-          "prev_weight_pct": 3.03,
-          "curr_weight_pct": 2.87,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "4958",
-          "stock_name": "臻鼎-KY",
-          "prev_shares": 2000000,
-          "curr_shares": 1850000,
-          "shares_delta": -150000,
-          "prev_weight_pct": 2.0,
-          "curr_weight_pct": 1.85,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "5347",
-          "stock_name": "世界先進",
-          "prev_shares": 2150000,
-          "curr_shares": 2010000,
-          "shares_delta": -140000,
-          "prev_weight_pct": 2.15,
-          "curr_weight_pct": 2.01,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2301",
-          "stock_name": "光寶科",
-          "prev_shares": 2290000,
-          "curr_shares": 2180000,
-          "shares_delta": -110000,
-          "prev_weight_pct": 2.29,
-          "curr_weight_pct": 2.18,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "2603",
-          "stock_name": "長榮",
-          "prev_shares": 4740000,
-          "curr_shares": 4640000,
-          "shares_delta": -100000,
-          "prev_weight_pct": 4.74,
-          "curr_weight_pct": 4.64,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2379",
-          "stock_name": "瑞昱",
-          "prev_shares": 3240000,
-          "curr_shares": 3170000,
-          "shares_delta": -70000,
-          "prev_weight_pct": 3.24,
-          "curr_weight_pct": 3.17,
-          "streak_days": 4
-        },
-        {
-          "stock_code": "3034",
-          "stock_name": "聯詠",
-          "prev_shares": 2710000,
-          "curr_shares": 2640000,
-          "shares_delta": -70000,
-          "prev_weight_pct": 2.71,
-          "curr_weight_pct": 2.64,
-          "streak_days": 5
-        },
-        {
-          "stock_code": "3231",
-          "stock_name": "緯創",
-          "prev_shares": 2330000,
-          "curr_shares": 2270000,
-          "shares_delta": -60000,
-          "prev_weight_pct": 2.33,
-          "curr_weight_pct": 2.27,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2376",
-          "stock_name": "技嘉",
-          "prev_shares": 1840000,
-          "curr_shares": 1800000,
-          "shares_delta": -40000,
-          "prev_weight_pct": 1.84,
-          "curr_weight_pct": 1.8,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "2356",
-          "stock_name": "英業達",
-          "prev_shares": 1700000,
-          "curr_shares": 1690000,
-          "shares_delta": -10000,
-          "prev_weight_pct": 1.7,
-          "curr_weight_pct": 1.69,
           "streak_days": 1
         }
       ],
