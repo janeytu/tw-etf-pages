@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-11-20",
+  "prev_as_of_date": "2026-11-19",
+  "compared_at": "2026-11-21T01:29:18+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "prev_shares": 68628000,
+      "curr_shares": 60392000,
+      "shares_delta": -8236000,
+      "prev_weight_pct": 2.61,
+      "curr_weight_pct": 2.29,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2449",
+      "stock_name": "京元電子",
+      "prev_shares": 7756450,
+      "curr_shares": 7506450,
+      "shares_delta": -250000,
+      "prev_weight_pct": 0.58,
+      "curr_weight_pct": 0.56,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
