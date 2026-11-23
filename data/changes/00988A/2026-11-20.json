@@ -1,0 +1,95 @@
+{
+  "etf_ticker": "00988A",
+  "as_of_date": "2026-11-20",
+  "prev_as_of_date": "2026-11-19",
+  "compared_at": "2026-11-24T04:49:57+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 0,
+    "decrease": 4,
+    "full_exit": 1
+  },
+  "first_buy": [
+    {
+      "stock_code": "7532 JP",
+      "stock_name": "DON QUIJOTE CO LTD",
+      "prev_shares": 0,
+      "curr_shares": 500000,
+      "shares_delta": 500000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.26,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "V US",
+      "stock_name": "VISA INC-CLASS A SHARES",
+      "prev_shares": 0,
+      "curr_shares": 4000,
+      "shares_delta": 4000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.16,
+      "streak_days": 1
+    }
+  ],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "BE US",
+      "stock_name": "BLOOM ENERGY CORP- A",
+      "prev_shares": 360000,
+      "curr_shares": 270000,
+      "shares_delta": -90000,
+      "prev_weight_pct": 5.48,
+      "curr_weight_pct": 3.77,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "AMD US",
+      "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "prev_shares": 160000,
+      "curr_shares": 110000,
+      "shares_delta": -50000,
+      "prev_weight_pct": 7.08,
+      "curr_weight_pct": 4.58,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "SNOW US",
+      "stock_name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+      "prev_shares": 100000,
+      "curr_shares": 80000,
+      "shares_delta": -20000,
+      "prev_weight_pct": 2.43,
+      "curr_weight_pct": 2.0,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "009150 KS",
+      "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+      "prev_shares": 20000,
+      "curr_shares": 10000,
+      "shares_delta": -10000,
+      "prev_weight_pct": 1.2,
+      "curr_weight_pct": 0.57,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電",
+      "prev_shares": 139000,
+      "curr_shares": 0,
+      "shares_delta": -139000,
+      "prev_weight_pct": 1.19,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
