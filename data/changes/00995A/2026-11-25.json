@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00995A",
+  "as_of_date": "2026-11-25",
+  "prev_as_of_date": "2026-11-24",
+  "compared_at": "2026-11-25T03:53:45+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 0,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "2313",
+      "stock_name": "華通",
+      "prev_shares": 1000,
+      "curr_shares": 0,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電信",
+      "prev_shares": 1000,
+      "curr_shares": 0,
+      "shares_delta": -1000,
+      "prev_weight_pct": 0.01,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

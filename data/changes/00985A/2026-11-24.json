@@ -1,0 +1,83 @@
+{
+  "etf_ticker": "00985A",
+  "as_of_date": "2026-11-24",
+  "prev_as_of_date": "2026-11-23",
+  "compared_at": "2026-11-25T03:53:40+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 0,
+    "decrease": 6,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [],
+  "decrease": [
+    {
+      "stock_code": "1301",
+      "stock_name": "台塑",
+      "prev_shares": 1724000,
+      "curr_shares": 403000,
+      "shares_delta": -1321000,
+      "prev_weight_pct": 0.44,
+      "curr_weight_pct": 0.1,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2377",
+      "stock_name": "微星",
+      "prev_shares": 776000,
+      "curr_shares": 186000,
+      "shares_delta": -590000,
+      "prev_weight_pct": 0.42,
+      "curr_weight_pct": 0.1,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3036",
+      "stock_name": "文曄",
+      "prev_shares": 3288000,
+      "curr_shares": 2905000,
+      "shares_delta": -383000,
+      "prev_weight_pct": 2.37,
+      "curr_weight_pct": 1.99,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6446",
+      "stock_name": "藥華醫藥",
+      "prev_shares": 337000,
+      "curr_shares": 206000,
+      "shares_delta": -131000,
+      "prev_weight_pct": 1.68,
+      "curr_weight_pct": 0.94,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "7750",
+      "stock_name": "新  代",
+      "prev_shares": 308000,
+      "curr_shares": 199000,
+      "shares_delta": -109000,
+      "prev_weight_pct": 1.54,
+      "curr_weight_pct": 0.96,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 1645000,
+      "curr_shares": 1583000,
+      "shares_delta": -62000,
+      "prev_weight_pct": 14.88,
+      "curr_weight_pct": 14.03,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": []
+}

@@ -1,0 +1,64 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-24",
+  "prev_as_of_date": "2026-11-23",
+  "compared_at": "2026-11-25T03:53:36+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2412",
+      "stock_name": "中華電信",
+      "prev_shares": 0,
+      "curr_shares": 700000,
+      "shares_delta": 700000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.161,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3293",
+      "stock_name": "鈊象電子",
+      "prev_shares": 0,
+      "curr_shares": 150000,
+      "shares_delta": 150000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.164,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 9000,
+      "curr_shares": 2500000,
+      "shares_delta": 2491000,
+      "prev_weight_pct": 0.004,
+      "curr_weight_pct": 0.896,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2382",
+      "stock_name": "廣達電腦",
+      "prev_shares": 9000,
+      "curr_shares": 1480000,
+      "shares_delta": 1471000,
+      "prev_weight_pct": 0.005,
+      "curr_weight_pct": 0.583,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

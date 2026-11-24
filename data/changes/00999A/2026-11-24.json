@@ -1,0 +1,125 @@
+{
+  "etf_ticker": "00999A",
+  "as_of_date": "2026-11-24",
+  "prev_as_of_date": "2026-11-23",
+  "compared_at": "2026-11-25T03:53:41+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 3,
+    "increase": 5,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "8069",
+      "stock_name": "元太",
+      "prev_shares": 0,
+      "curr_shares": 955000,
+      "shares_delta": 955000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.35,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6782",
+      "stock_name": "視陽",
+      "prev_shares": 0,
+      "curr_shares": 151000,
+      "shares_delta": 151000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.48,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1590",
+      "stock_name": "亞德客-KY",
+      "prev_shares": 0,
+      "curr_shares": 100000,
+      "shares_delta": 100000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.13,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2887",
+      "stock_name": "台新新光金",
+      "prev_shares": 4627360,
+      "curr_shares": 5861360,
+      "shares_delta": 1234000,
+      "prev_weight_pct": 1.87,
+      "curr_weight_pct": 2.33,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2884",
+      "stock_name": "玉山金融控股",
+      "prev_shares": 3184000,
+      "curr_shares": 4251000,
+      "shares_delta": 1067000,
+      "prev_weight_pct": 1.51,
+      "curr_weight_pct": 1.92,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮海運",
+      "prev_shares": 770000,
+      "curr_shares": 921000,
+      "shares_delta": 151000,
+      "prev_weight_pct": 2.21,
+      "curr_weight_pct": 2.59,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6121",
+      "stock_name": "新  普",
+      "prev_shares": 316000,
+      "curr_shares": 463000,
+      "shares_delta": 147000,
+      "prev_weight_pct": 1.05,
+      "curr_weight_pct": 1.48,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2382",
+      "stock_name": "廣達電腦",
+      "prev_shares": 942500,
+      "curr_shares": 1048500,
+      "shares_delta": 106000,
+      "prev_weight_pct": 2.97,
+      "curr_weight_pct": 3.24,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "5904",
+      "stock_name": "寶雅國際",
+      "prev_shares": 1646000,
+      "curr_shares": 1363000,
+      "shares_delta": -283000,
+      "prev_weight_pct": 1.35,
+      "curr_weight_pct": 1.06,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3293",
+      "stock_name": "鈊象電子",
+      "prev_shares": 206000,
+      "curr_shares": 184000,
+      "shares_delta": -22000,
+      "prev_weight_pct": 1.91,
+      "curr_weight_pct": 1.58,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

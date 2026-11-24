@@ -1,0 +1,64 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-11-24",
+  "prev_as_of_date": "2026-11-23",
+  "compared_at": "2026-11-25T03:53:33+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2618",
+      "stock_name": "長榮航",
+      "prev_shares": 0,
+      "curr_shares": 9527000,
+      "shares_delta": 9527000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.16,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1590",
+      "stock_name": "亞德客-KY",
+      "prev_shares": 0,
+      "curr_shares": 78000,
+      "shares_delta": 78000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.03,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 19303000,
+      "curr_shares": 19847000,
+      "shares_delta": 544000,
+      "prev_weight_pct": 17.46,
+      "curr_weight_pct": 15.6,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎",
+      "prev_shares": 2361561,
+      "curr_shares": 2379561,
+      "shares_delta": 18000,
+      "prev_weight_pct": 1.45,
+      "curr_weight_pct": 1.27,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
