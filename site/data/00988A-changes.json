@@ -1,6 +1,7 @@
 {
   "etf_ticker": "00988A",
   "dates": [
+    "2026-11-24",
     "2026-11-23",
     "2026-11-20",
     "2026-11-19",
@@ -9,10 +10,710 @@
     "2026-11-16",
     "2026-11-13",
     "2026-11-12",
-    "2026-11-11",
-    "2026-11-10"
+    "2026-11-11"
   ],
   "history": [
+    {
+      "as_of_date": "2026-11-24",
+      "prev_as_of_date": "2026-11-23",
+      "source": "uni_excel",
+      "summary": {
+        "first_buy": 2,
+        "increase": 5,
+        "decrease": 1,
+        "full_exit": 0
+      },
+      "changed_count": 8,
+      "rows": [
+        {
+          "stock_code": "6857 JP",
+          "stock_name": "ADVANTEST CORP",
+          "curr_shares": 60000,
+          "prev_shares": 0,
+          "shares_delta": 60000,
+          "curr_weight_pct": 0.96,
+          "prev_weight_pct": null,
+          "weight_delta": null,
+          "changed": true,
+          "change_kind": "first_buy",
+          "status": {
+            "kind": "first_buy",
+            "css": "status-buy",
+            "label": "新建倉 (+60張)",
+            "short": "新建倉"
+          }
+        },
+        {
+          "stock_code": "TSLA US",
+          "stock_name": "TESLA INC(特斯拉公司)",
+          "curr_shares": 25000,
+          "prev_shares": 0,
+          "shares_delta": 25000,
+          "curr_weight_pct": 0.9,
+          "prev_weight_pct": null,
+          "weight_delta": null,
+          "changed": true,
+          "change_kind": "first_buy",
+          "status": {
+            "kind": "first_buy",
+            "css": "status-buy",
+            "label": "新建倉 (+25張)",
+            "short": "新建倉"
+          }
+        },
+        {
+          "stock_code": "NTSK US",
+          "stock_name": "NETSKOPE INC-CL A",
+          "curr_shares": 1400000,
+          "prev_shares": 1000000,
+          "shares_delta": 400000,
+          "curr_weight_pct": 3.36,
+          "prev_weight_pct": 2.45,
+          "weight_delta": 0.9099999999999997,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連2天 / +400張)",
+            "short": "加碼(連2天)",
+            "streak_text": "連2買"
+          }
+        },
+        {
+          "stock_code": "PLTR US",
+          "stock_name": "PALANTIR TECHNOLOGIES INC-A",
+          "curr_shares": 410000,
+          "prev_shares": 350000,
+          "shares_delta": 60000,
+          "curr_weight_pct": 6.21,
+          "prev_weight_pct": 5.3,
+          "weight_delta": 0.9100000000000001,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +60張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "MRNA US",
+          "stock_name": "MODERNA INC",
+          "curr_shares": 100000,
+          "prev_shares": 60000,
+          "shares_delta": 40000,
+          "curr_weight_pct": 2.14,
+          "prev_weight_pct": 1.21,
+          "weight_delta": 0.9300000000000002,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +40張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "OKTA US",
+          "stock_name": "OKTA INC",
+          "curr_shares": 225000,
+          "prev_shares": 200000,
+          "shares_delta": 25000,
+          "curr_weight_pct": 4.19,
+          "prev_weight_pct": 3.92,
+          "weight_delta": 0.27000000000000046,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連1天 / +25張)",
+            "short": "加碼(連1天)",
+            "streak_text": "連1買"
+          }
+        },
+        {
+          "stock_code": "APP US",
+          "stock_name": "APPLOVIN CORP-CLASS A",
+          "curr_shares": 40000,
+          "prev_shares": 20000,
+          "shares_delta": 20000,
+          "curr_weight_pct": 1.43,
+          "prev_weight_pct": 0.71,
+          "weight_delta": 0.72,
+          "changed": true,
+          "change_kind": "increase",
+          "status": {
+            "kind": "increase",
+            "css": "status-inc",
+            "label": "加碼(連2天 / +20張)",
+            "short": "加碼(連2天)",
+            "streak_text": "連2買"
+          }
+        },
+        {
+          "stock_code": "CRWD US",
+          "stock_name": "CROWDSTRIKE HOLDINGS INC - A",
+          "curr_shares": 155000,
+          "prev_shares": 220754,
+          "shares_delta": -65754,
+          "curr_weight_pct": 3.07,
+          "prev_weight_pct": 4.39,
+          "weight_delta": -1.3199999999999998,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -65.754張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "MSFT US",
+          "stock_name": "MICROSOFT CORP(微軟公司)",
+          "curr_shares": 160000,
+          "prev_shares": 160000,
+          "shares_delta": 0,
+          "curr_weight_pct": 7.46,
+          "prev_weight_pct": 7.46,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "SPCX US",
+          "stock_name": "SPACE EXPLORATION TECHN-CL A",
+          "curr_shares": 630000,
+          "prev_shares": 630000,
+          "shares_delta": 0,
+          "curr_weight_pct": 7.45,
+          "prev_weight_pct": 7.45,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "AAPL US",
+          "stock_name": "APPLE INC(蘋果公司)",
+          "curr_shares": 180000,
+          "prev_shares": 180000,
+          "shares_delta": 0,
+          "curr_weight_pct": 5.99,
+          "prev_weight_pct": 5.99,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "AMZN US",
+          "stock_name": "AMAZON.COM INC(亞馬遜公司)",
+          "curr_shares": 190000,
+          "prev_shares": 190000,
+          "shares_delta": 0,
+          "curr_weight_pct": 4.5,
+          "prev_weight_pct": 4.5,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "AMD US",
+          "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+          "curr_shares": 110000,
+          "prev_shares": 110000,
+          "shares_delta": 0,
+          "curr_weight_pct": 4.27,
+          "prev_weight_pct": 4.27,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "PANW US",
+          "stock_name": "PALO ALTO NETWORKS INC",
+          "curr_shares": 125000,
+          "prev_shares": 125000,
+          "shares_delta": 0,
+          "curr_weight_pct": 4.15,
+          "prev_weight_pct": 4.15,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3017",
+          "stock_name": "奇鋐",
+          "curr_shares": 550000,
+          "prev_shares": 550000,
+          "shares_delta": 0,
+          "curr_weight_pct": 4.07,
+          "prev_weight_pct": 4.07,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3443",
+          "stock_name": "創意",
+          "curr_shares": 240000,
+          "prev_shares": 240000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.85,
+          "prev_weight_pct": 3.85,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "1303",
+          "stock_name": "南亞",
+          "curr_shares": 4800000,
+          "prev_shares": 4800000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.4,
+          "prev_weight_pct": 3.4,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "NET US",
+          "stock_name": "CLOUDFLARE INC - CLASS A",
+          "curr_shares": 120000,
+          "prev_shares": 120000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.24,
+          "prev_weight_pct": 3.24,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2330",
+          "stock_name": "台積電",
+          "curr_shares": 480000,
+          "prev_shares": 480000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.05,
+          "prev_weight_pct": 3.05,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3037",
+          "stock_name": "欣興",
+          "curr_shares": 1700000,
+          "prev_shares": 1700000,
+          "shares_delta": 0,
+          "curr_weight_pct": 2.97,
+          "prev_weight_pct": 2.97,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "BE US",
+          "stock_name": "BLOOM ENERGY CORP- A",
+          "curr_shares": 200000,
+          "prev_shares": 200000,
+          "shares_delta": 0,
+          "curr_weight_pct": 2.94,
+          "prev_weight_pct": 2.94,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3711",
+          "stock_name": "日月光投控",
+          "curr_shares": 1500000,
+          "prev_shares": 1500000,
+          "shares_delta": 0,
+          "curr_weight_pct": 2.26,
+          "prev_weight_pct": 2.26,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "ZS US",
+          "stock_name": "ZSCALER INC",
+          "curr_shares": 100145,
+          "prev_shares": 100145,
+          "shares_delta": 0,
+          "curr_weight_pct": 2.18,
+          "prev_weight_pct": 2.18,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "SNOW US",
+          "stock_name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+          "curr_shares": 80000,
+          "prev_shares": 80000,
+          "shares_delta": 0,
+          "curr_weight_pct": 2.04,
+          "prev_weight_pct": 2.04,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2454",
+          "stock_name": "聯發科",
+          "curr_shares": 167000,
+          "prev_shares": 167000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.93,
+          "prev_weight_pct": 1.93,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "META US",
+          "stock_name": "META PLATFORMS INC(Meta平台公司)",
+          "curr_shares": 25000,
+          "prev_shares": 25000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.39,
+          "prev_weight_pct": 1.39,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6223",
+          "stock_name": "旺矽",
+          "curr_shares": 110000,
+          "prev_shares": 110000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.31,
+          "prev_weight_pct": 1.31,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "009150 KS",
+          "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
+          "curr_shares": 10000,
+          "prev_shares": 10000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.6,
+          "prev_weight_pct": 0.6,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3697 JP",
+          "stock_name": "SHIFT INC",
+          "curr_shares": 800000,
+          "prev_shares": 800000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.49,
+          "prev_weight_pct": 0.49,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "MU US",
+          "stock_name": "MICRON TECHNOLOGY INC",
+          "curr_shares": 7500,
+          "prev_shares": 7500,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.44,
+          "prev_weight_pct": 0.44,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "7532 JP",
+          "stock_name": "DON QUIJOTE CO LTD",
+          "curr_shares": 500000,
+          "prev_shares": 500000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.24,
+          "prev_weight_pct": 0.24,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "IFX GY",
+          "stock_name": "INFINEON TECHNOLOGIES AG",
+          "curr_shares": 50000,
+          "prev_shares": 50000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.22,
+          "prev_weight_pct": 0.22,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "V US",
+          "stock_name": "VISA INC-CLASS A SHARES",
+          "curr_shares": 4000,
+          "prev_shares": 4000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.16,
+          "prev_weight_pct": 0.16,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        }
+      ],
+      "first_buy": [
+        {
+          "stock_code": "6857 JP",
+          "stock_name": "ADVANTEST CORP",
+          "prev_shares": 0,
+          "curr_shares": 60000,
+          "shares_delta": 60000,
+          "prev_weight_pct": null,
+          "curr_weight_pct": 0.96,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "TSLA US",
+          "stock_name": "TESLA INC(特斯拉公司)",
+          "prev_shares": 0,
+          "curr_shares": 25000,
+          "shares_delta": 25000,
+          "prev_weight_pct": null,
+          "curr_weight_pct": 0.9,
+          "streak_days": 1
+        }
+      ],
+      "increase": [
+        {
+          "stock_code": "NTSK US",
+          "stock_name": "NETSKOPE INC-CL A",
+          "prev_shares": 1000000,
+          "curr_shares": 1400000,
+          "shares_delta": 400000,
+          "prev_weight_pct": 2.45,
+          "curr_weight_pct": 3.36,
+          "streak_days": 2
+        },
+        {
+          "stock_code": "PLTR US",
+          "stock_name": "PALANTIR TECHNOLOGIES INC-A",
+          "prev_shares": 350000,
+          "curr_shares": 410000,
+          "shares_delta": 60000,
+          "prev_weight_pct": 5.3,
+          "curr_weight_pct": 6.21,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "MRNA US",
+          "stock_name": "MODERNA INC",
+          "prev_shares": 60000,
+          "curr_shares": 100000,
+          "shares_delta": 40000,
+          "prev_weight_pct": 1.21,
+          "curr_weight_pct": 2.14,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "OKTA US",
+          "stock_name": "OKTA INC",
+          "prev_shares": 200000,
+          "curr_shares": 225000,
+          "shares_delta": 25000,
+          "prev_weight_pct": 3.92,
+          "curr_weight_pct": 4.19,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "APP US",
+          "stock_name": "APPLOVIN CORP-CLASS A",
+          "prev_shares": 20000,
+          "curr_shares": 40000,
+          "shares_delta": 20000,
+          "prev_weight_pct": 0.71,
+          "curr_weight_pct": 1.43,
+          "streak_days": 2
+        }
+      ],
+      "decrease": [
+        {
+          "stock_code": "CRWD US",
+          "stock_name": "CROWDSTRIKE HOLDINGS INC - A",
+          "prev_shares": 220754,
+          "curr_shares": 155000,
+          "shares_delta": -65754,
+          "prev_weight_pct": 4.39,
+          "curr_weight_pct": 3.07,
+          "streak_days": 1
+        }
+      ],
+      "full_exit": []
+    },
     {
       "as_of_date": "2026-11-23",
       "prev_as_of_date": "2026-11-20",
@@ -5665,680 +6366,6 @@
         }
       ],
       "full_exit": []
-    },
-    {
-      "as_of_date": "2026-11-10",
-      "prev_as_of_date": "2026-11-09",
-      "source": "uni_excel",
-      "summary": {
-        "first_buy": 1,
-        "increase": 4,
-        "decrease": 1,
-        "full_exit": 1
-      },
-      "changed_count": 7,
-      "rows": [
-        {
-          "stock_code": "MRNA US",
-          "stock_name": "MODERNA INC",
-          "curr_shares": 30000,
-          "prev_shares": 0,
-          "shares_delta": 30000,
-          "curr_weight_pct": 0.62,
-          "prev_weight_pct": null,
-          "weight_delta": null,
-          "changed": true,
-          "change_kind": "first_buy",
-          "status": {
-            "kind": "first_buy",
-            "css": "status-buy",
-            "label": "新建倉 (+30張)",
-            "short": "新建倉"
-          }
-        },
-        {
-          "stock_code": "3711",
-          "stock_name": "日月光投控",
-          "curr_shares": 1270000,
-          "prev_shares": 670000,
-          "shares_delta": 600000,
-          "curr_weight_pct": 1.94,
-          "prev_weight_pct": 0.96,
-          "weight_delta": 0.98,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +600張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "AMZN US",
-          "stock_name": "AMAZON.COM INC(亞馬遜公司)",
-          "curr_shares": 130000,
-          "prev_shares": 100000,
-          "shares_delta": 30000,
-          "curr_weight_pct": 2.92,
-          "prev_weight_pct": 2.24,
-          "weight_delta": 0.6799999999999997,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連3天 / +30張)",
-            "short": "加碼(連3天)",
-            "streak_text": "連3買"
-          }
-        },
-        {
-          "stock_code": "3443",
-          "stock_name": "創意",
-          "curr_shares": 229000,
-          "prev_shares": 210000,
-          "shares_delta": 19000,
-          "curr_weight_pct": 4.14,
-          "prev_weight_pct": 3.58,
-          "weight_delta": 0.5599999999999996,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連2天 / +19張)",
-            "short": "加碼(連2天)",
-            "streak_text": "連2買"
-          }
-        },
-        {
-          "stock_code": "AMD US",
-          "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
-          "curr_shares": 140000,
-          "prev_shares": 130000,
-          "shares_delta": 10000,
-          "curr_weight_pct": 5.99,
-          "prev_weight_pct": 5.54,
-          "weight_delta": 0.4500000000000002,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +10張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "NVDA US",
-          "stock_name": "NVIDIA CORP(輝達公司)",
-          "curr_shares": 304000,
-          "prev_shares": 320000,
-          "shares_delta": -16000,
-          "curr_weight_pct": 4.26,
-          "prev_weight_pct": 4.79,
-          "weight_delta": -0.5300000000000002,
-          "changed": true,
-          "change_kind": "decrease",
-          "status": {
-            "kind": "decrease",
-            "css": "status-dec",
-            "label": "減碼(連1天 / -16張)",
-            "short": "減碼(連1天)",
-            "streak_text": "連1賣"
-          }
-        },
-        {
-          "stock_code": "NOW US",
-          "stock_name": "SERVICENOW INC",
-          "curr_shares": 0,
-          "prev_shares": 86000,
-          "shares_delta": -86000,
-          "curr_weight_pct": null,
-          "prev_weight_pct": 0.74,
-          "weight_delta": null,
-          "changed": true,
-          "change_kind": "full_exit",
-          "status": {
-            "kind": "full_exit",
-            "css": "status-exit",
-            "label": "全部出清 (-86張)",
-            "short": "全部出清",
-            "streak_text": "全部出清"
-          }
-        },
-        {
-          "stock_code": "MSFT US",
-          "stock_name": "MICROSOFT CORP(微軟公司)",
-          "curr_shares": 160000,
-          "prev_shares": 160000,
-          "shares_delta": 0,
-          "curr_weight_pct": 7.08,
-          "prev_weight_pct": 7.08,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "BE US",
-          "stock_name": "BLOOM ENERGY CORP- A",
-          "curr_shares": 450000,
-          "prev_shares": 450000,
-          "shares_delta": 0,
-          "curr_weight_pct": 6.93,
-          "prev_weight_pct": 6.93,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "SPCX US",
-          "stock_name": "SPACE EXPLORATION TECHN-CL A",
-          "curr_shares": 550000,
-          "prev_shares": 550000,
-          "shares_delta": 0,
-          "curr_weight_pct": 6.54,
-          "prev_weight_pct": 6.54,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3037",
-          "stock_name": "欣興",
-          "curr_shares": 2600000,
-          "prev_shares": 2600000,
-          "shares_delta": 0,
-          "curr_weight_pct": 5.42,
-          "prev_weight_pct": 5.42,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "AAPL US",
-          "stock_name": "APPLE INC(蘋果公司)",
-          "curr_shares": 180000,
-          "prev_shares": 180000,
-          "shares_delta": 0,
-          "curr_weight_pct": 5.21,
-          "prev_weight_pct": 5.21,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "PLTR US",
-          "stock_name": "PALANTIR TECHNOLOGIES INC-A",
-          "curr_shares": 350000,
-          "prev_shares": 350000,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.91,
-          "prev_weight_pct": 4.91,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3017",
-          "stock_name": "奇鋐",
-          "curr_shares": 600000,
-          "prev_shares": 600000,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.22,
-          "prev_weight_pct": 4.22,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "CRWD US",
-          "stock_name": "CROWDSTRIKE HOLDINGS INC - A",
-          "curr_shares": 220754,
-          "prev_shares": 220754,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.14,
-          "prev_weight_pct": 4.14,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "PANW US",
-          "stock_name": "PALO ALTO NETWORKS INC",
-          "curr_shares": 150000,
-          "prev_shares": 150000,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.07,
-          "prev_weight_pct": 4.07,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "OKTA US",
-          "stock_name": "OKTA INC",
-          "curr_shares": 200000,
-          "prev_shares": 200000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.96,
-          "prev_weight_pct": 2.96,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2330",
-          "stock_name": "台積電",
-          "curr_shares": 480000,
-          "prev_shares": 480000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.76,
-          "prev_weight_pct": 2.76,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2383",
-          "stock_name": "台光電",
-          "curr_shares": 250000,
-          "prev_shares": 250000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.75,
-          "prev_weight_pct": 2.75,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "SNOW US",
-          "stock_name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
-          "curr_shares": 100000,
-          "prev_shares": 100000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.46,
-          "prev_weight_pct": 2.46,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "009150 KS",
-          "stock_name": "Samsung Electro-Mechanics co(009150 ks)",
-          "curr_shares": 40000,
-          "prev_shares": 40000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.19,
-          "prev_weight_pct": 2.19,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "NET US",
-          "stock_name": "CLOUDFLARE INC - CLASS A",
-          "curr_shares": 82000,
-          "prev_shares": 82000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.08,
-          "prev_weight_pct": 2.08,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "1303",
-          "stock_name": "南亞",
-          "curr_shares": 2825000,
-          "prev_shares": 2825000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.06,
-          "prev_weight_pct": 2.06,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "ZS US",
-          "stock_name": "ZSCALER INC",
-          "curr_shares": 100145,
-          "prev_shares": 100145,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.62,
-          "prev_weight_pct": 1.62,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "NTSK US",
-          "stock_name": "NETSKOPE INC-CL A",
-          "curr_shares": 800000,
-          "prev_shares": 800000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.42,
-          "prev_weight_pct": 1.42,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "META US",
-          "stock_name": "META PLATFORMS INC(Meta平台公司)",
-          "curr_shares": 25000,
-          "prev_shares": 25000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.33,
-          "prev_weight_pct": 1.33,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6223",
-          "stock_name": "旺矽",
-          "curr_shares": 110000,
-          "prev_shares": 110000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.13,
-          "prev_weight_pct": 1.13,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "TWLO US",
-          "stock_name": "TWILIO INC - A",
-          "curr_shares": 60000,
-          "prev_shares": 60000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.07,
-          "prev_weight_pct": 1.07,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "IFX GY",
-          "stock_name": "INFINEON TECHNOLOGIES AG",
-          "curr_shares": 225000,
-          "prev_shares": 225000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.03,
-          "prev_weight_pct": 1.03,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "MU US",
-          "stock_name": "MICRON TECHNOLOGY INC",
-          "curr_shares": 15131,
-          "prev_shares": 15131,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.91,
-          "prev_weight_pct": 0.91,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2454",
-          "stock_name": "聯發科",
-          "curr_shares": 80000,
-          "prev_shares": 80000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.77,
-          "prev_weight_pct": 0.77,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3697 JP",
-          "stock_name": "SHIFT INC",
-          "curr_shares": 800000,
-          "prev_shares": 800000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.48,
-          "prev_weight_pct": 0.48,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        }
-      ],
-      "first_buy": [
-        {
-          "stock_code": "MRNA US",
-          "stock_name": "MODERNA INC",
-          "prev_shares": 0,
-          "curr_shares": 30000,
-          "shares_delta": 30000,
-          "prev_weight_pct": null,
-          "curr_weight_pct": 0.62,
-          "streak_days": 1
-        }
-      ],
-      "increase": [
-        {
-          "stock_code": "3711",
-          "stock_name": "日月光投控",
-          "prev_shares": 670000,
-          "curr_shares": 1270000,
-          "shares_delta": 600000,
-          "prev_weight_pct": 0.96,
-          "curr_weight_pct": 1.94,
-          "streak_days": 1
-        },
-        {
-          "stock_code": "AMZN US",
-          "stock_name": "AMAZON.COM INC(亞馬遜公司)",
-          "prev_shares": 100000,
-          "curr_shares": 130000,
-          "shares_delta": 30000,
-          "prev_weight_pct": 2.24,
-          "curr_weight_pct": 2.92,
-          "streak_days": 3
-        },
-        {
-          "stock_code": "3443",
-          "stock_name": "創意",
-          "prev_shares": 210000,
-          "curr_shares": 229000,
-          "shares_delta": 19000,
-          "prev_weight_pct": 3.58,
-          "curr_weight_pct": 4.14,
-          "streak_days": 2
-        },
-        {
-          "stock_code": "AMD US",
-          "stock_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
-          "prev_shares": 130000,
-          "curr_shares": 140000,
-          "shares_delta": 10000,
-          "prev_weight_pct": 5.54,
-          "curr_weight_pct": 5.99,
-          "streak_days": 1
-        }
-      ],
-      "decrease": [
-        {
-          "stock_code": "NVDA US",
-          "stock_name": "NVIDIA CORP(輝達公司)",
-          "prev_shares": 320000,
-          "curr_shares": 304000,
-          "shares_delta": -16000,
-          "prev_weight_pct": 4.79,
-          "curr_weight_pct": 4.26,
-          "streak_days": 1
-        }
-      ],
-      "full_exit": [
-        {
-          "stock_code": "NOW US",
-          "stock_name": "SERVICENOW INC",
-          "prev_shares": 86000,
-          "curr_shares": 0,
-          "shares_delta": -86000,
-          "prev_weight_pct": 0.74,
-          "curr_weight_pct": null,
-          "streak_days": 1
-        }
-      ]
     }
   ]
 }

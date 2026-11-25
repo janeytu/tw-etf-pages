@@ -1,0 +1,125 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-11-25",
+  "prev_as_of_date": "2026-11-24",
+  "compared_at": "2026-11-26T02:57:22+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 3,
+    "decrease": 6,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 0,
+      "curr_shares": 163000,
+      "shares_delta": 163000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 1.3567,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 323000,
+      "curr_shares": 414000,
+      "shares_delta": 91000,
+      "prev_weight_pct": 3.3469,
+      "curr_weight_pct": 4.5251,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 130000,
+      "curr_shares": 170000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 1.325,
+      "curr_weight_pct": 1.6642,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2059",
+      "stock_name": "川湖科技",
+      "prev_shares": 218000,
+      "curr_shares": 242000,
+      "shares_delta": 24000,
+      "prev_weight_pct": 3.5188,
+      "curr_weight_pct": 4.2749,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "8021",
+      "stock_name": "尖點",
+      "prev_shares": 1762253,
+      "curr_shares": 870253,
+      "shares_delta": -892000,
+      "prev_weight_pct": 1.2456,
+      "curr_weight_pct": 0.5778,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 224000,
+      "curr_shares": 57000,
+      "shares_delta": -167000,
+      "prev_weight_pct": 0.0906,
+      "curr_weight_pct": 0.0225,
+      "streak_days": 4
+    },
+    {
+      "stock_code": "2360",
+      "stock_name": "致茂電子",
+      "prev_shares": 413000,
+      "curr_shares": 275000,
+      "shares_delta": -138000,
+      "prev_weight_pct": 1.0913,
+      "curr_weight_pct": 0.7542,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 278000,
+      "curr_shares": 185000,
+      "shares_delta": -93000,
+      "prev_weight_pct": 0.5355,
+      "curr_weight_pct": 0.3446,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5289",
+      "stock_name": "宜鼎國際",
+      "prev_shares": 152952,
+      "curr_shares": 105952,
+      "shares_delta": -47000,
+      "prev_weight_pct": 0.3396,
+      "curr_weight_pct": 0.2209,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴科技",
+      "prev_shares": 57000,
+      "curr_shares": 38000,
+      "shares_delta": -19000,
+      "prev_weight_pct": 0.4778,
+      "curr_weight_pct": 0.3111,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

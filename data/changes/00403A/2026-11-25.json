@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-11-25",
+  "prev_as_of_date": "2026-11-24",
+  "compared_at": "2026-11-26T02:57:21+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 1,
+    "increase": 4,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "2891",
+      "stock_name": "中信金",
+      "prev_shares": 0,
+      "curr_shares": 1700000,
+      "shares_delta": 1700000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.1,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 3300000,
+      "curr_shares": 4300000,
+      "shares_delta": 1000000,
+      "prev_weight_pct": 1.48,
+      "curr_weight_pct": 1.84,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 8600000,
+      "curr_shares": 8750000,
+      "shares_delta": 150000,
+      "prev_weight_pct": 16.18,
+      "curr_weight_pct": 16.51,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 2550000,
+      "curr_shares": 2640000,
+      "shares_delta": 90000,
+      "prev_weight_pct": 5.59,
+      "curr_weight_pct": 5.9,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3661",
+      "stock_name": "世芯-KY",
+      "prev_shares": 134000,
+      "curr_shares": 167000,
+      "shares_delta": 33000,
+      "prev_weight_pct": 0.44,
+      "curr_weight_pct": 0.53,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3583",
+      "stock_name": "辛耘",
+      "prev_shares": 159000,
+      "curr_shares": 70000,
+      "shares_delta": -89000,
+      "prev_weight_pct": 0.05,
+      "curr_weight_pct": 0.02,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}
