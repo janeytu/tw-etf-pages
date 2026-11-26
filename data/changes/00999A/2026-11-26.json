@@ -1,0 +1,145 @@
+{
+  "etf_ticker": "00999A",
+  "as_of_date": "2026-11-26",
+  "prev_as_of_date": "2026-11-25",
+  "compared_at": "2026-11-27T02:47:21+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 4,
+    "increase": 4,
+    "decrease": 4,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "3264",
+      "stock_name": "欣銓科技",
+      "prev_shares": 0,
+      "curr_shares": 348000,
+      "shares_delta": 348000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.6,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6257",
+      "stock_name": "矽格",
+      "prev_shares": 0,
+      "curr_shares": 311000,
+      "shares_delta": 311000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.5,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3563",
+      "stock_name": "牧德",
+      "prev_shares": 0,
+      "curr_shares": 67000,
+      "shares_delta": 67000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.38,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3131",
+      "stock_name": "弘塑科技",
+      "prev_shares": 0,
+      "curr_shares": 24000,
+      "shares_delta": 24000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.4,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "2890",
+      "stock_name": "永豐金融",
+      "prev_shares": 2829438,
+      "curr_shares": 3385438,
+      "shares_delta": 556000,
+      "prev_weight_pct": 1.18,
+      "curr_weight_pct": 1.32,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2885",
+      "stock_name": "元大金",
+      "prev_shares": 1958040,
+      "curr_shares": 2481040,
+      "shares_delta": 523000,
+      "prev_weight_pct": 1.39,
+      "curr_weight_pct": 1.74,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2886",
+      "stock_name": "兆豐金",
+      "prev_shares": 2700000,
+      "curr_shares": 3133000,
+      "shares_delta": 433000,
+      "prev_weight_pct": 1.55,
+      "curr_weight_pct": 1.66,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6782",
+      "stock_name": "視陽",
+      "prev_shares": 151000,
+      "curr_shares": 203000,
+      "shares_delta": 52000,
+      "prev_weight_pct": 0.51,
+      "curr_weight_pct": 0.69,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "4551",
+      "stock_name": "智伸科",
+      "prev_shares": 405000,
+      "curr_shares": 162000,
+      "shares_delta": -243000,
+      "prev_weight_pct": 0.55,
+      "curr_weight_pct": 0.22,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6138",
+      "stock_name": "茂達電子",
+      "prev_shares": 351000,
+      "curr_shares": 211000,
+      "shares_delta": -140000,
+      "prev_weight_pct": 0.76,
+      "curr_weight_pct": 0.46,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 83000,
+      "curr_shares": 46000,
+      "shares_delta": -37000,
+      "prev_weight_pct": 1.56,
+      "curr_weight_pct": 0.9,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽科技",
+      "prev_shares": 48000,
+      "curr_shares": 34000,
+      "shares_delta": -14000,
+      "prev_weight_pct": 2.08,
+      "curr_weight_pct": 1.53,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

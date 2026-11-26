@@ -1,0 +1,144 @@
+{
+  "etf_ticker": "00406A",
+  "as_of_date": "2026-11-27",
+  "prev_as_of_date": "2026-11-26",
+  "compared_at": "2026-11-27T02:47:20+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 10,
+    "decrease": 0,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "4938",
+      "stock_name": "和碩",
+      "prev_shares": 10000000,
+      "curr_shares": 13800000,
+      "shares_delta": 3800000,
+      "prev_weight_pct": 0.48,
+      "curr_weight_pct": 0.67,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投資控股",
+      "prev_shares": 7737000,
+      "curr_shares": 8937000,
+      "shares_delta": 1200000,
+      "prev_weight_pct": 2.28,
+      "curr_weight_pct": 2.61,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "8150",
+      "stock_name": "南茂科技",
+      "prev_shares": 455000,
+      "curr_shares": 1251000,
+      "shares_delta": 796000,
+      "prev_weight_pct": 0.02,
+      "curr_weight_pct": 0.05,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "prev_shares": 3323000,
+      "curr_shares": 3623000,
+      "shares_delta": 300000,
+      "prev_weight_pct": 2.12,
+      "curr_weight_pct": 2.32,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科技",
+      "prev_shares": 2893000,
+      "curr_shares": 3123000,
+      "shares_delta": 230000,
+      "prev_weight_pct": 6.38,
+      "curr_weight_pct": 6.62,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2383",
+      "stock_name": "台光電",
+      "prev_shares": 3030000,
+      "curr_shares": 3230000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 6.15,
+      "curr_weight_pct": 6.76,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 4848000,
+      "curr_shares": 5013000,
+      "shares_delta": 165000,
+      "prev_weight_pct": 2.65,
+      "curr_weight_pct": 2.85,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞",
+      "prev_shares": 17178000,
+      "curr_shares": 17328000,
+      "shares_delta": 150000,
+      "prev_weight_pct": 2.35,
+      "curr_weight_pct": 2.42,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "prev_shares": 7434000,
+      "curr_shares": 7534000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 9.67,
+      "curr_weight_pct": 9.27,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽科技",
+      "prev_shares": 1252000,
+      "curr_shares": 1332000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 2.85,
+      "curr_weight_pct": 3.14,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [],
+  "full_exit": [
+    {
+      "stock_code": "2481",
+      "stock_name": "強茂",
+      "prev_shares": 1410000,
+      "curr_shares": 0,
+      "shares_delta": -1410000,
+      "prev_weight_pct": 0.08,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2486",
+      "stock_name": "一詮精密",
+      "prev_shares": 1139000,
+      "curr_shares": 0,
+      "shares_delta": -1139000,
+      "prev_weight_pct": 0.09,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

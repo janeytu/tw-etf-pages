@@ -1,0 +1,144 @@
+{
+  "etf_ticker": "00981A",
+  "as_of_date": "2026-11-26",
+  "prev_as_of_date": "2026-11-25",
+  "compared_at": "2026-11-27T02:47:15+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 2,
+    "increase": 10,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [
+    {
+      "stock_code": "1560",
+      "stock_name": "中砂",
+      "prev_shares": 0,
+      "curr_shares": 200000,
+      "shares_delta": 200000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.05,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3008",
+      "stock_name": "大立光",
+      "prev_shares": 0,
+      "curr_shares": 2000,
+      "shares_delta": 2000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.0,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3231",
+      "stock_name": "緯創",
+      "prev_shares": 11967000,
+      "curr_shares": 14258000,
+      "shares_delta": 2291000,
+      "prev_weight_pct": 0.67,
+      "curr_weight_pct": 0.85,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3711",
+      "stock_name": "日月光投控",
+      "prev_shares": 19984000,
+      "curr_shares": 22105000,
+      "shares_delta": 2121000,
+      "prev_weight_pct": 3.6,
+      "curr_weight_pct": 4.01,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電",
+      "prev_shares": 8502000,
+      "curr_shares": 9220000,
+      "shares_delta": 718000,
+      "prev_weight_pct": 2.84,
+      "curr_weight_pct": 3.26,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6669",
+      "stock_name": "緯穎",
+      "prev_shares": 2584561,
+      "curr_shares": 3162561,
+      "shares_delta": 578000,
+      "prev_weight_pct": 1.37,
+      "curr_weight_pct": 1.76,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 4043848,
+      "curr_shares": 4489848,
+      "shares_delta": 446000,
+      "prev_weight_pct": 2.44,
+      "curr_weight_pct": 2.85,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6271",
+      "stock_name": "同欣電",
+      "prev_shares": 2940000,
+      "curr_shares": 3310000,
+      "shares_delta": 370000,
+      "prev_weight_pct": 0.19,
+      "curr_weight_pct": 0.22,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦",
+      "prev_shares": 7736000,
+      "curr_shares": 8056000,
+      "shares_delta": 320000,
+      "prev_weight_pct": 4.22,
+      "curr_weight_pct": 4.64,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 7306000,
+      "curr_shares": 7542000,
+      "shares_delta": 236000,
+      "prev_weight_pct": 6.87,
+      "curr_weight_pct": 7.49,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽",
+      "prev_shares": 2683000,
+      "curr_shares": 2813000,
+      "shares_delta": 130000,
+      "prev_weight_pct": 3.74,
+      "curr_weight_pct": 4.11,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6805",
+      "stock_name": "富世達",
+      "prev_shares": 1676000,
+      "curr_shares": 1801000,
+      "shares_delta": 125000,
+      "prev_weight_pct": 0.95,
+      "curr_weight_pct": 1.08,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

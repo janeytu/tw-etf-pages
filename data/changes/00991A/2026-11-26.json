@@ -1,0 +1,104 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-26",
+  "prev_as_of_date": "2026-11-25",
+  "compared_at": "2026-11-27T02:47:17+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 6,
+    "decrease": 2,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1303",
+      "stock_name": "南亞塑膠",
+      "prev_shares": 14500000,
+      "curr_shares": 15000000,
+      "shares_delta": 500000,
+      "prev_weight_pct": 4.753,
+      "curr_weight_pct": 5.382,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電子",
+      "prev_shares": 1100000,
+      "curr_shares": 1350000,
+      "shares_delta": 250000,
+      "prev_weight_pct": 1.441,
+      "curr_weight_pct": 1.975,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電子",
+      "prev_shares": 880000,
+      "curr_shares": 1080000,
+      "shares_delta": 200000,
+      "prev_weight_pct": 1.344,
+      "curr_weight_pct": 1.779,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2345",
+      "stock_name": "智邦科技",
+      "prev_shares": 640000,
+      "curr_shares": 720000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 1.366,
+      "curr_weight_pct": 1.715,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 600000,
+      "curr_shares": 676000,
+      "shares_delta": 76000,
+      "prev_weight_pct": 1.415,
+      "curr_weight_pct": 1.779,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "6223",
+      "stock_name": "旺矽科技",
+      "prev_shares": 310000,
+      "curr_shares": 360000,
+      "shares_delta": 50000,
+      "prev_weight_pct": 1.691,
+      "curr_weight_pct": 2.179,
+      "streak_days": 2
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "2408",
+      "stock_name": "南亞科技",
+      "prev_shares": 1300000,
+      "curr_shares": 1000000,
+      "shares_delta": -300000,
+      "prev_weight_pct": 0.524,
+      "curr_weight_pct": 0.45,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意電子",
+      "prev_shares": 60000,
+      "curr_shares": 30000,
+      "shares_delta": -30000,
+      "prev_weight_pct": 0.44,
+      "curr_weight_pct": 0.238,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": []
+}

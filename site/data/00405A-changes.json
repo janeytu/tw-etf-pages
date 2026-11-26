@@ -1,6 +1,7 @@
 {
   "etf_ticker": "00405A",
   "dates": [
+    "2026-11-26",
     "2026-11-25",
     "2026-11-24",
     "2026-11-23",
@@ -9,10 +10,786 @@
     "2026-11-16",
     "2026-11-13",
     "2026-11-12",
-    "2026-11-11",
-    "2026-11-10"
+    "2026-11-11"
   ],
   "history": [
+    {
+      "as_of_date": "2026-11-26",
+      "prev_as_of_date": "2026-11-25",
+      "source": "zdsetf",
+      "summary": {
+        "first_buy": 1,
+        "increase": 0,
+        "decrease": 1,
+        "full_exit": 3
+      },
+      "changed_count": 5,
+      "rows": [
+        {
+          "stock_code": "3533",
+          "stock_name": "嘉澤端子工業",
+          "curr_shares": 21000,
+          "prev_shares": 0,
+          "shares_delta": 21000,
+          "curr_weight_pct": 0.1696,
+          "prev_weight_pct": null,
+          "weight_delta": null,
+          "changed": true,
+          "change_kind": "first_buy",
+          "status": {
+            "kind": "first_buy",
+            "css": "status-buy",
+            "label": "新建倉 (+21張)",
+            "short": "新建倉"
+          }
+        },
+        {
+          "stock_code": "7769",
+          "stock_name": "鴻勁精密",
+          "curr_shares": 60000,
+          "prev_shares": 120000,
+          "shares_delta": -60000,
+          "curr_weight_pct": 0.9692,
+          "prev_weight_pct": 1.9856,
+          "weight_delta": -1.0164,
+          "changed": true,
+          "change_kind": "decrease",
+          "status": {
+            "kind": "decrease",
+            "css": "status-dec",
+            "label": "減碼(連1天 / -60張)",
+            "short": "減碼(連1天)",
+            "streak_text": "連1賣"
+          }
+        },
+        {
+          "stock_code": "6531",
+          "stock_name": "愛普科技",
+          "curr_shares": 0,
+          "prev_shares": 430000,
+          "shares_delta": -430000,
+          "curr_weight_pct": null,
+          "prev_weight_pct": 1.1978,
+          "weight_delta": null,
+          "changed": true,
+          "change_kind": "full_exit",
+          "status": {
+            "kind": "full_exit",
+            "css": "status-exit",
+            "label": "全部出清 (-430張)",
+            "short": "全部出清",
+            "streak_text": "全部出清"
+          }
+        },
+        {
+          "stock_code": "8021",
+          "stock_name": "尖點",
+          "curr_shares": 0,
+          "prev_shares": 10217,
+          "shares_delta": -10217,
+          "curr_weight_pct": null,
+          "prev_weight_pct": 0.0134,
+          "weight_delta": null,
+          "changed": true,
+          "change_kind": "full_exit",
+          "status": {
+            "kind": "full_exit",
+            "css": "status-exit",
+            "label": "全部出清 (-10.217張)",
+            "short": "全部出清",
+            "streak_text": "全部出清"
+          }
+        },
+        {
+          "stock_code": "3450",
+          "stock_name": "聯鈞",
+          "curr_shares": 0,
+          "prev_shares": 5000,
+          "shares_delta": -5000,
+          "curr_weight_pct": null,
+          "prev_weight_pct": 0.0074,
+          "weight_delta": null,
+          "changed": true,
+          "change_kind": "full_exit",
+          "status": {
+            "kind": "full_exit",
+            "css": "status-exit",
+            "label": "全部出清 (-5張)",
+            "short": "全部出清",
+            "streak_text": "全部出清"
+          }
+        },
+        {
+          "stock_code": "2330",
+          "stock_name": "台積電",
+          "curr_shares": 769000,
+          "prev_shares": 769000,
+          "shares_delta": 0,
+          "curr_weight_pct": 8.4587,
+          "prev_weight_pct": 8.4587,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2454",
+          "stock_name": "聯發科技",
+          "curr_shares": 350000,
+          "prev_shares": 350000,
+          "shares_delta": 0,
+          "curr_weight_pct": 6.6498,
+          "prev_weight_pct": 6.6498,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3665",
+          "stock_name": "貿聯-KY",
+          "curr_shares": 665000,
+          "prev_shares": 665000,
+          "shares_delta": 0,
+          "curr_weight_pct": 6.1042,
+          "prev_weight_pct": 6.1042,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2368",
+          "stock_name": "金像電",
+          "curr_shares": 1127000,
+          "prev_shares": 1127000,
+          "shares_delta": 0,
+          "curr_weight_pct": 5.7504,
+          "prev_weight_pct": 5.7504,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3017",
+          "stock_name": "奇鋐科技",
+          "curr_shares": 358000,
+          "prev_shares": 358000,
+          "shares_delta": 0,
+          "curr_weight_pct": 5.1312,
+          "prev_weight_pct": 5.1312,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6223",
+          "stock_name": "旺矽科技",
+          "curr_shares": 243000,
+          "prev_shares": 243000,
+          "shares_delta": 0,
+          "curr_weight_pct": 5.1277,
+          "prev_weight_pct": 5.1277,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2345",
+          "stock_name": "智邦科技",
+          "curr_shares": 609000,
+          "prev_shares": 609000,
+          "shares_delta": 0,
+          "curr_weight_pct": 5.0592,
+          "prev_weight_pct": 5.0592,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "5274",
+          "stock_name": "信驊科技",
+          "curr_shares": 103300,
+          "prev_shares": 103300,
+          "shares_delta": 0,
+          "curr_weight_pct": 4.9688,
+          "prev_weight_pct": 4.9688,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "8046",
+          "stock_name": "南電",
+          "curr_shares": 1299000,
+          "prev_shares": 1299000,
+          "shares_delta": 0,
+          "curr_weight_pct": 4.8694,
+          "prev_weight_pct": 4.8694,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2383",
+          "stock_name": "台光電",
+          "curr_shares": 212000,
+          "prev_shares": 212000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.9789,
+          "prev_weight_pct": 3.9789,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3653",
+          "stock_name": "健策",
+          "curr_shares": 160000,
+          "prev_shares": 160000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.7619,
+          "prev_weight_pct": 3.7619,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3037",
+          "stock_name": "欣興",
+          "curr_shares": 1030000,
+          "prev_shares": 1030000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.3962,
+          "prev_weight_pct": 3.3962,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3711",
+          "stock_name": "日月光投資控股",
+          "curr_shares": 1183000,
+          "prev_shares": 1183000,
+          "shares_delta": 0,
+          "curr_weight_pct": 3.0999,
+          "prev_weight_pct": 3.0999,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3443",
+          "stock_name": "創意",
+          "curr_shares": 73000,
+          "prev_shares": 73000,
+          "shares_delta": 0,
+          "curr_weight_pct": 2.0177,
+          "prev_weight_pct": 2.0177,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "8996",
+          "stock_name": "高力熱處理工業",
+          "curr_shares": 400000,
+          "prev_shares": 400000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.9609,
+          "prev_weight_pct": 1.9609,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2059",
+          "stock_name": "川湖科技",
+          "curr_shares": 50000,
+          "prev_shares": 50000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.8345,
+          "prev_weight_pct": 1.8345,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6415",
+          "stock_name": "矽力杰",
+          "curr_shares": 1050000,
+          "prev_shares": 1050000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.7041,
+          "prev_weight_pct": 1.7041,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6805",
+          "stock_name": "富世達",
+          "curr_shares": 171000,
+          "prev_shares": 171000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.4775,
+          "prev_weight_pct": 1.4775,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6274",
+          "stock_name": "台燿",
+          "curr_shares": 306000,
+          "prev_shares": 306000,
+          "shares_delta": 0,
+          "curr_weight_pct": 1.2459,
+          "prev_weight_pct": 1.2459,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3661",
+          "stock_name": "世芯-KY",
+          "curr_shares": 51000,
+          "prev_shares": 51000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.9768,
+          "prev_weight_pct": 0.9768,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6669",
+          "stock_name": "緯穎科技服務",
+          "curr_shares": 99139,
+          "prev_shares": 99139,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.7981,
+          "prev_weight_pct": 0.7981,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6187",
+          "stock_name": "萬潤",
+          "curr_shares": 148000,
+          "prev_shares": 148000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.5426,
+          "prev_weight_pct": 0.5426,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2308",
+          "stock_name": "台達電",
+          "curr_shares": 94000,
+          "prev_shares": 94000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.5398,
+          "prev_weight_pct": 0.5398,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "5347",
+          "stock_name": "世界先進",
+          "curr_shares": 211000,
+          "prev_shares": 211000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.1293,
+          "prev_weight_pct": 0.1293,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6285",
+          "stock_name": "啟碁科技",
+          "curr_shares": 100000,
+          "prev_shares": 100000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0989,
+          "prev_weight_pct": 0.0989,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2449",
+          "stock_name": "京元電子",
+          "curr_shares": 42650,
+          "prev_shares": 42650,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0411,
+          "prev_weight_pct": 0.0411,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3264",
+          "stock_name": "欣銓科技",
+          "curr_shares": 34000,
+          "prev_shares": 34000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0271,
+          "prev_weight_pct": 0.0271,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "3008",
+          "stock_name": "大立光",
+          "curr_shares": 1000,
+          "prev_shares": 1000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0226,
+          "prev_weight_pct": 0.0226,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2395",
+          "stock_name": "研華",
+          "curr_shares": 5000,
+          "prev_shares": 5000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0151,
+          "prev_weight_pct": 0.0151,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "2303",
+          "stock_name": "聯電",
+          "curr_shares": 28000,
+          "prev_shares": 28000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0127,
+          "prev_weight_pct": 0.0127,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "6446",
+          "stock_name": "藥華醫藥",
+          "curr_shares": 2000,
+          "prev_shares": 2000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.012,
+          "prev_weight_pct": 0.012,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "1303",
+          "stock_name": "南亞",
+          "curr_shares": 5000,
+          "prev_shares": 5000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0062,
+          "prev_weight_pct": 0.0062,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "8150",
+          "stock_name": "南茂科技",
+          "curr_shares": 10000,
+          "prev_shares": 10000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0036,
+          "prev_weight_pct": 0.0036,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        },
+        {
+          "stock_code": "4576",
+          "stock_name": "大銀微系統",
+          "curr_shares": 2000,
+          "prev_shares": 2000,
+          "shares_delta": 0,
+          "curr_weight_pct": 0.0018,
+          "prev_weight_pct": 0.0018,
+          "weight_delta": 0.0,
+          "changed": false,
+          "change_kind": "flat",
+          "status": {
+            "kind": "flat",
+            "css": "status-flat",
+            "label": "持平",
+            "short": "持平"
+          }
+        }
+      ],
+      "first_buy": [
+        {
+          "stock_code": "3533",
+          "stock_name": "嘉澤端子工業",
+          "prev_shares": 0,
+          "curr_shares": 21000,
+          "shares_delta": 21000,
+          "prev_weight_pct": null,
+          "curr_weight_pct": 0.1696,
+          "streak_days": 1
+        }
+      ],
+      "increase": [],
+      "decrease": [
+        {
+          "stock_code": "7769",
+          "stock_name": "鴻勁精密",
+          "prev_shares": 120000,
+          "curr_shares": 60000,
+          "shares_delta": -60000,
+          "prev_weight_pct": 1.9856,
+          "curr_weight_pct": 0.9692,
+          "streak_days": 1
+        }
+      ],
+      "full_exit": [
+        {
+          "stock_code": "6531",
+          "stock_name": "愛普科技",
+          "prev_shares": 430000,
+          "curr_shares": 0,
+          "shares_delta": -430000,
+          "prev_weight_pct": 1.1978,
+          "curr_weight_pct": null,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "8021",
+          "stock_name": "尖點",
+          "prev_shares": 10217,
+          "curr_shares": 0,
+          "shares_delta": -10217,
+          "prev_weight_pct": 0.0134,
+          "curr_weight_pct": null,
+          "streak_days": 1
+        },
+        {
+          "stock_code": "3450",
+          "stock_name": "聯鈞",
+          "prev_shares": 5000,
+          "curr_shares": 0,
+          "shares_delta": -5000,
+          "prev_weight_pct": 0.0074,
+          "curr_weight_pct": null,
+          "streak_days": 1
+        }
+      ]
+    },
     {
       "as_of_date": "2026-11-25",
       "prev_as_of_date": "2026-11-24",
@@ -7058,792 +7835,6 @@
       ],
       "first_buy": [],
       "increase": [],
-      "decrease": [],
-      "full_exit": []
-    },
-    {
-      "as_of_date": "2026-11-10",
-      "prev_as_of_date": "2026-11-09",
-      "source": "zdsetf",
-      "summary": {
-        "first_buy": 0,
-        "increase": 1,
-        "decrease": 0,
-        "full_exit": 0
-      },
-      "changed_count": 1,
-      "rows": [
-        {
-          "stock_code": "2330",
-          "stock_name": "台積電",
-          "curr_shares": 489000,
-          "prev_shares": 179000,
-          "shares_delta": 310000,
-          "curr_weight_pct": 5.5487,
-          "prev_weight_pct": 2.0985,
-          "weight_delta": 3.4502,
-          "changed": true,
-          "change_kind": "increase",
-          "status": {
-            "kind": "increase",
-            "css": "status-inc",
-            "label": "加碼(連1天 / +310張)",
-            "short": "加碼(連1天)",
-            "streak_text": "連1買"
-          }
-        },
-        {
-          "stock_code": "3653",
-          "stock_name": "健策",
-          "curr_shares": 260000,
-          "prev_shares": 260000,
-          "shares_delta": 0,
-          "curr_weight_pct": 7.4756,
-          "prev_weight_pct": 7.4756,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2454",
-          "stock_name": "聯發科技",
-          "curr_shares": 350000,
-          "prev_shares": 350000,
-          "shares_delta": 0,
-          "curr_weight_pct": 6.6567,
-          "prev_weight_pct": 6.6567,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6223",
-          "stock_name": "旺矽科技",
-          "curr_shares": 323000,
-          "prev_shares": 323000,
-          "shares_delta": 0,
-          "curr_weight_pct": 6.5362,
-          "prev_weight_pct": 6.5362,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "8046",
-          "stock_name": "南電",
-          "curr_shares": 1299000,
-          "prev_shares": 1299000,
-          "shares_delta": 0,
-          "curr_weight_pct": 6.4829,
-          "prev_weight_pct": 6.4829,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2368",
-          "stock_name": "金像電",
-          "curr_shares": 1127000,
-          "prev_shares": 1127000,
-          "shares_delta": 0,
-          "curr_weight_pct": 5.5014,
-          "prev_weight_pct": 5.5014,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "5274",
-          "stock_name": "信驊科技",
-          "curr_shares": 91300,
-          "prev_shares": 91300,
-          "shares_delta": 0,
-          "curr_weight_pct": 5.4111,
-          "prev_weight_pct": 5.4111,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3665",
-          "stock_name": "貿聯-KY",
-          "curr_shares": 665000,
-          "prev_shares": 665000,
-          "shares_delta": 0,
-          "curr_weight_pct": 5.0525,
-          "prev_weight_pct": 5.0525,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2345",
-          "stock_name": "智邦科技",
-          "curr_shares": 609000,
-          "prev_shares": 609000,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.6724,
-          "prev_weight_pct": 4.6724,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2383",
-          "stock_name": "台光電",
-          "curr_shares": 212000,
-          "prev_shares": 212000,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.5953,
-          "prev_weight_pct": 4.5953,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3037",
-          "stock_name": "欣興",
-          "curr_shares": 1030000,
-          "prev_shares": 1030000,
-          "shares_delta": 0,
-          "curr_weight_pct": 4.2351,
-          "prev_weight_pct": 4.2351,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6531",
-          "stock_name": "愛普科技",
-          "curr_shares": 1030000,
-          "prev_shares": 1030000,
-          "shares_delta": 0,
-          "curr_weight_pct": 3.7338,
-          "prev_weight_pct": 3.7338,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3443",
-          "stock_name": "創意",
-          "curr_shares": 73000,
-          "prev_shares": 73000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.5991,
-          "prev_weight_pct": 2.5991,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "7769",
-          "stock_name": "鴻勁精密",
-          "curr_shares": 120000,
-          "prev_shares": 120000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.5147,
-          "prev_weight_pct": 2.5147,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2059",
-          "stock_name": "川湖科技",
-          "curr_shares": 50000,
-          "prev_shares": 50000,
-          "shares_delta": 0,
-          "curr_weight_pct": 2.1266,
-          "prev_weight_pct": 2.1266,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3017",
-          "stock_name": "奇鋐科技",
-          "curr_shares": 128000,
-          "prev_shares": 128000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.7734,
-          "prev_weight_pct": 1.7734,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6805",
-          "stock_name": "富世達",
-          "curr_shares": 171000,
-          "prev_shares": 171000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.6898,
-          "prev_weight_pct": 1.6898,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3711",
-          "stock_name": "日月光投資控股",
-          "curr_shares": 503000,
-          "prev_shares": 503000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.5111,
-          "prev_weight_pct": 1.5111,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6274",
-          "stock_name": "台燿",
-          "curr_shares": 306000,
-          "prev_shares": 306000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.4922,
-          "prev_weight_pct": 1.4922,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "8996",
-          "stock_name": "高力熱處理工業",
-          "curr_shares": 200000,
-          "prev_shares": 200000,
-          "shares_delta": 0,
-          "curr_weight_pct": 1.3954,
-          "prev_weight_pct": 1.3954,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6669",
-          "stock_name": "緯穎科技服務",
-          "curr_shares": 99139,
-          "prev_shares": 99139,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.827,
-          "prev_weight_pct": 0.827,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6187",
-          "stock_name": "萬潤",
-          "curr_shares": 148000,
-          "prev_shares": 148000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.7533,
-          "prev_weight_pct": 0.7533,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2308",
-          "stock_name": "台達電",
-          "curr_shares": 94000,
-          "prev_shares": 94000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.5951,
-          "prev_weight_pct": 0.5951,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6415",
-          "stock_name": "矽力杰",
-          "curr_shares": 250000,
-          "prev_shares": 250000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.5468,
-          "prev_weight_pct": 0.5468,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6515",
-          "stock_name": "穎崴科技",
-          "curr_shares": 23000,
-          "prev_shares": 23000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.4248,
-          "prev_weight_pct": 0.4248,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3189",
-          "stock_name": "景碩科技",
-          "curr_shares": 50000,
-          "prev_shares": 50000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.1849,
-          "prev_weight_pct": 0.1849,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "5347",
-          "stock_name": "世界先進",
-          "curr_shares": 211000,
-          "prev_shares": 211000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.1388,
-          "prev_weight_pct": 0.1388,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6285",
-          "stock_name": "啟碁科技",
-          "curr_shares": 100000,
-          "prev_shares": 100000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.095,
-          "prev_weight_pct": 0.095,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2449",
-          "stock_name": "京元電子",
-          "curr_shares": 42650,
-          "prev_shares": 42650,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0481,
-          "prev_weight_pct": 0.0481,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3264",
-          "stock_name": "欣銓科技",
-          "curr_shares": 34000,
-          "prev_shares": 34000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0324,
-          "prev_weight_pct": 0.0324,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3008",
-          "stock_name": "大立光",
-          "curr_shares": 1000,
-          "prev_shares": 1000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0251,
-          "prev_weight_pct": 0.0251,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "8021",
-          "stock_name": "尖點",
-          "curr_shares": 10217,
-          "prev_shares": 10217,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0187,
-          "prev_weight_pct": 0.0187,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3661",
-          "stock_name": "世芯-KY",
-          "curr_shares": 1000,
-          "prev_shares": 1000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0169,
-          "prev_weight_pct": 0.0169,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2395",
-          "stock_name": "研華",
-          "curr_shares": 5000,
-          "prev_shares": 5000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0147,
-          "prev_weight_pct": 0.0147,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "2303",
-          "stock_name": "聯電",
-          "curr_shares": 28000,
-          "prev_shares": 28000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0139,
-          "prev_weight_pct": 0.0139,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6446",
-          "stock_name": "藥華醫藥",
-          "curr_shares": 2000,
-          "prev_shares": 2000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0127,
-          "prev_weight_pct": 0.0127,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "6278",
-          "stock_name": "台表科",
-          "curr_shares": 10000,
-          "prev_shares": 10000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0108,
-          "prev_weight_pct": 0.0108,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3450",
-          "stock_name": "聯鈞",
-          "curr_shares": 5000,
-          "prev_shares": 5000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0091,
-          "prev_weight_pct": 0.0091,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "1303",
-          "stock_name": "南亞",
-          "curr_shares": 5000,
-          "prev_shares": 5000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0071,
-          "prev_weight_pct": 0.0071,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "3605",
-          "stock_name": "宏致",
-          "curr_shares": 10000,
-          "prev_shares": 10000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0064,
-          "prev_weight_pct": 0.0064,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "8150",
-          "stock_name": "南茂科技",
-          "curr_shares": 10000,
-          "prev_shares": 10000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0039,
-          "prev_weight_pct": 0.0039,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        },
-        {
-          "stock_code": "4576",
-          "stock_name": "大銀微系統",
-          "curr_shares": 2000,
-          "prev_shares": 2000,
-          "shares_delta": 0,
-          "curr_weight_pct": 0.0018,
-          "prev_weight_pct": 0.0018,
-          "weight_delta": 0.0,
-          "changed": false,
-          "change_kind": "flat",
-          "status": {
-            "kind": "flat",
-            "css": "status-flat",
-            "label": "持平",
-            "short": "持平"
-          }
-        }
-      ],
-      "first_buy": [],
-      "increase": [
-        {
-          "stock_code": "2330",
-          "stock_name": "台積電",
-          "prev_shares": 179000,
-          "curr_shares": 489000,
-          "shares_delta": 310000,
-          "prev_weight_pct": 2.0985,
-          "curr_weight_pct": 5.5487,
-          "streak_days": 1
-        }
-      ],
       "decrease": [],
       "full_exit": []
     }

@@ -1,0 +1,43 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-11-26",
+  "prev_as_of_date": "2026-11-25",
+  "compared_at": "2026-11-27T02:47:41+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2542",
+      "stock_name": "興富發",
+      "prev_shares": 83040000,
+      "curr_shares": 83220000,
+      "shares_delta": 180000,
+      "prev_weight_pct": 0.56,
+      "curr_weight_pct": 0.54,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 114443000,
+      "curr_shares": 114593000,
+      "shares_delta": 150000,
+      "prev_weight_pct": 5.22,
+      "curr_weight_pct": 5.06,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}
