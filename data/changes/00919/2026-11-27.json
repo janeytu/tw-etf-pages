@@ -1,0 +1,73 @@
+{
+  "etf_ticker": "00919",
+  "as_of_date": "2026-11-27",
+  "prev_as_of_date": "2026-11-26",
+  "compared_at": "2026-11-28T02:40:09+08:00",
+  "source": "capital",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 5,
+    "decrease": 0,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "2618",
+      "stock_name": "長榮航",
+      "prev_shares": 265634000,
+      "curr_shares": 278574000,
+      "shares_delta": 12940000,
+      "prev_weight_pct": 2.13,
+      "curr_weight_pct": 2.21,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2883",
+      "stock_name": "凱基金",
+      "prev_shares": 928190000,
+      "curr_shares": 937190000,
+      "shares_delta": 9000000,
+      "prev_weight_pct": 5.02,
+      "curr_weight_pct": 4.9,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "prev_shares": 114593000,
+      "curr_shares": 115593000,
+      "shares_delta": 1000000,
+      "prev_weight_pct": 5.06,
+      "curr_weight_pct": 5.02,
+      "streak_days": 2
+    },
+    {
+      "stock_code": "2855",
+      "stock_name": "統一證",
+      "prev_shares": 109710000,
+      "curr_shares": 110710000,
+      "shares_delta": 1000000,
+      "prev_weight_pct": 0.86,
+      "curr_weight_pct": 0.86,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "8454",
+      "stock_name": "富邦媒",
+      "prev_shares": 12608000,
+      "curr_shares": 12708000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 0.45,
+      "curr_weight_pct": 0.45,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [],
+  "full_exit": []
+}

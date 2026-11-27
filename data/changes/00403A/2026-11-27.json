@@ -1,0 +1,54 @@
+{
+  "etf_ticker": "00403A",
+  "as_of_date": "2026-11-27",
+  "prev_as_of_date": "2026-11-26",
+  "compared_at": "2026-11-28T02:39:43+08:00",
+  "source": "uni_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 2,
+    "decrease": 1,
+    "full_exit": 0
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "3017",
+      "stock_name": "奇鋐",
+      "prev_shares": 2700000,
+      "curr_shares": 2780000,
+      "shares_delta": 80000,
+      "prev_weight_pct": 6.34,
+      "curr_weight_pct": 6.56,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴",
+      "prev_shares": 90000,
+      "curr_shares": 130000,
+      "shares_delta": 40000,
+      "prev_weight_pct": 0.25,
+      "curr_weight_pct": 0.36,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3450",
+      "stock_name": "聯鈞",
+      "prev_shares": 1300000,
+      "curr_shares": 1000000,
+      "shares_delta": -300000,
+      "prev_weight_pct": 0.32,
+      "curr_weight_pct": 0.24,
+      "streak_days": 2
+    }
+  ],
+  "full_exit": []
+}

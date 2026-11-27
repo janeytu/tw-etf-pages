@@ -1,0 +1,85 @@
+{
+  "etf_ticker": "00992A",
+  "as_of_date": "2026-11-27",
+  "prev_as_of_date": "2026-11-26",
+  "compared_at": "2026-11-28T02:39:44+08:00",
+  "source": "zdsetf",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 0,
+    "increase": 1,
+    "decrease": 3,
+    "full_exit": 2
+  },
+  "first_buy": [],
+  "increase": [
+    {
+      "stock_code": "1560",
+      "stock_name": "中砂",
+      "prev_shares": 508000,
+      "curr_shares": 1098000,
+      "shares_delta": 590000,
+      "prev_weight_pct": 0.8181,
+      "curr_weight_pct": 1.8436,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "4958",
+      "stock_name": "臻鼎-KY",
+      "prev_shares": 1200000,
+      "curr_shares": 841000,
+      "shares_delta": -359000,
+      "prev_weight_pct": 1.0751,
+      "curr_weight_pct": 0.747,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "5289",
+      "stock_name": "宜鼎國際",
+      "prev_shares": 54952,
+      "curr_shares": 3952,
+      "shares_delta": -51000,
+      "prev_weight_pct": 0.1101,
+      "curr_weight_pct": 0.0079,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "2376",
+      "stock_name": "技嘉",
+      "prev_shares": 534000,
+      "curr_shares": 505000,
+      "shares_delta": -29000,
+      "prev_weight_pct": 0.3681,
+      "curr_weight_pct": 0.354,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "prev_shares": 92000,
+      "curr_shares": 0,
+      "shares_delta": -92000,
+      "prev_weight_pct": 0.1657,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "6515",
+      "stock_name": "穎崴科技",
+      "prev_shares": 19000,
+      "curr_shares": 0,
+      "shares_delta": -19000,
+      "prev_weight_pct": 0.1587,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}

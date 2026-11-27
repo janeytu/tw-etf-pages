@@ -1,0 +1,126 @@
+{
+  "etf_ticker": "00991A",
+  "as_of_date": "2026-11-27",
+  "prev_as_of_date": "2026-11-26",
+  "compared_at": "2026-11-28T02:39:41+08:00",
+  "source": "fh_excel",
+  "placeholder_policy": {
+    "max_shares": 1000,
+    "max_weight_pct": 0.01,
+    "exclude_from_changes": true
+  },
+  "summary": {
+    "first_buy": 3,
+    "increase": 3,
+    "decrease": 1,
+    "full_exit": 3
+  },
+  "first_buy": [
+    {
+      "stock_code": "2618",
+      "stock_name": "長榮航空",
+      "prev_shares": 0,
+      "curr_shares": 3000000,
+      "shares_delta": 3000000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.213,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "1477",
+      "stock_name": "聚陽實業",
+      "prev_shares": 0,
+      "curr_shares": 500000,
+      "shares_delta": 500000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.184,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "2404",
+      "stock_name": "漢唐集成",
+      "prev_shares": 0,
+      "curr_shares": 150000,
+      "shares_delta": 150000,
+      "prev_weight_pct": null,
+      "curr_weight_pct": 0.218,
+      "streak_days": 1
+    }
+  ],
+  "increase": [
+    {
+      "stock_code": "3665",
+      "stock_name": "貿聯-KY",
+      "prev_shares": 676000,
+      "curr_shares": 810000,
+      "shares_delta": 134000,
+      "prev_weight_pct": 1.779,
+      "curr_weight_pct": 2.13,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "2368",
+      "stock_name": "金像電子",
+      "prev_shares": 1350000,
+      "curr_shares": 1450000,
+      "shares_delta": 100000,
+      "prev_weight_pct": 1.975,
+      "curr_weight_pct": 2.108,
+      "streak_days": 3
+    },
+    {
+      "stock_code": "5274",
+      "stock_name": "信驊科技",
+      "prev_shares": 140500,
+      "curr_shares": 155500,
+      "shares_delta": 15000,
+      "prev_weight_pct": 1.938,
+      "curr_weight_pct": 2.337,
+      "streak_days": 1
+    }
+  ],
+  "decrease": [
+    {
+      "stock_code": "3026",
+      "stock_name": "禾伸堂企",
+      "prev_shares": 2700000,
+      "curr_shares": 2200000,
+      "shares_delta": -500000,
+      "prev_weight_pct": 1.445,
+      "curr_weight_pct": 1.216,
+      "streak_days": 1
+    }
+  ],
+  "full_exit": [
+    {
+      "stock_code": "2327",
+      "stock_name": "國巨股份",
+      "prev_shares": 300000,
+      "curr_shares": 0,
+      "shares_delta": -300000,
+      "prev_weight_pct": 0.15,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "7769",
+      "stock_name": "鴻勁精密",
+      "prev_shares": 40000,
+      "curr_shares": 0,
+      "shares_delta": -40000,
+      "prev_weight_pct": 0.185,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    },
+    {
+      "stock_code": "3443",
+      "stock_name": "創意電子",
+      "prev_shares": 30000,
+      "curr_shares": 0,
+      "shares_delta": -30000,
+      "prev_weight_pct": 0.238,
+      "curr_weight_pct": null,
+      "streak_days": 1
+    }
+  ]
+}
